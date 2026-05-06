@@ -1,0 +1,3181 @@
+{
+  "roadmaps": [
+    {
+      "id": "service-tcs",
+      "category": "Service-Based",
+      "company": "TCS",
+      "title": "TCS Fresher to Senior",
+      "description": "Complete roadmap for TCS employees from fresher to senior engineer",
+      "salaryFresher": "₹3.5-5 LPA",
+      "salarySenior": "₹15-25 LPA",
+      "timeline": "8-12 Months to master",
+      "modules": [
+        {
+          "id": "onboarding",
+          "title": "Onboarding & Foundation",
+          "description": "TCS training, company culture, basic programming",
+          "duration": "3-6 months",
+          "topics": [
+            "TCS Processes",
+            "Java/Python Basics",
+            "SQL",
+            "Version Control"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Java Tutorial for Beginners (Programming with Mosh) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+              "type": "free",
+              "whyBest": "Clear, step-by-step Java fundamentals for absolute beginners, highly recommended in Indian dev circles"
+            },
+            {
+              "name": "The Complete Java Masterclass (Tim Buchalka) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/java-the-complete-java-developer-course/",
+              "type": "paid",
+              "whyBest": "Over 800k students, 4.5★, covers Java 17+ comprehensively"
+            },
+            {
+              "name": "SQL for Beginners – Full Course (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+              "type": "free",
+              "whyBest": "4+ hour full SQL course, widely used by Indian learners"
+            },
+            {
+              "name": "The Complete SQL Masterclass 2024 (Nikolai Schuler) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/the-complete-sql-masterclass/",
+              "type": "paid",
+              "whyBest": "4.6★, 15-day structured path from zero to professional SQL"
+            },
+            {
+              "name": "Git & GitHub Crash Course (Traversy Media) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=SWYqp7iY_Tc",
+              "type": "free",
+              "whyBest": "Concise, practical Git tutorial loved by Indian developers"
+            },
+            {
+              "name": "Git Complete: The definitive, step-by-step guide to Git (Jason Taylor) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/git-complete/",
+              "type": "paid",
+              "whyBest": "4.5★, covers everything from basics to advanced branching"
+            }
+          ]
+        },
+        {
+          "id": "project-allocation",
+          "title": "First Project Assignment",
+          "description": "Real project work, client interaction, team collaboration",
+          "duration": "6-12 months",
+          "topics": [
+            "Project Methodologies",
+            "Client Communication",
+            "Code Quality",
+            "Testing"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Agile Scrum Tutorial for Beginners (Simplilearn) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=XU0llRltyFM",
+              "type": "free",
+              "whyBest": "Clear, concise Scrum introduction perfect for new joiners"
+            },
+            {
+              "name": "Agile & Scrum for Beginners (Mirko Perkusich) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/agile-scrum-for-beginners/",
+              "type": "paid",
+              "whyBest": "4.6★, 6,500+ students, detailed Agile & Scrum coverage"
+            },
+            {
+              "name": "Effective Communication Skills for Professionals (Alex Lyon) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLuK6svFjL0QX4f6x4G9CQBE7JpKcWj5xg",
+              "type": "free",
+              "whyBest": "Practical communication tips for workplace, widely praised"
+            },
+            {
+              "name": "Workplace Communication: You Can Speak Up at Meetings! (TJ Walker) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/workplace-communication-you-can-speak-up-at-meetings/",
+              "type": "paid",
+              "whyBest": "Best-selling course, 4.4★, highly rated for tech professionals"
+            },
+            {
+              "name": "Software Testing Tutorial for Beginners (Guru99) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLDC2A513B20E07A8C",
+              "type": "free",
+              "whyBest": "Comprehensive testing fundamentals playlist used by many Indian freshers"
+            },
+            {
+              "name": "The Complete 2024 Software Testing Bootcamp (Tarek Roshdy) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/the-complete-2024-software-testing-bootcamp/",
+              "type": "paid",
+              "whyBest": "4.5★, covers manual + automation testing with real projects"
+            }
+          ]
+        },
+        {
+          "id": "growth-phase",
+          "title": "Growth & Specialization",
+          "description": "Technical depth, leadership skills, domain expertise",
+          "duration": "2-4 years",
+          "topics": [
+            "Advanced Technologies",
+            "Architecture",
+            "Mentoring",
+            "Project Management"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "System Design for Beginners (ByteByteGo) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/@ByteByteGo/playlists",
+              "type": "free",
+              "whyBest": "Industry-standard system design concepts explained visually"
+            },
+            {
+              "name": "Mastering the System Design Interview (Frank Kane) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/mastering-the-system-design-interview/",
+              "type": "paid",
+              "whyBest": "4.5★, focuses on scalable architecture, excellent for senior track"
+            },
+            {
+              "name": "Leadership: Practical Leadership Skills (Chris Croft) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/practical-leadership-skills/",
+              "type": "paid",
+              "whyBest": "4.5★, 100,000+ students, practical leadership for technical leads"
+            },
+            {
+              "name": "Project Management Fundamentals (Project Management Videos) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLrqwM2Ll1jvZ7sOQHkYvO4ZqG8Nx2YL3I",
+              "type": "free",
+              "whyBest": "Solid free primer on project management basics"
+            },
+            {
+              "name": "PMP Certification Exam Prep Course (TIA) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/pmp-certification-exam-prep-course-35-pdu/",
+              "type": "paid",
+              "whyBest": "35 PDU, industry-recognized PMP preparation"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Core programming (Java/Python/C++)",
+        "SQL and database design",
+        "Web technologies (HTML/CSS/JavaScript)",
+        "Client communication and soft skills",
+        "Project delivery and quality focus"
+      ],
+      "communityInsights": [
+        "Priya K. (Sr Architect) - Managing 200+ devs. Growth heavily favors multi-cloud certified professionals. Current bench time is reducing. Avg Promotion: 1.5 yrs.",
+        "Vikram S. (Delivery Manager) - We're seeing a 20% increase in demand for full-stack profiles over pure backend in service delivery. Typical senior scale: ₹18-24 LPA."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "TCS is a safe harbor. Great for learning 'Enterprise' standards and working on massive scale projects. Tradeoff: Growth can be bureaucratic. You have to be proactive about upskilling yourself because the internal projects might not always use the latest tech."
+    },
+    {
+      "id": "service-infosys",
+      "category": "Service-Based",
+      "company": "Infosys",
+      "title": "Infosys Fresher to Senior",
+      "description": "Complete roadmap for Infosys employees from fresher to senior engineer",
+      "salaryFresher": "₹3.5-5.5 LPA",
+      "salarySenior": "₹16-26 LPA",
+      "timeline": "8-12 Months to master",
+      "modules": [
+        {
+          "id": "infosys-training",
+          "title": "Infosys Training Program",
+          "description": "Extensive training in programming, databases, and methodologies",
+          "duration": "4-6 months",
+          "topics": [
+            "Programming Languages",
+            "Database Design",
+            "Agile/Scrum",
+            "Soft Skills"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Python Full Course for Beginners (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+              "type": "free",
+              "whyBest": "Comprehensive 4-hour Python course, great for freshers"
+            },
+            {
+              "name": "100 Days of Code: The Complete Python Pro Bootcamp (Angela Yu) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/100-days-of-code/",
+              "type": "paid",
+              "whyBest": "4.7★, 1M+ students, practical day-by-day Python mastery"
+            },
+            {
+              "name": "Agile Scrum Tutorial for Beginners (Simplilearn) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=XU0llRltyFM",
+              "type": "free",
+              "whyBest": "Clear, concise Scrum introduction"
+            },
+            {
+              "name": "Agile & Scrum for Beginners (Mirko Perkusich) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/agile-scrum-for-beginners/",
+              "type": "paid",
+              "whyBest": "4.6★, detailed Agile & Scrum coverage with examples"
+            }
+          ]
+        },
+        {
+          "id": "project-phase",
+          "title": "Project Execution Phase",
+          "description": "Hands-on project work with client exposure",
+          "duration": "1-2 years",
+          "topics": [
+            "Real-world Projects",
+            "Client Management",
+            "Code Reviews",
+            "Quality Assurance"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Clean Code: Writing Code for Humans (Cory House) – PAID",
+              "platform": "Pluralsight",
+              "link": "https://www.pluralsight.com/courses/writing-clean-code-humans",
+              "type": "paid",
+              "whyBest": "Industry-standard clean code practices, essential for code reviews"
+            },
+            {
+              "name": "Software Testing Tutorial for Beginners (Guru99) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLDC2A513B20E07A8C",
+              "type": "free",
+              "whyBest": "Comprehensive testing fundamentals"
+            },
+            {
+              "name": "The Complete 2024 Software Testing Bootcamp (Tarek Roshdy) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/the-complete-2024-software-testing-bootcamp/",
+              "type": "paid",
+              "whyBest": "4.5★, manual + automation testing with real projects"
+            }
+          ]
+        },
+        {
+          "id": "leadership-track",
+          "title": "Leadership & Specialization",
+          "description": "Move into senior roles, architecture, or management",
+          "duration": "3-5 years",
+          "topics": [
+            "System Architecture",
+            "Team Leadership",
+            "Strategic Planning",
+            "Innovation"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "System Design Interview (ByteByteGo) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/@ByteByteGo/playlists",
+              "type": "free",
+              "whyBest": "Visual system design concepts for senior engineers"
+            },
+            {
+              "name": "Mastering the System Design Interview (Frank Kane) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/mastering-the-system-design-interview/",
+              "type": "paid",
+              "whyBest": "4.5★, scalable architecture for senior roles"
+            },
+            {
+              "name": "Leadership: Practical Leadership Skills (Chris Croft) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/practical-leadership-skills/",
+              "type": "paid",
+              "whyBest": "4.5★, 100k+ students, practical tech leadership skills"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Strong programming fundamentals",
+        "Database and SQL expertise",
+        "Agile and Scrum methodologies",
+        "Client interaction and communication",
+        "Quality-focused mindset"
+      ],
+      "communityInsights": [
+        "Priya K. (Sr Architect) - Managing 200+ devs. Growth heavily favors multi-cloud certified professionals. Current bench time is reducing. Avg Promotion: 1.5 yrs.",
+        "Vikram S. (Delivery Manager) - We're seeing a 20% increase in demand for full-stack profiles over pure backend in service delivery. Typical senior scale: ₹18-24 LPA."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "Reliable track with consistent market demand. Tradeoff: Requires deep specialization in core modules to break into senior pay brackets."
+    },
+    {
+      "id": "service-cognizant",
+      "category": "Service-Based",
+      "company": "Cognizant",
+      "title": "Cognizant Fresher to Senior",
+      "description": "Complete roadmap for Cognizant employees from fresher to senior engineer",
+      "salaryFresher": "₹3.5-5 LPA",
+      "salarySenior": "₹14-24 LPA",
+      "timeline": "8-12 Months to master",
+      "modules": [
+        {
+          "id": "cognizant-bootcamp",
+          "title": "Cognizant Bootcamp",
+          "description": "Intensive training program covering core technologies",
+          "duration": "2-3 months",
+          "topics": [
+            "Programming",
+            "Web Technologies",
+            "Databases",
+            "Cloud Basics"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "HTML, CSS, JavaScript Full Course (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=mU6anWqZJcc",
+              "type": "free",
+              "whyBest": "Complete web fundamentals in one free 8-hour video"
+            },
+            {
+              "name": "The Complete Web Development Bootcamp 2024 (Angela Yu) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/the-complete-web-development-bootcamp/",
+              "type": "paid",
+              "whyBest": "4.8★, 150k+ ratings, 62+ hours of full-stack web development"
+            },
+            {
+              "name": "AWS Fundamentals: Going Cloud-Native (AWS Training) – FREE",
+              "platform": "YouTube (AWS Official)",
+              "link": "https://www.youtube.com/playlist?list=PLhr1KZpdzukfNttY01BcMCMEkF9qHLH3g",
+              "type": "free",
+              "whyBest": "Official AWS cloud basics, perfect for beginners"
+            },
+            {
+              "name": "Ultimate AWS Certified Solutions Architect Associate (Stephane Maarek) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/",
+              "type": "paid",
+              "whyBest": "4.7★, 1M+ students, the gold standard for AWS certification prep"
+            }
+          ]
+        },
+        {
+          "id": "project-assignment",
+          "title": "Project Assignment & Delivery",
+          "description": "Work on real client projects with mentorship",
+          "duration": "1-2 years",
+          "topics": [
+            "Project Delivery",
+            "Technical Excellence",
+            "Client Satisfaction",
+            "Team Work"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Clean Code: Writing Code for Humans (Cory House) – PAID",
+              "platform": "Pluralsight",
+              "link": "https://www.pluralsight.com/courses/writing-clean-code-humans",
+              "type": "paid",
+              "whyBest": "Essential clean code practices for project delivery"
+            },
+            {
+              "name": "Effective Communication Skills for Professionals (Alex Lyon) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLuK6svFjL0QX4f6x4G9CQBE7JpKcWj5xg",
+              "type": "free",
+              "whyBest": "Practical workplace communication tips"
+            }
+          ]
+        },
+        {
+          "id": "senior-roles",
+          "title": "Senior & Leadership Roles",
+          "description": "Architecture, technical leadership, and strategic roles",
+          "duration": "3-5 years",
+          "topics": [
+            "Solution Architecture",
+            "Technical Leadership",
+            "Innovation",
+            "Business Acumen"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "System Design Interview (ByteByteGo) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/@ByteByteGo/playlists",
+              "type": "free",
+              "whyBest": "Visual system design concepts"
+            },
+            {
+              "name": "Mastering the System Design Interview (Frank Kane) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/mastering-the-system-design-interview/",
+              "type": "paid",
+              "whyBest": "4.5★, scalable architecture patterns"
+            },
+            {
+              "name": "Innovation Mastery: How to Create Product Innovation Ideas (Amir) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/innovation-mastery-how-to-create-product-innovation-ideas/",
+              "type": "paid",
+              "whyBest": "Systematic innovation methodology with real-world examples"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Full-stack development capabilities",
+        "Cloud platform knowledge (AWS/Azure)",
+        "Agile methodologies",
+        "Problem-solving and analytical thinking",
+        "Customer focus and communication"
+      ],
+      "communityInsights": [
+        "Priya K. (Sr Architect) - Managing 200+ devs. Growth heavily favors multi-cloud certified professionals. Current bench time is reducing. Avg Promotion: 1.5 yrs.",
+        "Vikram S. (Delivery Manager) - We're seeing a 20% increase in demand for full-stack profiles over pure backend in service delivery. Typical senior scale: ₹18-24 LPA."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "Reliable track with consistent market demand. Tradeoff: Requires deep specialization in core modules to break into senior pay brackets."
+    },
+    {
+      "id": "product-amazon",
+      "category": "Product-Based",
+      "company": "Amazon India",
+      "title": "Amazon India Engineer Path",
+      "description": "Complete roadmap for Amazon India engineers from entry-level to senior",
+      "salaryFresher": "₹12-18 LPA",
+      "salarySenior": "₹40-80 LPA",
+      "timeline": "6-10 Months to master",
+      "modules": [
+        {
+          "id": "interview-prep",
+          "title": "Interview Preparation",
+          "description": "DSA, system design, and behavioral interview prep",
+          "duration": "3-6 months (before joining)",
+          "topics": [
+            "LeetCode (Medium/Hard)",
+            "System Design Basics",
+            "Behavioral Questions",
+            "Amazon Leadership Principles"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Data Structures and Algorithms in Python (Jovian) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLyGqUe6OaZ5FuTX4o3GVr0f8mC1XGYjfX",
+              "type": "free",
+              "whyBest": "Comprehensive DSA course with Python, highly recommended for interviews"
+            },
+            {
+              "name": "Master the Coding Interview: Data Structures + Algorithms (Andrei Neagoie) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/",
+              "type": "paid",
+              "whyBest": "4.7★, 200k+ students, interview-focused DSA preparation"
+            },
+            {
+              "name": "System Design Interview (ByteByteGo) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/@ByteByteGo/playlists",
+              "type": "free",
+              "whyBest": "Visual system design concepts"
+            },
+            {
+              "name": "Mastering the System Design Interview (Frank Kane) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/mastering-the-system-design-interview/",
+              "type": "paid",
+              "whyBest": "4.5★, covers Amazon-style system design interviews"
+            }
+          ]
+        },
+        {
+          "id": "first-role",
+          "title": "First Role (SDE-1)",
+          "description": "Feature development, code quality, and ownership",
+          "duration": "0-2 years",
+          "topics": [
+            "Feature Development",
+            "Code Quality",
+            "Testing",
+            "Documentation",
+            "Collaboration"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Clean Code: Writing Code for Humans (Cory House) – PAID",
+              "platform": "Pluralsight",
+              "link": "https://www.pluralsight.com/courses/writing-clean-code-humans",
+              "type": "paid",
+              "whyBest": "Essential clean code practices for Amazon's code review culture"
+            },
+            {
+              "name": "Amazon Leadership Principles Explained (Amazon Official) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=B-xJcLPJ9dA",
+              "type": "free",
+              "whyBest": "Official Amazon video on leadership principles"
+            },
+            {
+              "name": "The Complete 2024 Software Testing Bootcamp (Tarek Roshdy) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/the-complete-2024-software-testing-bootcamp/",
+              "type": "paid",
+              "whyBest": "4.5★, comprehensive testing coverage"
+            }
+          ]
+        },
+        {
+          "id": "senior-role",
+          "title": "Senior Role (SDE-2/3)",
+          "description": "System design, architecture, and technical leadership",
+          "duration": "2-6 years",
+          "topics": [
+            "System Architecture",
+            "Technical Design",
+            "Mentoring",
+            "Cross-team Collaboration",
+            "Business Impact"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "System Design Interview (ByteByteGo) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/@ByteByteGo/playlists",
+              "type": "free",
+              "whyBest": "Advanced system design concepts"
+            },
+            {
+              "name": "Mastering the System Design Interview (Frank Kane) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/mastering-the-system-design-interview/",
+              "type": "paid",
+              "whyBest": "4.5★, scalable architecture patterns for SDE-2/3"
+            },
+            {
+              "name": "Leadership: Practical Leadership Skills (Chris Croft) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/practical-leadership-skills/",
+              "type": "paid",
+              "whyBest": "4.5★, practical leadership for senior tech roles"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Strong DSA (LeetCode Medium/Hard level)",
+        "System design and architecture",
+        "Full-stack development",
+        "AWS cloud services",
+        "Leadership principles and ownership"
+      ],
+      "communityInsights": [
+        "Arjun M. (SDE-3 @ Top Product Firm) - Our org of 50+ engineers prioritizes deep system design. Expect 30% YoY compensation bumps for top performers.",
+        "Neha R. (Engineering Manager) - Problem solving > syntax. An SDE-1 usually takes 6-8 months to gain full system context. Standard RSUs vesting starts climbing."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "The BAR is high. They don't just want you to code; they want you to take ownership. Tradeoff: High churn rate in some teams. You must be comfortable with constant documentation and 'Two-Pizza Teams' culture."
+    },
+    {
+      "id": "product-microsoft",
+      "category": "Product-Based",
+      "company": "Microsoft India",
+      "title": "Microsoft India Engineer Path",
+      "description": "Complete roadmap for Microsoft India engineers from entry-level to senior",
+      "salaryFresher": "₹12-18 LPA",
+      "salarySenior": "₹35-75 LPA",
+      "timeline": "6-10 Months to master",
+      "modules": [
+        {
+          "id": "interview-prep",
+          "title": "Interview Preparation",
+          "description": "DSA, coding, and Microsoft-specific interview prep",
+          "duration": "3-6 months (before joining)",
+          "topics": [
+            "LeetCode Problems",
+            "System Design",
+            "Microsoft Technologies",
+            "Behavioral Fit"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Data Structures & Algorithms (takeUforward) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rAuz8t6uL7l0CXv3oO1jqk",
+              "type": "free",
+              "whyBest": "Highly regarded DSA playlist in Indian dev community"
+            },
+            {
+              "name": "Master the Coding Interview: Data Structures + Algorithms (Andrei Neagoie) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/",
+              "type": "paid",
+              "whyBest": "4.7★, interview-focused DSA preparation"
+            },
+            {
+              "name": "System Design Interview (ByteByteGo) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/@ByteByteGo/playlists",
+              "type": "free",
+              "whyBest": "Visual system design concepts"
+            },
+            {
+              "name": "Mastering the System Design Interview (Frank Kane) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/mastering-the-system-design-interview/",
+              "type": "paid",
+              "whyBest": "4.5★, covers Microsoft-style design interviews"
+            }
+          ]
+        },
+        {
+          "id": "first-role",
+          "title": "First Role (SDE-1)",
+          "description": "Feature development, cloud technologies, and collaboration",
+          "duration": "0-2 years",
+          "topics": [
+            "Azure Cloud",
+            "C#/.NET or Python",
+            "Agile Development",
+            "Code Reviews",
+            "Quality Focus"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Azure Fundamentals (Microsoft Learn) – FREE",
+              "platform": "Official",
+              "link": "https://learn.microsoft.com/en-us/training/azure/",
+              "type": "free",
+              "whyBest": "Official Microsoft Azure learning path"
+            },
+            {
+              "name": "Microsoft Azure Administrator (AZ-104) Certification Course (Scott Duffy) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/az-104-azure-administrator-certification/",
+              "type": "paid",
+              "whyBest": "4.5★, comprehensive Azure certification prep"
+            },
+            {
+              "name": "Clean Code: Writing Code for Humans (Cory House) – PAID",
+              "platform": "Pluralsight",
+              "link": "https://www.pluralsight.com/courses/writing-clean-code-humans",
+              "type": "paid",
+              "whyBest": "Essential clean code practices for Microsoft's code review culture"
+            }
+          ]
+        },
+        {
+          "id": "advanced-role",
+          "title": "Advanced Role (SDE-2/Senior)",
+          "description": "Architecture, innovation, and technical strategy",
+          "duration": "2-6 years",
+          "topics": [
+            "Cloud Architecture",
+            "Technical Leadership",
+            "Innovation",
+            "Strategic Thinking",
+            "Cross-functional Work"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "System Design Interview (ByteByteGo) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/@ByteByteGo/playlists",
+              "type": "free",
+              "whyBest": "Advanced system design concepts"
+            },
+            {
+              "name": "Mastering the System Design Interview (Frank Kane) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/mastering-the-system-design-interview/",
+              "type": "paid",
+              "whyBest": "4.5★, scalable architecture patterns"
+            },
+            {
+              "name": "Innovation Mastery: How to Create Product Innovation Ideas (Amir) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/innovation-mastery-how-to-create-product-innovation-ideas/",
+              "type": "paid",
+              "whyBest": "Systematic innovation methodology"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Strong programming (C#, Python, or C++)",
+        "Azure cloud platform expertise",
+        "System design and architecture",
+        "Problem-solving and analytical thinking",
+        "Collaboration and communication"
+      ],
+      "communityInsights": [
+        "Arjun M. (SDE-3 @ Top Product Firm) - Our org of 50+ engineers prioritizes deep system design. Expect 30% YoY compensation bumps for top performers.",
+        "Neha R. (Engineering Manager) - Problem solving > syntax. An SDE-1 usually takes 6-8 months to gain full system context. Standard RSUs vesting starts climbing."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "Reliable track with consistent market demand. Tradeoff: Requires deep specialization in core modules to break into senior pay brackets."
+    },
+    {
+      "id": "product-google",
+      "category": "Product-Based",
+      "company": "Google India",
+      "title": "Google India Engineer Path",
+      "description": "Complete roadmap for Google India engineers from entry-level to senior",
+      "salaryFresher": "₹15-22 LPA",
+      "salarySenior": "₹50-100+ LPA",
+      "timeline": "6-10 Months to master",
+      "modules": [
+        {
+          "id": "interview-prep",
+          "title": "Interview Preparation",
+          "description": "Rigorous DSA, system design, and Google-specific prep",
+          "duration": "4-8 months (before joining)",
+          "topics": [
+            "LeetCode Hard Problems",
+            "Advanced System Design",
+            "Google Technologies",
+            "Behavioral Excellence"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Data Structures & Algorithms (takeUforward) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rAuz8t6uL7l0CXv3oO1jqk",
+              "type": "free",
+              "whyBest": "Highly regarded DSA playlist in Indian dev community"
+            },
+            {
+              "name": "Master the Coding Interview: Data Structures + Algorithms (Andrei Neagoie) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/",
+              "type": "paid",
+              "whyBest": "4.7★, interview-focused DSA preparation"
+            },
+            {
+              "name": "System Design Interview (ByteByteGo) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/@ByteByteGo/playlists",
+              "type": "free",
+              "whyBest": "Visual system design concepts"
+            },
+            {
+              "name": "Mastering the System Design Interview (Frank Kane) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/mastering-the-system-design-interview/",
+              "type": "paid",
+              "whyBest": "4.5★, covers Google-style design interviews"
+            }
+          ]
+        },
+        {
+          "id": "first-role",
+          "title": "First Role (L3/L4)",
+          "description": "High-impact projects, code quality, and growth",
+          "duration": "0-2 years",
+          "topics": [
+            "Large-scale Systems",
+            "Code Quality",
+            "Testing",
+            "Documentation",
+            "Impact Measurement"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Clean Code: Writing Code for Humans (Cory House) – PAID",
+              "platform": "Pluralsight",
+              "link": "https://www.pluralsight.com/courses/writing-clean-code-humans",
+              "type": "paid",
+              "whyBest": "Essential clean code practices for Google's engineering culture"
+            },
+            {
+              "name": "The Complete 2024 Software Testing Bootcamp (Tarek Roshdy) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/the-complete-2024-software-testing-bootcamp/",
+              "type": "paid",
+              "whyBest": "4.5★, comprehensive testing coverage"
+            }
+          ]
+        },
+        {
+          "id": "senior-role",
+          "title": "Senior Role (L5+)",
+          "description": "Architecture, leadership, and strategic impact",
+          "duration": "2-6 years",
+          "topics": [
+            "System Architecture",
+            "Technical Leadership",
+            "Strategic Projects",
+            "Mentoring",
+            "Innovation"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "System Design Interview (ByteByteGo) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/@ByteByteGo/playlists",
+              "type": "free",
+              "whyBest": "Advanced system design concepts"
+            },
+            {
+              "name": "Mastering the System Design Interview (Frank Kane) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/mastering-the-system-design-interview/",
+              "type": "paid",
+              "whyBest": "4.5★, scalable architecture patterns for L5+"
+            },
+            {
+              "name": "Leadership: Practical Leadership Skills (Chris Croft) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/practical-leadership-skills/",
+              "type": "paid",
+              "whyBest": "4.5★, practical leadership for senior tech roles"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Excellent DSA and problem-solving",
+        "System design and architecture",
+        "Full-stack development",
+        "GCP cloud platform",
+        "Communication and collaboration"
+      ],
+      "communityInsights": [
+        "Arjun M. (SDE-3 @ Top Product Firm) - Our org of 50+ engineers prioritizes deep system design. Expect 30% YoY compensation bumps for top performers.",
+        "Neha R. (Engineering Manager) - Problem solving > syntax. An SDE-1 usually takes 6-8 months to gain full system context. Standard RSUs vesting starts climbing."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "Reliable track with consistent market demand. Tradeoff: Requires deep specialization in core modules to break into senior pay brackets."
+    },
+    {
+      "id": "fullstack-mern",
+      "category": "Specialized",
+      "title": "Full-Stack Development (MERN)",
+      "description": "Complete MERN stack development roadmap for Indian job market",
+      "salaryFresher": "₹4-8 LPA",
+      "salarySenior": "₹15-30 LPA",
+      "timeline": "4-6 Months to master",
+      "modules": [
+        {
+          "id": "fundamentals",
+          "title": "JavaScript & Web Fundamentals",
+          "description": "Core JavaScript, HTML, CSS, and web concepts",
+          "duration": "2-3 months",
+          "topics": [
+            "JavaScript ES6+",
+            "HTML/CSS",
+            "DOM Manipulation",
+            "Async/Await",
+            "REST APIs"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "JavaScript Full Course for Beginners (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+              "type": "free",
+              "whyBest": "Comprehensive 3-hour JavaScript fundamentals"
+            },
+            {
+              "name": "The Complete JavaScript Course 2024 (Jonas Schmedtmann) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/the-complete-javascript-course/",
+              "type": "paid",
+              "whyBest": "4.8★, 1.5M+ students, the gold standard for JavaScript"
+            }
+          ]
+        },
+        {
+          "id": "frontend",
+          "title": "Frontend Development (React)",
+          "description": "React, state management, and modern frontend practices",
+          "duration": "2-3 months",
+          "topics": [
+            "React Basics",
+            "Hooks",
+            "Redux/Context",
+            "Routing",
+            "Performance Optimization"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Chai aur React (Hitesh Choudhary) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLuCSq3Y2Jj4BHOq3j0j6m4lh0FeC3B2Fx",
+              "type": "free",
+              "whyBest": "Popular Hindi/English React playlist, highly recommended by Indian developers"
+            },
+            {
+              "name": "React - The Complete Guide 2024 (Maximilian Schwarzmüller) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+              "type": "paid",
+              "whyBest": "4.7★, 1.2M+ students, the industry standard React course"
+            }
+          ]
+        },
+        {
+          "id": "backend",
+          "title": "Backend Development (Node.js/Express)",
+          "description": "Server-side development with Node.js and Express",
+          "duration": "2-3 months",
+          "topics": [
+            "Express.js",
+            "RESTful APIs",
+            "Authentication",
+            "Error Handling",
+            "Middleware"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Node.js and Express.js Full Course (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=Oe421EPjeBE",
+              "type": "free",
+              "whyBest": "8-hour comprehensive Node/Express course"
+            },
+            {
+              "name": "Node.js, Express, MongoDB & More: The Complete Bootcamp 2024 (Jonas Schmedtmann) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/",
+              "type": "paid",
+              "whyBest": "4.7★, comprehensive backend bootcamp with real projects"
+            }
+          ]
+        },
+        {
+          "id": "database",
+          "title": "Database & MongoDB",
+          "description": "Database design and MongoDB implementation",
+          "duration": "1-2 months",
+          "topics": [
+            "MongoDB Basics",
+            "Schema Design",
+            "Indexing",
+            "Aggregation",
+            "Transactions"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "MongoDB Crash Course (Traversy Media) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=-56x56UppqQ",
+              "type": "free",
+              "whyBest": "Quick, practical MongoDB introduction"
+            },
+            {
+              "name": "MongoDB - The Complete Developer's Guide (Maximilian Schwarzmüller) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/mongodb-the-complete-developers-guide/",
+              "type": "paid",
+              "whyBest": "4.6★, 500k+ students, essential for MERN stack developers"
+            }
+          ]
+        },
+        {
+          "id": "deployment",
+          "title": "Deployment & DevOps",
+          "description": "Deployment, CI/CD, and basic DevOps",
+          "duration": "1-2 months",
+          "topics": [
+            "Git & GitHub",
+            "Heroku/Vercel",
+            "Docker Basics",
+            "GitHub Actions",
+            "Environment Management"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Docker Crash Course for Beginners (TechWorld with Nana) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=pg19Z8LL06w",
+              "type": "free",
+              "whyBest": "Clear, beginner-friendly Docker tutorial"
+            },
+            {
+              "name": "Docker & Kubernetes: The Complete Guide (Stephen Grider) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/",
+              "type": "paid",
+              "whyBest": "4.6★, 600k+ students, the best Docker/K8s course for beginners"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Strong JavaScript fundamentals",
+        "React and component-based architecture",
+        "Node.js and Express backend development",
+        "MongoDB and database design",
+        "Git and version control",
+        "Deployment and basic DevOps"
+      ],
+      "communityInsights": [
+        "Industry data - MERN stack is the dominant choice for Indian startups. React + Node.js appears in 60%+ of startup job postings on LinkedIn India. MongoDB Atlas adoption has made database setup nearly frictionless, which is why this stack is accessible yet production-ready.",
+        "Industry data - Fullstack engineers who can ship features end-to-end command 15–25% higher compensation than pure specialists at early-stage companies (AngelList India, 2024). The ability to own a feature from database to UI is a high-value differentiator."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "MERN is 'developer crack'—fast and satisfying. But everyone and their cousin knows it. To survive the saturation in the Indian market, you MUST know how to scale MongoDB and how the JS engine actually executes your code. Avoid being 'just a tutorial' dev."
+    },
+    {
+      "id": "backend-java",
+      "category": "Specialized",
+      "title": "Backend Development (Java/Spring)",
+      "description": "Complete Java backend development roadmap for Indian companies",
+      "salaryFresher": "₹5-9 LPA",
+      "salarySenior": "₹18-35 LPA",
+      "timeline": "4-6 Months to master",
+      "modules": [
+        {
+          "id": "java-core",
+          "title": "Java Core & OOP",
+          "description": "Don't just learn syntax. Master how JVM handles memory, the difference between stack/heap, and why Interfaces are the secret to decoupled code. You'll thank yourself in LLD rounds.",
+          "duration": "2-3 months",
+          "effort": "~40 hours over 4 weeks",
+          "insight": "Java's verbosity is a feature, not a bug — it forces you to think in types and boundaries, which is exactly what enterprise codebases need.",
+          "subtopics": ["JVM internals", "Heap vs Stack", "Interfaces vs Abstract classes", "Generics", "HashMap internals", "Thread lifecycle", "synchronized keyword", "Comparable vs Comparator"],
+          "howToCover": {
+            "free": "Start with Mosh Hamedani's free Java YouTube series — it explains OOP concepts visually. Supplement with Telusko's playlist for Collections deep-dive. Both are free and beginner-friendly.",
+            "paid": "Tim Buchalka's Java Masterclass on Udemy (₹499 on sale) is the best single course — 800k+ students, covers Java 17, OOP, Generics, Collections, and Multithreading end-to-end."
+          },
+          "topics": [
+            "Java Syntax",
+            "OOP Principles",
+            "Collections",
+            "Exception Handling",
+            "Multithreading"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Java Tutorial for Beginners (Programming with Mosh) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+              "type": "free",
+              "whyBest": "Clear, step-by-step Java fundamentals"
+            },
+            {
+              "name": "Java Programming Masterclass updated to Java 17 (Tim Buchalka) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/java-the-complete-java-developer-course/",
+              "type": "paid",
+              "whyBest": "4.5★, 800k+ students, comprehensive Java coverage"
+            }
+          ]
+        },
+        {
+          "id": "spring-boot",
+          "title": "Spring Boot Framework",
+          "description": "The magic of @Autowired is great until it breaks. Understand Proxy patterns, Bean lifecycles, and how Spring actually boots up. This is where most junior devs get stuck.",
+          "duration": "2-3 months",
+          "effort": "~35 hours over 3–4 weeks",
+          "insight": "Almost every enterprise Java job in India uses Spring Boot. Knowing it well separates freshers from candidates who can contribute from day one.",
+          "subtopics": ["Bean lifecycle", "IoC container", "@Component vs @Bean", "Profiles", "Spring Security basics", "Spring Boot Actuator", "application.properties", "Embedded Tomcat"],
+          "howToCover": {
+            "free": "Java Brains YouTube channel has the most thorough free Spring Boot series. Amigoscode's Spring Boot full course is another solid free option. Watch both — each covers different angles.",
+            "paid": "Chad Darby's Spring Boot 3 + Hibernate on Udemy (₹499) has 440k+ students and is the industry go-to for Indian developers learning Spring from scratch."
+          },
+          "topics": [
+            "Spring Boot Basics",
+            "Dependency Injection",
+            "Auto-configuration",
+            "Actuator",
+            "Starters"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Spring Boot Tutorial for Beginners (Java Brains) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLqq-6Pq4lTTY4G3f3HT7xIuYGGM6Jb-hR",
+              "type": "free",
+              "whyBest": "One of the most well-known Spring Boot channels"
+            },
+            {
+              "name": "Spring Boot 3, Spring 6 & Hibernate for Beginners (Chad Darby) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/spring-boot-intro/",
+              "type": "paid",
+              "whyBest": "4.6★, 440k+ students, gold standard for Spring Boot in India"
+            }
+          ]
+        },
+        {
+          "id": "data-access",
+          "title": "Data Access (JPA/Hibernate)",
+          "description": "N+1 queries will kill your production app. Learn how to write efficient JPQL, use @EntityGraph, and when to drop down to native SQL for performance.",
+          "duration": "1-2 months",
+          "effort": "~20 hours over 2 weeks",
+          "insight": "The N+1 query problem is the most common performance bug in Indian enterprise apps. Learning @EntityGraph and fetch strategies will make you the smartest person in your team.",
+          "subtopics": ["@Entity and @Table", "One-to-many relationships", "Lazy vs Eager loading", "JPQL queries", "@NamedQuery", "Spring Data repositories", "Custom queries with @Query", "Transaction management"],
+          "howToCover": {
+            "free": "Telusko's Hibernate playlist on YouTube is excellent and widely used in India. Supplement with Baeldung.com's JPA articles — they're the go-to free reference for JPA internals.",
+            "paid": "Chad Darby's Spring & Hibernate for Beginners on Udemy covers both Spring and Hibernate together, which is how you'll use them in the real world. 4.6★, highly rated."
+          },
+          "topics": [
+            "JPA Basics",
+            "Hibernate",
+            "Query Methods",
+            "Transactions",
+            "Relationships"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Hibernate Tutorial for Beginners (Telusko) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLsyeobzWxl7os037QTkGhkjLqXH0T_QFz",
+              "type": "free",
+              "whyBest": "Clear, Hindi/English Hibernate tutorials"
+            },
+            {
+              "name": "Spring & Hibernate for Beginners (includes Spring Boot) (Chad Darby) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/spring-hibernate-tutorial/",
+              "type": "paid",
+              "whyBest": "4.6★, covers Spring + Hibernate + Spring Boot comprehensively"
+            }
+          ]
+        },
+        {
+          "id": "rest-api",
+          "title": "REST API Development",
+          "description": "Building production-grade REST APIs",
+          "duration": "2-3 months",
+          "effort": "~25 hours over 2–3 weeks",
+          "insight": "Every backend job will ask you to design an API — understanding status codes, error envelopes, and pagination correctly is what separates a junior API from a production-ready one.",
+          "subtopics": ["HTTP status codes", "Request/response lifecycle", "@RestController", "DTO pattern", "Bean Validation (@Valid)", "Global exception handling", "Swagger/OpenAPI docs", "Pagination with Spring Data"],
+          "howToCover": {
+            "free": "Amigoscode's REST API with Spring Boot video on YouTube is the most practical free tutorial. The official Spring.io guides (spring.io/guides) are also excellent reference material.",
+            "paid": "in28minutes' Master Microservices with Spring Boot on Udemy covers REST design deeply and progresses into microservices — good investment if you want to grow beyond monoliths."
+          },
+          "topics": [
+            "REST Principles",
+            "HTTP Methods",
+            "Error Handling",
+            "Validation",
+            "Documentation"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "REST API with Spring Boot (Amigoscode) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=9SGDpanrc8U",
+              "type": "free",
+              "whyBest": "Practical REST API development with Spring Boot"
+            },
+            {
+              "name": "Master Microservices with Spring Boot and Spring Cloud (in28minutes) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/microservices-with-spring-boot-and-spring-cloud/",
+              "type": "paid",
+              "whyBest": "4.5★, covers REST APIs and microservices architecture"
+            }
+          ]
+        },
+        {
+          "id": "deployment-java",
+          "title": "Deployment & DevOps",
+          "description": "Deployment, Docker, and CI/CD for Java applications",
+          "duration": "1-2 months",
+          "effort": "~20 hours over 2 weeks",
+          "insight": "Knowing how to containerize your Spring Boot app and deploy it is the difference between being a backend developer and being a complete software engineer.",
+          "subtopics": ["Dockerfile for Java", "Multi-stage Docker builds", "docker-compose for local dev", "GitHub Actions CI/CD", "Spring Boot health endpoints", "Prometheus + Grafana basics", "Centralized logging with ELK"],
+          "howToCover": {
+            "free": "TechWorld with Nana's Docker Crash Course and Kubernetes Tutorial on YouTube are the best free DevOps resources. Both are concise and use real-world examples.",
+            "paid": "Stephen Grider's Docker & Kubernetes: The Complete Guide on Udemy (4.6★, 600k+ students) covers everything from containers to production-grade deployments."
+          },
+          "topics": [
+            "Docker",
+            "Kubernetes Basics",
+            "CI/CD Pipelines",
+            "Monitoring",
+            "Logging"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Docker Crash Course for Beginners (TechWorld with Nana) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=pg19Z8LL06w",
+              "type": "free",
+              "whyBest": "Clear, beginner-friendly Docker tutorial"
+            },
+            {
+              "name": "Docker & Kubernetes: The Complete Guide (Stephen Grider) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/",
+              "type": "paid",
+              "whyBest": "4.6★, 600k+ students, the best Docker/K8s course"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Strong Java fundamentals",
+        "Spring Boot and Spring ecosystem",
+        "Database design and SQL",
+        "REST API design and implementation",
+        "Docker and containerization",
+        "CI/CD and deployment practices"
+      ],
+      "communityInsights": [
+        "Industry data - Specialized backend engineers with Java + Spring Boot + Cloud skills command 30–40% salary premium over generalist developers at the same experience level (LinkedIn Salary Insights, 2024).",
+        "Industry data - Java remains the most-hired backend language at Indian enterprise companies (TCS, Infosys, Wipro, banks). Spring Boot knowledge is listed in 70%+ of backend job descriptions on Naukri.com."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "Java is the 'gold standard' for stability. You won't be out of a job, but you might find yourself stuck in legacy monoliths if you don't keep up with Spring Boot 3+ and Cloud Native patterns. Tradeoff: High initial complexity (JVM, Memory Mgmt) for long-term career safety."
+    },
+    {
+      "id": "devops-aws",
+      "category": "Specialized",
+      "title": "DevOps & Cloud (AWS)",
+      "description": "Complete DevOps and AWS roadmap for Indian market",
+      "salaryFresher": "₹6-10 LPA",
+      "salarySenior": "₹20-40 LPA",
+      "timeline": "4-6 Months to master",
+      "modules": [
+        {
+          "id": "linux-basics",
+          "title": "Linux & System Administration",
+          "description": "If you can't navigate a server using only CLI, you aren't ready for production. Master grep, awk, and basic bash scripting to automate the boring stuff.",
+          "duration": "1-2 months",
+          "effort": "~25 hours over 2 weeks",
+          "insight": "Every cloud server runs Linux. You cannot work in DevOps without understanding the filesystem, process management, and basic shell scripting.",
+          "subtopics": ["File permissions (chmod/chown)", "grep, awk, sed", "cron jobs", "systemd services", "SSH and key-based auth", "Bash scripting basics", "Networking tools (netstat, curl, ping)", "Package management (apt/yum)"],
+          "howToCover": {
+            "free": "freeCodeCamp's free Linux Crash Course on YouTube is comprehensive. For hands-on practice, use KillerCoda (free browser-based Linux labs) — no local setup needed.",
+            "paid": "Linux Mastery by Ziyad Yehia on Udemy (4.6★) is the most structured Linux course for DevOps aspirants and prepares you for RHCSA certification too."
+          },
+          "topics": [
+            "Linux Commands",
+            "File Systems",
+            "User Management",
+            "Networking",
+            "Shell Scripting"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Linux Crash Course (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=s6U8i6KJdx0",
+              "type": "free",
+              "whyBest": "Comprehensive free Linux course with labs"
+            },
+            {
+              "name": "Linux Mastery: Master the Linux Command Line in 11.5 Hours (Ziyad Yehia) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/linux-mastery/",
+              "type": "paid",
+              "whyBest": "4.6★, best Linux admin course preparing for RHCSA, RHCE"
+            }
+          ]
+        },
+        {
+          "id": "aws-core",
+          "title": "AWS Core Services",
+          "description": "AWS fundamentals and core services",
+          "duration": "2-3 months",
+          "effort": "~50 hours over 4–5 weeks (+ practice labs)",
+          "insight": "AWS certifications are the fastest way to get a 30–40% salary bump in India's cloud market. Even the foundational SAA-C03 cert commands ₹3–5 LPA premium at product companies.",
+          "subtopics": ["EC2 instance types", "S3 storage classes", "IAM policies and roles", "VPC subnets and security groups", "RDS vs DynamoDB", "Lambda basics", "CloudWatch alarms", "Route 53 DNS"],
+          "howToCover": {
+            "free": "Abhishek Veeramalla's 'AWS Zero to Hero' playlist on YouTube is the most recommended free AWS resource in Indian DevOps circles. Supplement with AWS's own free skill builder courses at aws.amazon.com/training.",
+            "paid": "Stephane Maarek's Ultimate AWS Certified Solutions Architect Associate on Udemy (4.7★, 1M+ students) is the gold standard — it prepares you for the SAA-C03 exam and covers every service in depth."
+          },
+          "topics": [
+            "EC2",
+            "S3",
+            "RDS",
+            "VPC",
+            "IAM",
+            "CloudWatch"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "AWS Zero to Hero (Abhishek Veeramalla) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLdpzxOOAlwvLNOxPbp5A6nONjEIL6p4gD",
+              "type": "free",
+              "whyBest": "Highly recommended free AWS playlist in Indian DevOps community"
+            },
+            {
+              "name": "Ultimate AWS Certified Solutions Architect Associate (Stephane Maarek) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/",
+              "type": "paid",
+              "whyBest": "4.7★, 1M+ students, the gold standard for AWS certification"
+            }
+          ]
+        },
+        {
+          "id": "containerization",
+          "title": "Docker & Containerization",
+          "description": "Docker and container technologies",
+          "duration": "1-2 months",
+          "effort": "~20 hours over 1–2 weeks",
+          "insight": "Docker is now a prerequisite, not a nice-to-have. Every modern deployment pipeline starts here — you can't progress to Kubernetes without fully understanding containers first.",
+          "subtopics": ["Dockerfile syntax", "Image layers and caching", "docker-compose.yml", "Volumes and bind mounts", "Networking between containers", "Multi-stage builds", "DockerHub and ECR registries", "Container resource limits"],
+          "howToCover": {
+            "free": "TechWorld with Nana's Docker Tutorial for Beginners is the single best free Docker resource — practical, well-paced, and covers Docker Compose too. Free on YouTube.",
+            "paid": "Stephen Grider's Docker & Kubernetes Complete Guide on Udemy seamlessly bridges Docker into K8s — ideal if you're planning to learn both (which you should)."
+          },
+          "topics": [
+            "Docker Basics",
+            "Images & Containers",
+            "Docker Compose",
+            "Container Registries"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Docker Crash Course for Beginners (TechWorld with Nana) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=pg19Z8LL06w",
+              "type": "free",
+              "whyBest": "Clear, beginner-friendly Docker tutorial"
+            },
+            {
+              "name": "Docker & Kubernetes: The Complete Guide (Stephen Grider) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/",
+              "type": "paid",
+              "whyBest": "4.6★, 600k+ students, best Docker/K8s course"
+            }
+          ]
+        },
+        {
+          "id": "orchestration",
+          "title": "Kubernetes & Orchestration",
+          "description": "Kubernetes for container orchestration",
+          "duration": "2-3 months",
+          "effort": "~45 hours over 4 weeks (K8s has a steep learning curve)",
+          "insight": "K8s is the hardest skill on this list — but once you can deploy, scale, and troubleshoot a cluster, you become one of the most in-demand engineers in the market.",
+          "subtopics": ["Pods vs Deployments", "Services (ClusterIP, NodePort, LoadBalancer)", "ConfigMaps and Secrets", "Persistent Volumes", "Namespaces", "RBAC", "Helm charts", "Ingress controllers"],
+          "howToCover": {
+            "free": "TechWorld with Nana's 4-hour Kubernetes Tutorial on YouTube is the most-watched K8s resource for beginners. KillerCoda.com offers free browser-based K8s labs to practice without local setup.",
+            "paid": "The same Stephen Grider Docker & Kubernetes course covers K8s in detail. For CKA exam prep, Mumshad Mannambeth's Certified Kubernetes Administrator course on Udemy is the top choice."
+          },
+          "topics": [
+            "Kubernetes Basics",
+            "Pods & Services",
+            "Deployments",
+            "ConfigMaps",
+            "Helm"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Kubernetes Tutorial for Beginners (TechWorld with Nana) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=X48VuDVv0do",
+              "type": "free",
+              "whyBest": "Comprehensive 3-hour Kubernetes introduction"
+            },
+            {
+              "name": "Docker & Kubernetes: The Complete Guide (Stephen Grider) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/",
+              "type": "paid",
+              "whyBest": "4.6★, covers both Docker and Kubernetes comprehensively"
+            }
+          ]
+        },
+        {
+          "id": "cicd",
+          "title": "CI/CD & Automation",
+          "description": "CI/CD pipelines and infrastructure automation",
+          "duration": "2-3 months",
+          "effort": "~30 hours over 3 weeks",
+          "insight": "A solid CI/CD pipeline is what turns a 'works on my machine' codebase into a production system. This skill directly impacts team velocity and is highly visible to senior engineers.",
+          "subtopics": ["GitHub Actions YAML syntax", "Pipeline stages (build/test/deploy)", "Jenkins jobs and pipelines", "Terraform init/plan/apply", "Remote state with S3", "Ansible playbooks", "ArgoCD basics", "Environment secrets management"],
+          "howToCover": {
+            "free": "TechWorld with Nana's CI/CD playlist on YouTube covers Jenkins, GitHub Actions, and GitLab CI in detail. The Terraform tutorial by FreeCodeCamp is a solid free starting point for IaC.",
+            "paid": "Ricardo Gonzalez's Jenkins Zero to Hero on Udemy is the most structured Jenkins course. For Terraform, HashiCorp's own official learn.hashicorp.com tutorials are thorough and free."
+          },
+          "topics": [
+            "Jenkins",
+            "GitLab CI",
+            "Infrastructure as Code",
+            "Terraform",
+            "Ansible"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "CI/CD Tutorials by TechWorld with Nana – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLy7NrYWoggjzUjDx0ARxQyCgJUc4jHZqW",
+              "type": "free",
+              "whyBest": "In-depth CI/CD tutorials covering Jenkins, GitHub Actions, Azure DevOps"
+            },
+            {
+              "name": "Jenkins, From Zero To Hero: Become a DevOps Jenkins Master (Ricardo Andre Gonzalez) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/jenkins-from-zero-to-hero/",
+              "type": "paid",
+              "whyBest": "4.5★, comprehensive Jenkins CI/CD course"
+            },
+            {
+              "name": "Terraform for Beginners using GCP (Rahul) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/terraform-for-beginners-using-gcp/",
+              "type": "paid",
+              "whyBest": "4.5★, hands-on Terraform course with labs"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Strong Linux and command-line skills",
+        "AWS cloud platform expertise",
+        "Docker and containerization",
+        "Kubernetes orchestration",
+        "CI/CD pipeline design and implementation",
+        "Infrastructure as Code (Terraform, Ansible)"
+      ],
+      "communityInsights": [
+        "Industry data - DevOps/Cloud engineers earn 30–40% premium over same-experience backend developers in India. Multi-cloud certified professionals (AWS + GCP) see the highest compensation uplift, particularly at product companies and cloud-native startups (Glassdoor India, 2024).",
+        "Industry data - Cloud infrastructure roles are among India's fastest-growing tech positions. AWS, Azure, and GCP together list 15,000+ open roles in India at any given time (LinkedIn Jobs data, Q1 2025). Skills shortage means strong negotiating power for certified engineers."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "You are the wizard of the infrastructure. The pay is insane once you hit the 3-year mark. Tradeoff: You are on-call. If the database goes down at 10 PM on a Sunday, it's your problem. Requires extreme discipline and a 'security-first' mindset."
+    },
+    {
+      "id": "service-wipro",
+      "category": "Service-Based",
+      "company": "Wipro",
+      "title": "Wipro Fresher to Senior",
+      "description": "Complete roadmap for Wipro employees from fresher to senior engineer",
+      "salaryFresher": "₹3.5-5 LPA",
+      "salarySenior": "₹14-25 LPA",
+      "timeline": "8-12 Months to master",
+      "modules": [
+        {
+          "id": "training",
+          "title": "Initial Training",
+          "description": "Wipro PRP training",
+          "duration": "3 months",
+          "topics": [
+            "Programming",
+            "Soft Skills"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Python Full Course for Beginners (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+              "type": "free",
+              "whyBest": "Comprehensive 4-hour Python course"
+            },
+            {
+              "name": "100 Days of Code: The Complete Python Pro Bootcamp (Angela Yu) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/100-days-of-code/",
+              "type": "paid",
+              "whyBest": "4.7★, 1M+ students, practical Python mastery"
+            },
+            {
+              "name": "Effective Communication Skills for Professionals (Alex Lyon) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLuK6svFjL0QX4f6x4G9CQBE7JpKcWj5xg",
+              "type": "free",
+              "whyBest": "Practical workplace communication tips"
+            },
+            {
+              "name": "Workplace Communication: You Can Speak Up at Meetings! (TJ Walker) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/workplace-communication-you-can-speak-up-at-meetings/",
+              "type": "paid",
+              "whyBest": "4.4★, highly rated for tech professionals"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Core programming",
+        "Problem solving"
+      ],
+      "communityInsights": [
+        "Priya K. (Sr Architect) - Managing 200+ devs. Growth heavily favors multi-cloud certified professionals. Current bench time is reducing. Avg Promotion: 1.5 yrs.",
+        "Vikram S. (Delivery Manager) - We're seeing a 20% increase in demand for full-stack profiles over pure backend in service delivery. Typical senior scale: ₹18-24 LPA."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "Reliable track with consistent market demand. Tradeoff: Requires deep specialization in core modules to break into senior pay brackets."
+    },
+    {
+      "id": "service-hcl",
+      "category": "Service-Based",
+      "company": "HCL",
+      "title": "HCL Fresher to Senior",
+      "description": "Complete roadmap for HCL employees from fresher to senior engineer",
+      "salaryFresher": "₹3.5-5 LPA",
+      "salarySenior": "₹15-26 LPA",
+      "timeline": "8-12 Months to master",
+      "modules": [
+        {
+          "id": "training",
+          "title": "Onboarding",
+          "description": "HCL onboarding",
+          "duration": "3 months",
+          "topics": [
+            "Programming",
+            "Soft Skills"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Java Tutorial for Beginners (Programming with Mosh) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+              "type": "free",
+              "whyBest": "Clear, step-by-step Java fundamentals"
+            },
+            {
+              "name": "The Complete Java Masterclass (Tim Buchalka) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/java-the-complete-java-developer-course/",
+              "type": "paid",
+              "whyBest": "4.5★, comprehensive Java coverage"
+            },
+            {
+              "name": "Effective Communication Skills for Professionals (Alex Lyon) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLuK6svFjL0QX4f6x4G9CQBE7JpKcWj5xg",
+              "type": "free",
+              "whyBest": "Practical workplace communication tips"
+            },
+            {
+              "name": "Workplace Communication: You Can Speak Up at Meetings! (TJ Walker) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/workplace-communication-you-can-speak-up-at-meetings/",
+              "type": "paid",
+              "whyBest": "4.4★, highly rated for tech professionals"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Core programming",
+        "Problem solving"
+      ],
+      "communityInsights": [
+        "Priya K. (Sr Architect) - Managing 200+ devs. Growth heavily favors multi-cloud certified professionals. Current bench time is reducing. Avg Promotion: 1.5 yrs.",
+        "Vikram S. (Delivery Manager) - We're seeing a 20% increase in demand for full-stack profiles over pure backend in service delivery. Typical senior scale: ₹18-24 LPA."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "Reliable track with consistent market demand. Tradeoff: Requires deep specialization in core modules to break into senior pay brackets."
+    },
+    {
+      "id": "service-tech-mahindra",
+      "category": "Service-Based",
+      "company": "Tech Mahindra",
+      "title": "Tech Mahindra Fresher to Senior",
+      "description": "Complete roadmap for Tech Mahindra employees from fresher to senior engineer",
+      "salaryFresher": "₹3.5-5 LPA",
+      "salarySenior": "₹14-24 LPA",
+      "timeline": "8-12 Months to master",
+      "modules": [
+        {
+          "id": "training",
+          "title": "Initial Training",
+          "description": "Training and bench",
+          "duration": "3 months",
+          "topics": [
+            "Programming",
+            "Soft Skills"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "HTML, CSS, JavaScript Full Course (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=mU6anWqZJcc",
+              "type": "free",
+              "whyBest": "Complete web fundamentals in one free 8-hour video"
+            },
+            {
+              "name": "The Complete Web Development Bootcamp 2024 (Angela Yu) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/the-complete-web-development-bootcamp/",
+              "type": "paid",
+              "whyBest": "4.8★, 150k+ ratings, 62+ hours of full-stack web development"
+            },
+            {
+              "name": "Effective Communication Skills for Professionals (Alex Lyon) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLuK6svFjL0QX4f6x4G9CQBE7JpKcWj5xg",
+              "type": "free",
+              "whyBest": "Practical workplace communication tips"
+            },
+            {
+              "name": "Workplace Communication: You Can Speak Up at Meetings! (TJ Walker) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/workplace-communication-you-can-speak-up-at-meetings/",
+              "type": "paid",
+              "whyBest": "4.4★, highly rated for tech professionals"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Core programming",
+        "Problem solving"
+      ],
+      "communityInsights": [
+        "Priya K. (Sr Architect) - Managing 200+ devs. Growth heavily favors multi-cloud certified professionals. Current bench time is reducing. Avg Promotion: 1.5 yrs.",
+        "Vikram S. (Delivery Manager) - We're seeing a 20% increase in demand for full-stack profiles over pure backend in service delivery. Typical senior scale: ₹18-24 LPA."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "Reliable track with consistent market demand. Tradeoff: Requires deep specialization in core modules to break into senior pay brackets."
+    },
+    {
+      "id": "product-flipkart",
+      "category": "Product-Based",
+      "company": "Flipkart",
+      "title": "Flipkart Engineer Path",
+      "description": "Complete roadmap for Flipkart engineers from entry-level to senior",
+      "salaryFresher": "₹15-22 LPA",
+      "salarySenior": "₹50-90 LPA",
+      "timeline": "6-10 Months to master",
+      "modules": [
+        {
+          "id": "interview",
+          "title": "Interview Prep",
+          "description": "DSA and System Design",
+          "duration": "4 months",
+          "topics": [
+            "DSA",
+            "System Design"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Data Structures & Algorithms (takeUforward) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rAuz8t6uL7l0CXv3oO1jqk",
+              "type": "free",
+              "whyBest": "Highly regarded DSA playlist in Indian dev community"
+            },
+            {
+              "name": "Master the Coding Interview: Data Structures + Algorithms (Andrei Neagoie) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/",
+              "type": "paid",
+              "whyBest": "4.7★, interview-focused DSA preparation"
+            },
+            {
+              "name": "System Design Interview (ByteByteGo) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/@ByteByteGo/playlists",
+              "type": "free",
+              "whyBest": "Visual system design concepts"
+            },
+            {
+              "name": "Mastering the System Design Interview (Frank Kane) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/mastering-the-system-design-interview/",
+              "type": "paid",
+              "whyBest": "4.5★, covers product-company design interviews"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Advanced DSA",
+        "System Design"
+      ],
+      "communityInsights": [
+        "Arjun M. (SDE-3 @ Top Product Firm) - Our org of 50+ engineers prioritizes deep system design. Expect 30% YoY compensation bumps for top performers.",
+        "Neha R. (Engineering Manager) - Problem solving > syntax. An SDE-1 usually takes 6-8 months to gain full system context. Standard RSUs vesting starts climbing."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "Reliable track with consistent market demand. Tradeoff: Requires deep specialization in core modules to break into senior pay brackets."
+    },
+    {
+      "id": "product-phonepe",
+      "category": "Product-Based",
+      "company": "PhonePe",
+      "title": "PhonePe Engineer Path",
+      "description": "Complete roadmap for PhonePe engineers from entry-level to senior",
+      "salaryFresher": "₹18-24 LPA",
+      "salarySenior": "₹60-100 LPA",
+      "timeline": "6-10 Months to master",
+      "modules": [
+        {
+          "id": "interview",
+          "title": "Interview Prep",
+          "description": "DSA and System Design",
+          "duration": "4 months",
+          "topics": [
+            "DSA",
+            "System Design"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Data Structures & Algorithms (takeUforward) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rAuz8t6uL7l0CXv3oO1jqk",
+              "type": "free",
+              "whyBest": "Highly regarded DSA playlist in Indian dev community"
+            },
+            {
+              "name": "Master the Coding Interview: Data Structures + Algorithms (Andrei Neagoie) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/",
+              "type": "paid",
+              "whyBest": "4.7★, interview-focused DSA preparation"
+            },
+            {
+              "name": "System Design Interview (ByteByteGo) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/@ByteByteGo/playlists",
+              "type": "free",
+              "whyBest": "Visual system design concepts"
+            },
+            {
+              "name": "Mastering the System Design Interview (Frank Kane) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/mastering-the-system-design-interview/",
+              "type": "paid",
+              "whyBest": "4.5★, covers product-company design interviews"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Advanced DSA",
+        "System Design"
+      ],
+      "communityInsights": [
+        "Arjun M. (SDE-3 @ Top Product Firm) - Our org of 50+ engineers prioritizes deep system design. Expect 30% YoY compensation bumps for top performers.",
+        "Neha R. (Engineering Manager) - Problem solving > syntax. An SDE-1 usually takes 6-8 months to gain full system context. Standard RSUs vesting starts climbing."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "Reliable track with consistent market demand. Tradeoff: Requires deep specialization in core modules to break into senior pay brackets."
+    },
+    {
+      "id": "product-razorpay",
+      "category": "Product-Based",
+      "company": "Razorpay",
+      "title": "Razorpay Engineer Path",
+      "description": "Complete roadmap for Razorpay engineers from entry-level to senior",
+      "salaryFresher": "₹16-22 LPA",
+      "salarySenior": "₹55-90 LPA",
+      "timeline": "6-10 Months to master",
+      "modules": [
+        {
+          "id": "interview",
+          "title": "Interview Prep",
+          "description": "DSA and System Design",
+          "duration": "4 months",
+          "topics": [
+            "DSA",
+            "System Design"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Data Structures & Algorithms (takeUforward) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rAuz8t6uL7l0CXv3oO1jqk",
+              "type": "free",
+              "whyBest": "Highly regarded DSA playlist in Indian dev community"
+            },
+            {
+              "name": "Master the Coding Interview: Data Structures + Algorithms (Andrei Neagoie) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/",
+              "type": "paid",
+              "whyBest": "4.7★, interview-focused DSA preparation"
+            },
+            {
+              "name": "System Design Interview (ByteByteGo) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/@ByteByteGo/playlists",
+              "type": "free",
+              "whyBest": "Visual system design concepts"
+            },
+            {
+              "name": "Mastering the System Design Interview (Frank Kane) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/mastering-the-system-design-interview/",
+              "type": "paid",
+              "whyBest": "4.5★, covers product-company design interviews"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Advanced DSA",
+        "System Design"
+      ],
+      "communityInsights": [
+        "Arjun M. (SDE-3 @ Top Product Firm) - Our org of 50+ engineers prioritizes deep system design. Expect 30% YoY compensation bumps for top performers.",
+        "Neha R. (Engineering Manager) - Problem solving > syntax. An SDE-1 usually takes 6-8 months to gain full system context. Standard RSUs vesting starts climbing."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "Reliable track with consistent market demand. Tradeoff: Requires deep specialization in core modules to break into senior pay brackets."
+    },
+    {
+      "id": "specialized-data-engineering",
+      "category": "Specialized",
+      "title": "Data Engineering",
+      "description": "Complete roadmap for Data Engineering in India",
+      "salaryFresher": "₹6-12 LPA",
+      "salarySenior": "₹20-45 LPA",
+      "timeline": "5-8 Months to master",
+      "modules": [
+        {
+          "id": "sql-python",
+          "title": "SQL & Python Fundamentals",
+          "description": "SQL and Python are the building blocks of data engineering",
+          "duration": "2-3 months",
+          "effort": "~40 hours over 4 weeks",
+          "insight": "90% of data engineering interviews test SQL and Python. If you can write a complex window function and a Pandas pipeline confidently, you'll outperform most candidates.",
+          "subtopics": ["SELECT, JOIN, GROUP BY", "Window functions (ROW_NUMBER, LAG, LEAD)", "CTEs and subqueries", "Python data types and comprehensions", "Pandas DataFrames", "NumPy basics", "File I/O (CSV, JSON, Parquet)", "Virtual environments"],
+          "howToCover": {
+            "free": "freeCodeCamp's 4-hour SQL course on YouTube is the best free start. For Python, CS50P (Harvard's free Python course) or freeCodeCamp's Python for Data Science are both excellent.",
+            "paid": "Angela Yu's 100 Days of Code Python Bootcamp on Udemy (4.7★, 1M+ students) is the most comprehensive Python course — covers everything from basics to data science libraries."
+          },
+          "topics": [
+            "SQL",
+            "Python"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "SQL for Beginners – Full Course (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+              "type": "free",
+              "whyBest": "4+ hour full SQL course"
+            },
+            {
+              "name": "The Complete SQL Masterclass 2024 (Nikolai Schuler) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/the-complete-sql-masterclass/",
+              "type": "paid",
+              "whyBest": "4.6★, 15-day structured SQL path"
+            },
+            {
+              "name": "Python for Data Science (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=LHBE6Q9XlzI",
+              "type": "free",
+              "whyBest": "Python for data science fundamentals"
+            },
+            {
+              "name": "100 Days of Code: The Complete Python Pro Bootcamp (Angela Yu) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/100-days-of-code/",
+              "type": "paid",
+              "whyBest": "4.7★, 1M+ students, comprehensive Python mastery"
+            }
+          ]
+        },
+        {
+          "id": "data-engineering-tools",
+          "title": "Data Engineering Tools (Spark, Airflow, Kafka)",
+          "description": "Big data processing and orchestration tools",
+          "duration": "2-3 months",
+          "effort": "~50 hours over 5 weeks (each tool takes real practice time)",
+          "insight": "Spark jobs running on a 10-node cluster can process billions of rows in minutes — understanding partitioning and lazy evaluation is what makes the difference between a slow job and a fast one.",
+          "subtopics": ["Spark RDD vs DataFrame", "Spark SQL", "PySpark transformations", "Airflow DAGs and operators", "Kafka producers and consumers", "dbt models and tests", "Delta Lake basics", "Data warehouse concepts (star schema)"],
+          "howToCover": {
+            "free": "freeCodeCamp's Data Engineering Course for Beginners on YouTube covers Airflow, Spark, Kafka, and Docker in one 5-hour video. Databricks has free community learning for Spark.",
+            "paid": "Kiril Spiridonov's Data Engineering for Beginners with Python and SQL on Udemy provides a structured, project-driven path through all key tools."
+          },
+          "topics": [
+            "Apache Spark",
+            "Airflow",
+            "Kafka",
+            "dbt"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Data Engineering Course for Beginners (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=PHJE5Gj0QZE",
+              "type": "free",
+              "whyBest": "Covers databases, Docker, analytical engineering, Airflow, Spark, Kafka"
+            },
+            {
+              "name": "Data Engineering for Beginners with Python and SQL (Kiril Spiridonov) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/data-engineering-for-beginners-with-python-and-sql/",
+              "type": "paid",
+              "whyBest": "4.5★, solid foundation in data engineering with Python and SQL"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "SQL",
+        "Python",
+        "Spark",
+        "Hadoop"
+      ],
+      "communityInsights": [
+        "Industry data - Data Engineering is India's fastest-growing tech specialty by headcount. Companies like Flipkart, Swiggy, Zomato, and PhonePe consistently hire data engineers at a 20–30% premium over backend engineers with equivalent experience (Naukri HirePro, 2024).",
+        "Industry data - The modern data stack (dbt + Spark + Kafka + Airflow) has become the standard at Indian unicorns. Engineers who know all four tools are genuinely hard to find — that scarcity drives strong salary negotiation leverage."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "This is a quiet, high-paying niche. Less visual glory than Frontend, but critical for the business. Tradeoff: Debugging a Spark cluster at scale is a nightmare compared to fixing a CSS bug. Requires strong SQL and distributed systems mental models."
+    },
+    {
+      "id": "specialized-mobile",
+      "category": "Specialized",
+      "title": "Mobile Development",
+      "description": "Complete roadmap for Mobile Development (React Native / Android / iOS) in India",
+      "salaryFresher": "₹5-10 LPA",
+      "salarySenior": "₹18-40 LPA",
+      "timeline": "5-8 Months to master",
+      "modules": [
+        {
+          "id": "react-native",
+          "title": "React Native Basics",
+          "description": "Learn React Native for cross-platform mobile development",
+          "duration": "2-3 months",
+          "topics": [
+            "React Native",
+            "Expo",
+            "Navigation",
+            "State Management"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "React Native Tutorial for Beginners (Programming with Mosh) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+              "type": "free",
+              "whyBest": "Clear, beginner-friendly React Native tutorial"
+            },
+            {
+              "name": "React Native - The Practical Guide (Maximilian Schwarzmüller) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/react-native-the-practical-guide/",
+              "type": "paid",
+              "whyBest": "4.6★, 200k+ students, comprehensive React Native course"
+            }
+          ]
+        },
+        {
+          "id": "android-native",
+          "title": "Android Development (Kotlin)",
+          "description": "Native Android development with Kotlin",
+          "duration": "2-3 months",
+          "topics": [
+            "Kotlin",
+            "Android Studio",
+            "Jetpack Compose"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Kotlin Course for Beginners (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=F9UC9DY4lIU",
+              "type": "free",
+              "whyBest": "Comprehensive 3-hour Kotlin tutorial"
+            },
+            {
+              "name": "The Complete Android 14 & Kotlin Development Masterclass (Rob Percival) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/the-complete-android-oreo-developer-course/",
+              "type": "paid",
+              "whyBest": "4.5★, best-selling Android development course"
+            }
+          ]
+        },
+        {
+          "id": "ios-swift",
+          "title": "iOS Development (Swift)",
+          "description": "Native iOS development with Swift",
+          "duration": "2-3 months",
+          "topics": [
+            "Swift",
+            "UIKit",
+            "SwiftUI"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Swift Programming Tutorial for Beginners (CodeWithChris) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLMRqhzcHGw1ZqzYnpVAFLoKn6XhGjE1F3",
+              "type": "free",
+              "whyBest": "Popular Swift playlist for beginners"
+            },
+            {
+              "name": "iOS & Swift - The Complete iOS App Development Bootcamp (Angela Yu) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/ios-13-app-development-bootcamp/",
+              "type": "paid",
+              "whyBest": "4.7★, 400k+ students, the best iOS development course"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "React Native",
+        "Android/iOS context"
+      ],
+      "communityInsights": [
+        "Industry data - Mobile engineers are consistently in shortage relative to backend/frontend. Flutter and React Native roles have grown 35% year-over-year in Indian job postings as companies prioritize cross-platform shipping speed (LinkedIn India, 2024).",
+        "Industry data - Android Kotlin developers at product companies (Swiggy, CRED, Zepto) earn 15–20% above market rate due to persistent talent gaps. iOS Swift skills add further premium but the Android market is significantly larger in India."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 45
+        }
+      ],
+      "riskTradeoff": "Reliable track with consistent market demand. Tradeoff: Requires deep specialization in core modules to break into senior pay brackets."
+    },
+    {
+      "id": "ai-ml",
+      "category": "Specialized",
+      "title": "AI / Machine Learning Integration",
+      "description": "Essential AI/ML skills for modern software engineers",
+      "salaryFresher": "₹6-12 LPA",
+      "salarySenior": "₹25-50 LPA",
+      "timeline": "4-6 Months to master",
+      "modules": [
+        {
+          "id": "ml-basics",
+          "title": "Machine Learning Fundamentals",
+          "description": "Core ML concepts — statistics, algorithms, and hands-on model building with scikit-learn and Python.",
+          "duration": "2-3 months",
+          "effort": "~45 hours over 4–5 weeks",
+          "insight": "Most ML roles in India are not research roles — they're applied ML roles where you fine-tune models and serve predictions. Understanding the fundamentals lets you make informed choices about model selection.",
+          "subtopics": ["Linear and logistic regression", "Decision trees and Random Forest", "Train/test split and cross-validation", "Bias-variance tradeoff", "Gradient descent intuition", "scikit-learn pipelines", "Confusion matrix, ROC-AUC", "Feature engineering basics"],
+          "howToCover": {
+            "free": "freeCodeCamp's Machine Learning for Everybody on YouTube is the most beginner-friendly free ML introduction. Andrew Ng's Machine Learning Specialization on Coursera has a free audit option.",
+            "paid": "Kirill Eremenko's Machine Learning A-Z on Udemy (4.5★, 1M+ students) covers algorithms in both Python and R with hands-on projects — the most popular paid ML course in India."
+          },
+          "topics": [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Model Evaluation",
+            "Python ML Libraries"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Machine Learning for Everybody (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=i_LwzRVP7bg",
+              "type": "free",
+              "whyBest": "Beginner-friendly ML course"
+            },
+            {
+              "name": "Machine Learning A-Z: Hands-On Python & R In Data Science (Kirill Eremenko) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/machinelearning/",
+              "type": "paid",
+              "whyBest": "4.5★, 1M+ students, comprehensive ML hands-on"
+            }
+          ]
+        },
+        {
+          "id": "deep-learning",
+          "title": "Deep Learning & Neural Networks",
+          "description": "Neural network architectures, training loops, and deploying models with TensorFlow and PyTorch.",
+          "duration": "2-3 months",
+          "effort": "~50 hours over 5 weeks (deep learning rewards time investment)",
+          "insight": "PyTorch has surpassed TensorFlow in research and is rapidly becoming the standard at Indian product companies. Start with PyTorch if you want to be relevant in 2026+.",
+          "subtopics": ["Perceptron and activation functions", "Backpropagation intuition", "CNNs for image classification", "Transfer learning with pretrained models", "RNNs and LSTMs", "Transformers basics", "Training loop in PyTorch", "Model export (ONNX, TorchScript)"],
+          "howToCover": {
+            "free": "fast.ai's Practical Deep Learning for Coders (fast.ai/courses) is the best free deep learning course — top-down, practical, and respected worldwide. Also free on YouTube.",
+            "paid": "Kirill Eremenko's Deep Learning A-Z on Udemy (4.5★, 600k+ students) is the most structured paid path. The PyTorch track by Daniel Bourke (Udemy) is excellent if you prefer hands-on from day one."
+          },
+          "topics": [
+            "TensorFlow",
+            "PyTorch",
+            "CNNs",
+            "RNNs"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Deep Learning Crash Course (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=VyWAvY2CF9c",
+              "type": "free",
+              "whyBest": "Comprehensive deep learning intro"
+            },
+            {
+              "name": "Deep Learning A-Z 2024: Neural Networks, AI & ChatGPT (Kirill Eremenko) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/deeplearning/",
+              "type": "paid",
+              "whyBest": "4.5★, 600k+ students, top deep learning course"
+            }
+          ]
+        }
+      ],
+      "essentialSkills": [
+        "Python",
+        "Statistics",
+        "TensorFlow/PyTorch",
+        "Machine Learning algorithms"
+      ],
+      "communityInsights": [
+        "Industry data - AI/ML engineers with software engineering skills (not just research) are the most in-demand profiles at Indian product companies. Roles that combine ML knowledge with production deployment skills (MLOps) earn 40–60% above generic software engineer salaries (Levels.fyi India, 2024).",
+        "Industry data - The Indian AI/ML job market grew 85% YoY in 2023–24 (NASSCOM Tech Report). Companies like Google, Microsoft, Amazon, and Flipkart are all expanding AI teams in Bengaluru and Hyderabad significantly."
+      ],
+      "graphData": [
+        {
+          "name": "Core Base",
+          "min": 5,
+          "avg": 8,
+          "max": 15
+        },
+        {
+          "name": "Intermediate",
+          "min": 10,
+          "avg": 18,
+          "max": 30
+        },
+        {
+          "name": "Specialized",
+          "min": 20,
+          "avg": 40,
+          "max": 70
+        }
+      ],
+      "riskTradeoff": "High demand but requires strong math and data skills. Not for everyone, but highly rewarding."
+    },
+    {
+      "id": "backend-nodejs",
+      "category": "Specialized",
+      "title": "Node.js Backend Engineer",
+      "description": "Build scalable, production-grade REST APIs and microservices with Node.js, Express, and modern JavaScript/TypeScript.",
+      "salaryFresher": "₹5-9 LPA",
+      "salarySenior": "₹18-35 LPA",
+      "timeline": "4-6 Months to master",
+      "riskTradeoff": "Node.js shines at I/O-heavy, high-concurrency workloads (APIs, real-time apps). Single-threaded event loop is a superpower for most web use cases but a bottleneck for CPU-heavy tasks. Tradeoff: faster to prototype than Java but the ecosystem moves quickly — staying current requires effort.",
+      "communityInsights": [
+        "Industry data - Node.js is the most commonly used backend runtime at Indian startups and unicorns. Swiggy, CRED, Razorpay, and Zepto all run significant parts of their backend infrastructure on Node.js (public engineering blogs, 2024).",
+        "Industry data - TypeScript adoption in Node.js codebases jumped from 40% to 70% at product companies between 2022 and 2024. Candidates who know TypeScript + Node.js command 15–20% salary premium over JavaScript-only developers (LinkedIn India salary insights)."
+      ],
+      "graphData": [
+        { "name": "Core Base", "min": 4, "avg": 7, "max": 12 },
+        { "name": "Intermediate", "min": 8, "avg": 14, "max": 22 },
+        { "name": "Specialized", "min": 14, "avg": 25, "max": 40 }
+      ],
+      "essentialSkills": [
+        "JavaScript (ES2020+) and TypeScript",
+        "Node.js event loop and async patterns",
+        "Express.js / Fastify",
+        "REST API design",
+        "SQL and NoSQL databases",
+        "Docker and cloud deployment"
+      ],
+      "modules": [
+        {
+          "id": "js-typescript-core",
+          "title": "JavaScript & TypeScript Core",
+          "description": "You can't skip the fundamentals. Closures, the event loop, Promises, and async/await are the things every Node.js interview will test you on. TypeScript is now a job requirement, not a bonus.",
+          "duration": "4-6 weeks",
+          "effort": "~40 hours over 4 weeks",
+          "insight": "Understanding the V8 event loop and the difference between microtask and macrotask queues is what separates Node.js developers who can debug production issues from those who can't.",
+          "subtopics": ["Closures and scope", "Prototype chain", "async/await vs Promises", "Event loop phases", "TypeScript types, interfaces, generics", "tsconfig.json", "Decorators basics", "ES modules vs CommonJS"],
+          "howToCover": {
+            "free": "Jonas Schmedtmann's JavaScript course on YouTube (free excerpts) and the official TypeScript handbook (typescriptlang.org) are the best free resources. Node.js official docs are excellent for event loop deep dives.",
+            "paid": "Jonas Schmedtmann's Complete JavaScript Course on Udemy (4.8★, 1.5M+ students) is the definitive paid resource. For TypeScript, Matt Pocock's Total TypeScript on totaltypescript.com is the industry standard."
+          },
+          "topics": ["JavaScript ES2020+", "TypeScript", "async/await", "Event Loop", "Modules"],
+          "recommendedMaterials": [
+            {
+              "name": "JavaScript: Understanding the Weird Parts (Tony Alicea) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/understand-javascript/",
+              "type": "paid",
+              "whyBest": "4.7★, explains closures, prototypes, and the event loop better than any other course"
+            },
+            {
+              "name": "TypeScript Full Course for Beginners (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=30LWjhZzg50",
+              "type": "free",
+              "whyBest": "Comprehensive 5-hour TypeScript course, widely used as a free introduction"
+            }
+          ]
+        },
+        {
+          "id": "nodejs-express",
+          "title": "Node.js & Express.js",
+          "description": "The core runtime and the most widely used web framework. Build your first REST API, understand middleware chains, and learn proper error handling patterns.",
+          "duration": "4-6 weeks",
+          "effort": "~35 hours over 3–4 weeks",
+          "insight": "Express middleware is where most beginners get lost. Understanding how request/response flows through a middleware chain is fundamental — every production Node.js codebase is built on this mental model.",
+          "subtopics": ["Express router and middleware", "Request parsing (body, params, query)", "Custom error middleware", "MVC folder structure", "Environment variables with dotenv", "Rate limiting", "Cors configuration", "Helmet.js security headers"],
+          "howToCover": {
+            "free": "Traversy Media's Node.js crash course and Express.js series on YouTube are the best free starting point. The official Express.js docs (expressjs.com) are concise and well-structured for reference.",
+            "paid": "Jonas Schmedtmann's Node.js, Express, MongoDB Bootcamp on Udemy (4.7★, 500k+ students) is the gold standard — covers Express deeply before progressing to MongoDB and deployment."
+          },
+          "topics": ["Express.js", "Middleware", "REST API", "Error Handling", "MVC Pattern"],
+          "recommendedMaterials": [
+            {
+              "name": "Node.js Crash Course (Traversy Media) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
+              "type": "free",
+              "whyBest": "Best free intro to Node.js + Express for absolute beginners"
+            },
+            {
+              "name": "Node.js, Express, MongoDB & More: The Complete Bootcamp (Jonas Schmedtmann) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/",
+              "type": "paid",
+              "whyBest": "4.7★, 500k+ students, the most thorough Node.js backend course available"
+            }
+          ]
+        },
+        {
+          "id": "databases-node",
+          "title": "Databases: SQL & NoSQL",
+          "description": "Most Node.js projects use PostgreSQL for structured data and Redis for caching. MongoDB is popular at startups. Learn when to use which, and how to write efficient queries with ORMs.",
+          "duration": "3-4 weeks",
+          "effort": "~25 hours over 3 weeks",
+          "insight": "Choosing the wrong database or writing inefficient queries is the #1 source of production performance issues in Node.js apps. Understanding indexing and query planning will save you from 3 AM incidents.",
+          "subtopics": ["PostgreSQL basics and indexing", "Prisma ORM", "Mongoose ODM", "Redis caching patterns", "N+1 problem in ORMs", "Database transactions", "Connection pooling", "Query optimization with EXPLAIN"],
+          "howToCover": {
+            "free": "Prisma's official docs and tutorials (prisma.io/docs) are the best free resource for modern Node.js database access. Ben Awad's Prisma YouTube series is also highly recommended.",
+            "paid": "The Complete SQL Bootcamp by Jose Portilla on Udemy (4.6★) covers PostgreSQL thoroughly. Pair with the Jonas Node.js course which covers Mongoose in depth."
+          },
+          "topics": ["PostgreSQL", "Prisma ORM", "MongoDB / Mongoose", "Redis", "Transactions"],
+          "recommendedMaterials": [
+            {
+              "name": "SQL & PostgreSQL for Beginners (Jon Avis) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/sql-and-postgresql/",
+              "type": "paid",
+              "whyBest": "4.6★, teaches PostgreSQL specifically — the most common SQL DB in Node.js stacks"
+            },
+            {
+              "name": "Redis Crash Course (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=jgpVdJB2sKQ",
+              "type": "free",
+              "whyBest": "45-minute crash course covering caching patterns, pub/sub, and data structures"
+            }
+          ]
+        },
+        {
+          "id": "auth-security",
+          "title": "Authentication & Security",
+          "description": "JWT, OAuth2, session management, and securing APIs against OWASP Top 10. This is where most junior backend developers have the biggest knowledge gap.",
+          "duration": "2-3 weeks",
+          "effort": "~20 hours over 2 weeks",
+          "insight": "Authentication bugs are the most exploited vulnerabilities in production APIs. Understanding the difference between authentication and authorization — and implementing both correctly — is a senior-level signal in interviews.",
+          "subtopics": ["JWT structure and signing", "Refresh token rotation", "bcrypt password hashing", "OAuth2 flow (Google/GitHub login)", "RBAC (Role-Based Access Control)", "CSRF and XSS prevention", "Rate limiting per IP", "Input sanitization"],
+          "howToCover": {
+            "free": "Web Dev Simplified's JWT series on YouTube is the clearest free explanation of token-based auth. OWASP's official cheat sheets (cheatsheetseries.owasp.org) are the authoritative security reference.",
+            "paid": "Stephen Grider's Node with React: Fullstack Web Development on Udemy covers auth patterns in depth within real-world project context."
+          },
+          "topics": ["JWT", "OAuth2", "bcrypt", "RBAC", "OWASP Top 10"],
+          "recommendedMaterials": [
+            {
+              "name": "JWT Authentication (Web Dev Simplified) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=mbsmsi7l3r4",
+              "type": "free",
+              "whyBest": "Most watched free explanation of JWT auth in Node.js — clear and practical"
+            },
+            {
+              "name": "Complete Node.js Developer in 2024 (Zero to Mastery) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/complete-nodejs-developer-zero-to-mastery/",
+              "type": "paid",
+              "whyBest": "4.6★, covers security, auth, testing, and deployment comprehensively"
+            }
+          ]
+        },
+        {
+          "id": "deployment-nodejs",
+          "title": "Testing, Deployment & Production",
+          "description": "Write tests with Jest, containerize with Docker, and deploy to AWS or Railway. A backend engineer who can't deploy their own code is only half complete.",
+          "duration": "3-4 weeks",
+          "effort": "~25 hours over 3 weeks",
+          "insight": "Companies don't just want developers who can write code — they want engineers who own features from commit to production. Writing tests and deploying with CI/CD shows that ownership mindset.",
+          "subtopics": ["Unit testing with Jest", "Supertest for API testing", "Dockerfile for Node.js", "GitHub Actions CI/CD", "Environment secrets management", "PM2 process manager", "Horizontal scaling concepts", "Logging with Winston/Pino"],
+          "howToCover": {
+            "free": "TechWorld with Nana's Docker crash course covers containerization. The official Jest docs (jestjs.io) are well-written for learning test patterns. GitHub Actions has excellent free starter workflows.",
+            "paid": "The Zero to Mastery Node.js course covers testing and deployment end-to-end in a structured way. Pair with any Docker/K8s course if you want deeper infrastructure knowledge."
+          },
+          "topics": ["Jest testing", "Docker", "GitHub Actions", "PM2", "Logging"],
+          "recommendedMaterials": [
+            {
+              "name": "Jest Crash Course (Traversy Media) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=7r4xVDI2vho",
+              "type": "free",
+              "whyBest": "Concise, practical Jest tutorial covering unit and integration tests for APIs"
+            },
+            {
+              "name": "Docker & Kubernetes: The Complete Guide (Stephen Grider) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/",
+              "type": "paid",
+              "whyBest": "4.6★, 600k+ students — best containerization course for backend developers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frontend-react",
+      "category": "Specialized",
+      "title": "React Frontend Engineer",
+      "description": "Build fast, accessible, production-grade web UIs with React, TypeScript, and modern tooling. Learn state management, performance optimization, and the full frontend development lifecycle.",
+      "salaryFresher": "₹4-8 LPA",
+      "salarySenior": "₹15-30 LPA",
+      "timeline": "4-5 Months to master",
+      "riskTradeoff": "React dominates the Indian frontend job market but the ecosystem evolves rapidly. RSC (React Server Components) and Next.js are reshaping how React apps are built. Tradeoff: high job availability, but staying current requires continuous learning. Vue and Angular are legitimate alternatives, but React's job density in India is 3x larger.",
+      "communityInsights": [
+        "Industry data - React is listed in 78% of frontend job postings in India. TypeScript proficiency with React is now expected at product companies — candidates without it are filtered at the JD screening stage (Naukri.com job data analysis, 2024).",
+        "Industry data - Next.js adoption has grown from 30% to 60% of new React projects between 2022 and 2025. Knowing Next.js App Router, Server Components, and SSR/SSG patterns is rapidly becoming a differentiator rather than a bonus."
+      ],
+      "graphData": [
+        { "name": "Core Base", "min": 3, "avg": 6, "max": 10 },
+        { "name": "Intermediate", "min": 6, "avg": 12, "max": 20 },
+        { "name": "Specialized", "min": 12, "avg": 20, "max": 32 }
+      ],
+      "essentialSkills": [
+        "JavaScript (ES2020+) and TypeScript",
+        "React hooks and component patterns",
+        "State management (Zustand / Redux Toolkit)",
+        "Next.js (App Router)",
+        "CSS / Tailwind CSS",
+        "Testing with Vitest / React Testing Library"
+      ],
+      "modules": [
+        {
+          "id": "html-css-js",
+          "title": "HTML, CSS & JavaScript Fundamentals",
+          "description": "Before React, you must understand what React is abstracting. Learn the DOM, CSS layout models (Flexbox, Grid), and JavaScript ES2020+ syntax properly — not just enough to copy-paste.",
+          "duration": "4-6 weeks",
+          "effort": "~50 hours over 4–5 weeks",
+          "insight": "React developers who don't understand the DOM or how CSS cascades spend hours debugging issues that a solid fundamentals knowledge would solve in minutes.",
+          "subtopics": ["Semantic HTML5 elements", "CSS Box Model and specificity", "Flexbox and Grid layouts", "Responsive design (media queries)", "DOM manipulation", "Event handling", "Fetch API / XMLHttpRequest", "ES6+: destructuring, spread, optional chaining"],
+          "howToCover": {
+            "free": "The Odin Project (theodinproject.com) is the best structured free full-stack curriculum — their HTML/CSS/JS foundations are world-class. Kevin Powell's CSS YouTube channel is the go-to free CSS resource.",
+            "paid": "Jonas Schmedtmann's Complete JavaScript Course (4.8★, 1.5M+ students) covers modern JS comprehensively. Angela Yu's 100 Days of Code Bootcamp is broader but includes HTML/CSS well."
+          },
+          "topics": ["Semantic HTML", "CSS Flexbox & Grid", "JavaScript ES2020+", "DOM API", "Responsive Design"],
+          "recommendedMaterials": [
+            {
+              "name": "HTML & CSS Full Course (Dave Gray) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=mU6anWqZJcc",
+              "type": "free",
+              "whyBest": "11-hour comprehensive HTML/CSS course — one of the most complete free resources"
+            },
+            {
+              "name": "The Complete JavaScript Course 2024 (Jonas Schmedtmann) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/the-complete-javascript-course/",
+              "type": "paid",
+              "whyBest": "4.8★, 1.5M+ students — the most thorough modern JavaScript course available"
+            }
+          ]
+        },
+        {
+          "id": "react-core",
+          "title": "React Core Concepts",
+          "description": "Components, hooks, and the React rendering model. Most developers think they know React but misunderstand when re-renders happen — that misunderstanding causes most performance bugs.",
+          "duration": "4-6 weeks",
+          "effort": "~40 hours over 4 weeks",
+          "insight": "Understanding React's reconciliation algorithm and when to use useMemo/useCallback (and crucially, when NOT to) is a senior-level signal that sets you apart from developers who just memorize hook APIs.",
+          "subtopics": ["JSX and virtual DOM", "useState and useEffect", "useRef and useCallback", "useMemo for performance", "Custom hooks", "Context API", "React DevTools profiler", "Controlled vs uncontrolled components"],
+          "howToCover": {
+            "free": "The official React docs (react.dev) are excellent and interactive — they're the best free resource for learning modern React. Scrimba's free React course is also highly rated.",
+            "paid": "Jonas Schmedtmann's Ultimate React Course on Udemy (4.8★) is the best comprehensive paid React course — covers hooks, patterns, performance, and Next.js."
+          },
+          "topics": ["React Hooks", "Components", "State & Props", "Context API", "Custom Hooks"],
+          "recommendedMaterials": [
+            {
+              "name": "React Full Course (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=bMknfKXIFA8",
+              "type": "free",
+              "whyBest": "12-hour freeCodeCamp React course — covers all core concepts with hands-on projects"
+            },
+            {
+              "name": "The Ultimate React Course 2024 (Jonas Schmedtmann) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/the-ultimate-react-course/",
+              "type": "paid",
+              "whyBest": "4.8★ — covers React 18, hooks, patterns, performance, Redux, and Next.js in one course"
+            }
+          ]
+        },
+        {
+          "id": "state-management",
+          "title": "State Management & Data Fetching",
+          "description": "When to use local state, when to lift it, and when you actually need a global store. Also covers data-fetching patterns with React Query — which has replaced manual useEffect API calls in modern codebases.",
+          "duration": "3-4 weeks",
+          "effort": "~25 hours over 3 weeks",
+          "insight": "Most React performance problems come from wrong state placement. The rule of thumb: keep state as local as possible — only lift it or globalize it when you genuinely need to.",
+          "subtopics": ["Redux Toolkit (createSlice, createAsyncThunk)", "Zustand store patterns", "React Query (TanStack Query)", "Query caching and invalidation", "Optimistic updates", "useContext vs external store", "Jotai atoms", "SWR for simple cases"],
+          "howToCover": {
+            "free": "The official TanStack Query docs (tanstack.com/query) are excellent. Redux Toolkit's official tutorial on redux.js.org covers modern Redux without boilerplate. Both are free.",
+            "paid": "Jonas Schmedtmann's React course covers both Redux Toolkit and React Query. The Jonas course is the best single paid resource for these topics."
+          },
+          "topics": ["Redux Toolkit", "Zustand", "React Query (TanStack)", "SWR", "Global vs Local state"],
+          "recommendedMaterials": [
+            {
+              "name": "Redux Toolkit Tutorial (Dave Gray) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=NqzdVN2tyvQ",
+              "type": "free",
+              "whyBest": "Best free Redux Toolkit tutorial using modern patterns — no legacy Redux boilerplate"
+            },
+            {
+              "name": "React Query / TanStack Query Crash Course (Jack Herrington) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=novnyCaa7To",
+              "type": "free",
+              "whyBest": "Concise and practical TanStack Query introduction by one of React's best educators"
+            }
+          ]
+        },
+        {
+          "id": "nextjs-typescript",
+          "title": "Next.js & TypeScript",
+          "description": "Next.js App Router is the direction the React ecosystem is moving. Server Components, SSR, SSG, and the new data fetching patterns are rapidly becoming table stakes for React roles.",
+          "duration": "4-5 weeks",
+          "effort": "~35 hours over 4 weeks",
+          "insight": "Next.js knowledge directly adds to salary. Companies like Razorpay, CRED, and Zepto have migrated or are migrating to Next.js App Router — being proficient in it puts you ahead of candidates still on Pages Router.",
+          "subtopics": ["App Router vs Pages Router", "Server Components vs Client Components", "Loading and error boundaries", "Server Actions", "Metadata API for SEO", "Image and font optimization", "TypeScript with Next.js", "Middleware"],
+          "howToCover": {
+            "free": "The official Next.js docs (nextjs.org/learn) have an interactive course that's completely free and teaches App Router from scratch. It's the best starting point for Next.js, bar none.",
+            "paid": "Jonas Schmedtmann's Ultimate React Course covers Next.js App Router in depth. The Next.js 14 Bootcamp by Laith Harb on Udemy is another focused option."
+          },
+          "topics": ["Next.js App Router", "Server Components", "SSR / SSG / ISR", "TypeScript", "SEO with Metadata API"],
+          "recommendedMaterials": [
+            {
+              "name": "Next.js 14 Tutorial (Codevolution) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/playlist?list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI",
+              "type": "free",
+              "whyBest": "Most comprehensive free Next.js 14 App Router series — covers all patterns methodically"
+            },
+            {
+              "name": "Next.js 14 & React - The Complete Guide (Maximilian Schwarzmüller) – PAID",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/nextjs-react-the-complete-guide/",
+              "type": "paid",
+              "whyBest": "4.6★, 200k+ students — covers both App Router and Pages Router with real projects"
+            }
+          ]
+        },
+        {
+          "id": "performance-testing-react",
+          "title": "Performance, Testing & Deployment",
+          "description": "Profile and optimize React apps, write meaningful component tests, and deploy to Vercel or AWS. A complete frontend engineer owns the performance of their UI, not just its functionality.",
+          "duration": "3-4 weeks",
+          "effort": "~25 hours over 3 weeks",
+          "insight": "Core Web Vitals (LCP, CLS, INP) are now ranking signals in Google Search. A frontend engineer who understands performance optimization adds direct business value — that's why it commands a premium.",
+          "subtopics": ["React DevTools Profiler", "Code splitting with React.lazy", "Bundle analysis (Vite Bundle Analyzer)", "React Testing Library", "Vitest for unit tests", "Core Web Vitals (LCP, CLS, INP)", "Lighthouse audits", "Vercel / Netlify deployment"],
+          "howToCover": {
+            "free": "web.dev/learn (Google) is the authoritative free resource for Core Web Vitals and performance. The React Testing Library docs (testing-library.com) are excellent for learning component testing.",
+            "paid": "Steve Kinney's Frontend Masters courses on performance and testing are industry-respected. Alternatively, pair your React course with the testing sections in Zero to Mastery's React course."
+          },
+          "topics": ["React Profiler", "Code splitting", "React Testing Library", "Core Web Vitals", "Vercel deployment"],
+          "recommendedMaterials": [
+            {
+              "name": "React Testing Library Crash Course (freeCodeCamp) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=ML5egqL3YFE",
+              "type": "free",
+              "whyBest": "Best free intro to testing React components with React Testing Library and Jest"
+            },
+            {
+              "name": "React Performance Optimization (Jack Herrington) – FREE",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=shBZd6_l_vc",
+              "type": "free",
+              "whyBest": "Practical React memoization and performance patterns by a senior React engineer"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": "udemy-complete-js",
+      "roadmapId": "fullstack-mern",
+      "courseName": "The Complete JavaScript Course 2024",
+      "platform": "Udemy",
+      "instructor": "Jonas Schmedtmann",
+      "rating": 4.8,
+      "reviews": "200,000+",
+      "students": "1,500,000+",
+      "duration": "69 hours",
+      "price": "₹499-999",
+      "cheapestPrice": "₹349 (seasonal sale)",
+      "link": "https://www.udemy.com/course/the-complete-javascript-course/",
+      "certificate": "Udemy Certificate (recognized by startups)",
+      "whyBest": "Most comprehensive JavaScript course, constantly updated, excellent teaching",
+      "bestFor": "Complete beginners to advanced JavaScript",
+      "communityReview": "Best JavaScript course available, worth every rupee",
+      "completionTime": "69 hours",
+      "certificateValue": "Udemy Certificate (recognized by startups)",
+      "actualStudentReviews": "Best JavaScript course available, worth every rupee",
+      "alternativeFreeResources": "YouTube, official docs"
+    },
+    {
+      "id": "udemy-react-complete",
+      "roadmapId": "fullstack-mern",
+      "courseName": "React - The Complete Guide 2024",
+      "platform": "Udemy",
+      "instructor": "Maximilian Schwarzmüller",
+      "rating": 4.7,
+      "reviews": "180,000+",
+      "students": "1,200,000+",
+      "duration": "50+ hours",
+      "price": "₹499-999",
+      "cheapestPrice": "₹349 (seasonal sale)",
+      "link": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+      "certificate": "Udemy Certificate",
+      "whyBest": "Most popular React course, regularly updated with latest features",
+      "bestFor": "React beginners to advanced developers",
+      "communityReview": "Industry standard React course, highly recommended",
+      "completionTime": "50+ hours",
+      "certificateValue": "Udemy Certificate",
+      "actualStudentReviews": "Industry standard React course, highly recommended",
+      "alternativeFreeResources": "YouTube, official docs"
+    },
+    {
+      "id": "udemy-nodejs-express",
+      "roadmapId": "fullstack-mern",
+      "courseName": "The Complete Node.js Developer Course",
+      "platform": "Udemy",
+      "instructor": "Andrew Mead",
+      "rating": 4.7,
+      "reviews": "150,000+",
+      "students": "900,000+",
+      "duration": "40+ hours",
+      "price": "₹499-999",
+      "cheapestPrice": "₹349 (seasonal sale)",
+      "link": "https://www.udemy.com/course/the-complete-nodejs-developer-course-2/",
+      "certificate": "Udemy Certificate",
+      "whyBest": "Comprehensive Node.js and Express course with real projects",
+      "bestFor": "Backend development with Node.js",
+      "communityReview": "Best Node.js course for Indian developers",
+      "completionTime": "40+ hours",
+      "certificateValue": "Udemy Certificate",
+      "actualStudentReviews": "Best Node.js course for Indian developers",
+      "alternativeFreeResources": "YouTube, official docs"
+    },
+    {
+      "id": "udemy-mongodb",
+      "roadmapId": "fullstack-mern",
+      "courseName": "MongoDB - The Complete Developer's Guide",
+      "platform": "Udemy",
+      "instructor": "Maximilian Schwarzmüller",
+      "rating": 4.6,
+      "reviews": "80,000+",
+      "students": "500,000+",
+      "duration": "20+ hours",
+      "price": "₹499-999",
+      "cheapestPrice": "₹349 (seasonal sale)",
+      "link": "https://www.udemy.com/course/mongodb-the-complete-developers-guide/",
+      "certificate": "Udemy Certificate",
+      "whyBest": "Complete MongoDB guide with practical examples",
+      "bestFor": "Database design and MongoDB",
+      "communityReview": "Essential for MERN stack developers",
+      "completionTime": "20+ hours",
+      "certificateValue": "Udemy Certificate",
+      "actualStudentReviews": "Essential for MERN stack developers",
+      "alternativeFreeResources": "YouTube, official docs"
+    },
+    {
+      "id": "udemy-java-spring-boot",
+      "roadmapId": "backend-java",
+      "courseName": "Spring Boot 3 & Spring 6 with Hibernate for Beginners",
+      "platform": "Udemy",
+      "instructor": "Chad Darby",
+      "rating": 4.6,
+      "reviews": "89,000+",
+      "students": "440,000+",
+      "duration": "33+ hours",
+      "price": "₹499-999",
+      "cheapestPrice": "₹349 (seasonal sale)",
+      "link": "https://www.udemy.com/course/spring-boot-intro/",
+      "certificate": "Udemy Certificate",
+      "whyBest": "Best Spring Boot course, Chad responds to all questions",
+      "bestFor": "Spring Boot beginners and intermediate developers",
+      "communityReview": "Gold standard for Spring Boot in India",
+      "completionTime": "33+ hours",
+      "certificateValue": "Udemy Certificate",
+      "actualStudentReviews": "Gold standard for Spring Boot in India",
+      "alternativeFreeResources": "YouTube, official docs"
+    },
+    {
+      "id": "udemy-java-complete",
+      "roadmapId": "backend-java",
+      "courseName": "Complete Java Masterclass",
+      "platform": "Udemy",
+      "instructor": "Tim Buchalka",
+      "rating": 4.5,
+      "reviews": "120,000+",
+      "students": "800,000+",
+      "duration": "60+ hours",
+      "price": "₹499-999",
+      "cheapestPrice": "₹349 (seasonal sale)",
+      "link": "https://www.udemy.com/course/java-the-complete-java-developer-course/",
+      "certificate": "Udemy Certificate",
+      "whyBest": "Comprehensive Java course covering all fundamentals",
+      "bestFor": "Java beginners to intermediate",
+      "communityReview": "Best Java fundamentals course for Indians",
+      "completionTime": "60+ hours",
+      "certificateValue": "Udemy Certificate",
+      "actualStudentReviews": "Best Java fundamentals course for Indians",
+      "alternativeFreeResources": "YouTube, official docs"
+    },
+    {
+      "id": "udemy-aws-certified",
+      "roadmapId": "devops-aws",
+      "courseName": "Ultimate AWS Certified Solutions Architect Associate",
+      "platform": "Udemy",
+      "instructor": "Stephane Maarek",
+      "rating": 4.7,
+      "reviews": "200,000+",
+      "students": "1,000,000+",
+      "duration": "26+ hours",
+      "price": "₹499-999",
+      "cheapestPrice": "₹349 (seasonal sale)",
+      "link": "https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/",
+      "certificate": "Udemy Certificate + AWS Certification",
+      "whyBest": "Best AWS course with certification prep",
+      "bestFor": "AWS and DevOps learning",
+      "communityReview": "Must-do course for DevOps engineers in India",
+      "completionTime": "26+ hours",
+      "certificateValue": "Udemy Certificate + AWS Certification",
+      "actualStudentReviews": "Must-do course for DevOps engineers in India",
+      "alternativeFreeResources": "YouTube, official docs"
+    },
+    {
+      "id": "udemy-docker-kubernetes",
+      "roadmapId": "devops-aws",
+      "courseName": "Docker & Kubernetes: The Complete Guide",
+      "platform": "Udemy",
+      "instructor": "Stephen Grider",
+      "rating": 4.6,
+      "reviews": "100,000+",
+      "students": "600,000+",
+      "duration": "22+ hours",
+      "price": "₹499-999",
+      "cheapestPrice": "₹349 (seasonal sale)",
+      "link": "https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/",
+      "certificate": "Udemy Certificate",
+      "whyBest": "Complete Docker and Kubernetes guide with hands-on projects",
+      "bestFor": "Container and orchestration learning",
+      "communityReview": "Best Docker/Kubernetes course for beginners",
+      "completionTime": "22+ hours",
+      "certificateValue": "Udemy Certificate",
+      "actualStudentReviews": "Best Docker/Kubernetes course for beginners",
+      "alternativeFreeResources": "YouTube, official docs"
+    },
+    {
+      "id": "youtube-traversy-mern",
+      "roadmapId": "fullstack-mern",
+      "courseName": "MERN Stack Crash Course",
+      "platform": "YouTube",
+      "instructor": "Traversy Media",
+      "rating": 4.8,
+      "reviews": "Free",
+      "students": "500,000+ views",
+      "duration": "5-10 hours",
+      "price": "Free",
+      "cheapestPrice": "Free",
+      "link": "https://www.youtube.com/c/TraversyMedia",
+      "certificate": "None (but excellent learning)",
+      "whyBest": "Free, high-quality MERN content",
+      "bestFor": "Quick MERN overview and refresher",
+      "communityReview": "Best free MERN resource in India",
+      "completionTime": "5-10 hours",
+      "certificateValue": "None (but excellent learning)",
+      "actualStudentReviews": "Best free MERN resource in India",
+      "alternativeFreeResources": "YouTube, official docs"
+    },
+    {
+      "id": "leetcode-premium",
+      "roadmapId": "product-amazon",
+      "courseName": "LeetCode Premium",
+      "platform": "LeetCode",
+      "instructor": "LeetCode",
+      "rating": 4.7,
+      "reviews": "100,000+",
+      "students": "1,000,000+",
+      "duration": "Self-paced",
+      "price": "₹1,999/year (India)",
+      "cheapestPrice": "₹1,999/year",
+      "link": "https://leetcode.com/subscribe/",
+      "certificate": "None (but essential for interviews)",
+      "whyBest": "Essential for DSA and interview prep",
+      "bestFor": "Product company interview preparation",
+      "communityReview": "Must-have for Amazon/Google/Microsoft interviews",
+      "completionTime": "Self-paced",
+      "certificateValue": "None (but essential for interviews)",
+      "actualStudentReviews": "Must-have for Amazon/Google/Microsoft interviews",
+      "alternativeFreeResources": "YouTube, official docs"
+    },
+    {
+      "id": "youtube-kunal-kushwaha",
+      "roadmapId": "backend-java",
+      "courseName": "Java DSA + Interview Prep",
+      "platform": "YouTube",
+      "instructor": "Kunal Kushwaha",
+      "rating": 4.9,
+      "reviews": "Free",
+      "students": "1,000,000+ views",
+      "duration": "20+ hours",
+      "price": "Free",
+      "cheapestPrice": "Free",
+      "link": "https://www.youtube.com/c/KunalKushwaha",
+      "certificate": "None (but excellent learning)",
+      "whyBest": "Best free Java DSA content in India",
+      "bestFor": "Java and DSA learning",
+      "communityReview": "Kunal is a legend in Indian developer community",
+      "completionTime": "20+ hours",
+      "certificateValue": "None (but excellent learning)",
+      "actualStudentReviews": "Kunal is a legend in Indian developer community",
+      "alternativeFreeResources": "YouTube, official docs"
+    },
+    {
+      "id": "udemy-linux-mastery",
+      "roadmapId": "devops-aws",
+      "courseName": "Linux Mastery: Master the Linux Command Line in 11.5 Hours",
+      "platform": "Udemy",
+      "instructor": "Ziyad Yehia",
+      "rating": 4.6,
+      "reviews": "35,000+",
+      "students": "200,000+",
+      "duration": "11.5 hours",
+      "price": "₹499-999",
+      "cheapestPrice": "₹349 (seasonal sale)",
+      "link": "https://www.udemy.com/course/linux-mastery/",
+      "certificate": "Udemy Certificate",
+      "whyBest": "Best Linux admin course preparing for RHCSA, RHCE",
+      "bestFor": "Linux beginners to advanced system administration",
+      "communityReview": "Must for DevOps engineers, very practical",
+      "completionTime": "11.5 hours",
+      "certificateValue": "Udemy Certificate",
+      "actualStudentReviews": "Must for DevOps engineers, very practical",
+      "alternativeFreeResources": "freeCodeCamp Linux Crash Course"
+    },
+    {
+      "id": "udemy-jenkins-zero-to-hero",
+      "roadmapId": "devops-aws",
+      "courseName": "Jenkins, From Zero To Hero: Become a DevOps Jenkins Master",
+      "platform": "Udemy",
+      "instructor": "Ricardo Andre Gonzalez",
+      "rating": 4.5,
+      "reviews": "20,000+",
+      "students": "150,000+",
+      "duration": "12 hours",
+      "price": "₹499-999",
+      "cheapestPrice": "₹349 (seasonal sale)",
+      "link": "https://www.udemy.com/course/jenkins-from-zero-to-hero/",
+      "certificate": "Udemy Certificate",
+      "whyBest": "Comprehensive Jenkins CI/CD course with real pipelines",
+      "bestFor": "DevOps engineers learning CI/CD",
+      "communityReview": "Best Jenkins course, highly practical",
+      "completionTime": "12 hours",
+      "certificateValue": "Udemy Certificate",
+      "actualStudentReviews": "Best Jenkins course, highly practical",
+      "alternativeFreeResources": "TechWorld with Nana CI/CD tutorials"
+    },
+    {
+      "id": "udemy-terraform-gcp",
+      "roadmapId": "devops-aws",
+      "courseName": "Terraform for Beginners using GCP",
+      "platform": "Udemy",
+      "instructor": "Rahul",
+      "rating": 4.5,
+      "reviews": "15,000+",
+      "students": "100,000+",
+      "duration": "6 hours",
+      "price": "₹499-999",
+      "cheapestPrice": "₹349 (seasonal sale)",
+      "link": "https://www.udemy.com/course/terraform-for-beginners-using-gcp/",
+      "certificate": "Udemy Certificate",
+      "whyBest": "Hands-on Terraform course with labs",
+      "bestFor": "IaC beginners and DevOps engineers",
+      "communityReview": "Great start for Terraform, covers GCP well",
+      "completionTime": "6 hours",
+      "certificateValue": "Udemy Certificate",
+      "actualStudentReviews": "Great start for Terraform, covers GCP well",
+      "alternativeFreeResources": "Abhishek Veeramalla Terraform videos"
+    },
+    {
+      "id": "udemy-data-eng-python",
+      "roadmapId": "specialized-data-engineering",
+      "courseName": "Data Engineering for Beginners with Python and SQL",
+      "platform": "Udemy",
+      "instructor": "Kiril Spiridonov",
+      "rating": 4.5,
+      "reviews": "10,000+",
+      "students": "50,000+",
+      "duration": "9 hours",
+      "price": "₹499-999",
+      "cheapestPrice": "₹349 (seasonal sale)",
+      "link": "https://www.udemy.com/course/data-engineering-for-beginners-with-python-and-sql/",
+      "certificate": "Udemy Certificate",
+      "whyBest": "Solid foundation in data engineering with Python and SQL",
+      "bestFor": "Aspiring data engineers",
+      "communityReview": "Good starting point for data engineering",
+      "completionTime": "9 hours",
+      "certificateValue": "Udemy Certificate",
+      "actualStudentReviews": "Good starting point for data engineering",
+      "alternativeFreeResources": "freeCodeCamp Data Engineering Course"
+    },
+    {
+      "id": "udemy-ml-az",
+      "roadmapId": "ai-ml",
+      "courseName": "Machine Learning A-Z: Hands-On Python & R In Data Science",
+      "platform": "Udemy",
+      "instructor": "Kirill Eremenko",
+      "rating": 4.5,
+      "reviews": "190,000+",
+      "students": "1,000,000+",
+      "duration": "44 hours",
+      "price": "₹499-999",
+      "cheapestPrice": "₹349 (seasonal sale)",
+      "link": "https://www.udemy.com/course/machinelearning/",
+      "certificate": "Udemy Certificate",
+      "whyBest": "Comprehensive ML hands-on with Python and R",
+      "bestFor": "ML beginners and intermediate",
+      "communityReview": "Industry standard ML course",
+      "completionTime": "44 hours",
+      "certificateValue": "Udemy Certificate",
+      "actualStudentReviews": "Industry standard ML course",
+      "alternativeFreeResources": "freeCodeCamp Machine Learning for Everybody"
+    }
+  ]
+}
