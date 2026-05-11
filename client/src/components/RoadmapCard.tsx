@@ -1,4 +1,6 @@
-import { ArrowUpRight, BookOpen } from "lucide-react";
+import { BookOpen } from "lucide-react";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+import type { RealityCheck } from "@/types/database";
 
 interface RoadmapCardProps {
   title: string;
@@ -7,6 +9,7 @@ interface RoadmapCardProps {
   salaryFresher: string;
   salarySenior: string;
   tag?: string;
+  realityCheck?: RealityCheck;
   onClick: () => void;
 }
 
@@ -16,13 +19,14 @@ export function RoadmapCard({
   timeline,
   salaryFresher,
   salarySenior,
-  tag,
+  realityCheck,
   onClick,
 }: RoadmapCardProps) {
   return (
-    <div
+    <button
+      type="button"
       onClick={onClick}
-      className="group bg-white rounded-2xl p-8 border border-gray-100 border-l-4 border-l-[#1a7f4b] cursor-pointer transition-all duration-200 hover:shadow-xl"
+      className="group w-full text-left bg-white rounded-2xl p-8 border border-gray-100 border-l-4 border-l-[#1a7f4b] cursor-pointer transition-all duration-200 hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a7f4b]/40"
       style={{ boxShadow: "0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03)" }}
     >
       {/* Icon + timeline row */}
@@ -30,7 +34,25 @@ export function RoadmapCard({
         <div className="w-12 h-12 bg-green-50 rounded-xl flex items-center justify-center text-[#1a7f4b]">
           <BookOpen className="w-5 h-5" />
         </div>
-        <span className="text-xs font-bold text-gray-400">{timeline}</span>
+        <div className="flex items-center gap-2">
+          {realityCheck && (
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <span
+                  className="text-xs bg-amber-50 text-amber-700 border border-amber-200 rounded-full px-2 py-0.5 cursor-help"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  Reality Check
+                </span>
+              </TooltipTrigger>
+              <TooltipContent className="max-w-xs text-left" sideOffset={4}>
+                <p className="font-semibold mb-1">Market Reality</p>
+                <p className="text-xs opacity-90">{realityCheck.marketRelevance}</p>
+              </TooltipContent>
+            </Tooltip>
+          )}
+          <span className="text-xs font-bold text-gray-400">{timeline}</span>
+        </div>
       </div>
 
       {/* Title + description */}
@@ -48,6 +70,6 @@ export function RoadmapCard({
           <p className="font-bold text-gray-900">{salarySenior}</p>
         </div>
       </div>
-    </div>
+    </button>
   );
 }

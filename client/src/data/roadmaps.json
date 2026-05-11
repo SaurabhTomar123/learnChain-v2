@@ -1,4 +1,5 @@
 {
+  "version": "2.0",
   "roadmaps": [
     {
       "id": "service-tcs",
@@ -1013,6 +1014,29 @@
               "type": "paid",
               "whyBest": "4.8★, 1.5M+ students, the gold standard for JavaScript"
             }
+          ],
+          "realWorldProjects": [
+            {
+              "title": "Vanilla JS Kanban Board",
+              "description": "Build a drag-and-drop Kanban board using zero frameworks. Implement column creation, card CRUD, and localStorage persistence — pure HTML/CSS/JS.",
+              "difficulty": "beginner",
+              "type": "feature",
+              "requiredSkills": [
+                "Drag & Drop API",
+                "localStorage",
+                "ES6 modules",
+                "CSS Grid"
+              ],
+              "estimatedTime": "1 week",
+              "deliverable": "Deployed static page, works offline via localStorage",
+              "resource": [
+                {
+                  "title": "MDN Drag and Drop API",
+                  "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API",
+                  "type": "docs"
+                }
+              ]
+            }
           ]
         },
         {
@@ -1041,6 +1065,29 @@
               "link": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
               "type": "paid",
               "whyBest": "4.7★, 1.2M+ students, the industry standard React course"
+            }
+          ],
+          "realWorldProjects": [
+            {
+              "title": "HackerNews Clone in React",
+              "description": "Recreate the HackerNews feed using the official HN Firebase API. Implement infinite scroll, story type filters, and a comment thread viewer.",
+              "difficulty": "intermediate",
+              "type": "clone",
+              "requiredSkills": [
+                "React hooks",
+                "React Router",
+                "React Query",
+                "infinite scroll"
+              ],
+              "estimatedTime": "1–2 weeks",
+              "deliverable": "Deployed clone with responsive design and all HN story types supported",
+              "resource": [
+                {
+                  "title": "HN Firebase API",
+                  "url": "https://github.com/HackerNews/API",
+                  "type": "docs"
+                }
+              ]
             }
           ]
         },
@@ -1071,6 +1118,29 @@
               "type": "paid",
               "whyBest": "4.7★, comprehensive backend bootcamp with real projects"
             }
+          ],
+          "realWorldProjects": [
+            {
+              "title": "Slack-Lite Chat API",
+              "description": "Build a real-time chat backend with Express, Socket.io, and JWT auth. Support multiple rooms, message history, typing indicators, and online presence.",
+              "difficulty": "intermediate",
+              "type": "feature",
+              "requiredSkills": [
+                "Socket.io",
+                "Express",
+                "JWT",
+                "rooms/namespaces"
+              ],
+              "estimatedTime": "2 weeks",
+              "deliverable": "Working chat demo with ≥2 rooms, shown via postman + browser client",
+              "resource": [
+                {
+                  "title": "Socket.io Docs",
+                  "url": "https://socket.io/docs/v4/",
+                  "type": "docs"
+                }
+              ]
+            }
           ]
         },
         {
@@ -1100,6 +1170,29 @@
               "type": "paid",
               "whyBest": "4.6★, 500k+ students, essential for MERN stack developers"
             }
+          ],
+          "realWorldProjects": [
+            {
+              "title": "E-commerce Product Catalogue with MongoDB",
+              "description": "Design a MongoDB schema for a multi-vendor product catalogue. Implement full-text search with Atlas Search, faceted filtering, and aggregation pipelines for analytics.",
+              "difficulty": "intermediate",
+              "type": "feature",
+              "requiredSkills": [
+                "Mongoose",
+                "MongoDB aggregation",
+                "Atlas Search",
+                "indexing"
+              ],
+              "estimatedTime": "1–2 weeks",
+              "deliverable": "Atlas-hosted catalogue with search, filters, and a sales summary aggregate",
+              "resource": [
+                {
+                  "title": "MongoDB University M001",
+                  "url": "https://learn.mongodb.com/courses/m001-mongodb-basics",
+                  "type": "docs"
+                }
+              ]
+            }
           ]
         },
         {
@@ -1128,6 +1221,30 @@
               "link": "https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/",
               "type": "paid",
               "whyBest": "4.6★, 600k+ students, the best Docker/K8s course for beginners"
+            }
+          ],
+          "realWorldProjects": [
+            {
+              "title": "Full-Stack MERN App on Render/Railway",
+              "description": "Take the Slack-Lite or chat app and deploy the full stack: React on Vercel, Express + MongoDB Atlas backend on Render. Add health checks, env secrets, and a custom domain.",
+              "difficulty": "advanced",
+              "type": "simulation",
+              "requiredSkills": [
+                "Render / Railway",
+                "Vercel",
+                "MongoDB Atlas",
+                "env management",
+                "CORS"
+              ],
+              "estimatedTime": "1 week",
+              "deliverable": "Live HTTPS full-stack app, documented architecture diagram in README",
+              "resource": [
+                {
+                  "title": "Render Docs",
+                  "url": "https://render.com/docs",
+                  "type": "docs"
+                }
+              ]
             }
           ]
         }
@@ -1182,7 +1299,16 @@
           "duration": "2-3 months",
           "effort": "~40 hours over 4 weeks",
           "insight": "Java's verbosity is a feature, not a bug — it forces you to think in types and boundaries, which is exactly what enterprise codebases need.",
-          "subtopics": ["JVM internals", "Heap vs Stack", "Interfaces vs Abstract classes", "Generics", "HashMap internals", "Thread lifecycle", "synchronized keyword", "Comparable vs Comparator"],
+          "subtopics": [
+            "JVM internals",
+            "Heap vs Stack",
+            "Interfaces vs Abstract classes",
+            "Generics",
+            "HashMap internals",
+            "Thread lifecycle",
+            "synchronized keyword",
+            "Comparable vs Comparator"
+          ],
           "howToCover": {
             "free": "Start with Mosh Hamedani's free Java YouTube series — it explains OOP concepts visually. Supplement with Telusko's playlist for Collections deep-dive. Both are free and beginner-friendly.",
             "paid": "Tim Buchalka's Java Masterclass on Udemy (₹499 on sale) is the best single course — 800k+ students, covers Java 17, OOP, Generics, Collections, and Multithreading end-to-end."
@@ -1218,7 +1344,16 @@
           "duration": "2-3 months",
           "effort": "~35 hours over 3–4 weeks",
           "insight": "Almost every enterprise Java job in India uses Spring Boot. Knowing it well separates freshers from candidates who can contribute from day one.",
-          "subtopics": ["Bean lifecycle", "IoC container", "@Component vs @Bean", "Profiles", "Spring Security basics", "Spring Boot Actuator", "application.properties", "Embedded Tomcat"],
+          "subtopics": [
+            "Bean lifecycle",
+            "IoC container",
+            "@Component vs @Bean",
+            "Profiles",
+            "Spring Security basics",
+            "Spring Boot Actuator",
+            "application.properties",
+            "Embedded Tomcat"
+          ],
           "howToCover": {
             "free": "Java Brains YouTube channel has the most thorough free Spring Boot series. Amigoscode's Spring Boot full course is another solid free option. Watch both — each covers different angles.",
             "paid": "Chad Darby's Spring Boot 3 + Hibernate on Udemy (₹499) has 440k+ students and is the industry go-to for Indian developers learning Spring from scratch."
@@ -1254,7 +1389,16 @@
           "duration": "1-2 months",
           "effort": "~20 hours over 2 weeks",
           "insight": "The N+1 query problem is the most common performance bug in Indian enterprise apps. Learning @EntityGraph and fetch strategies will make you the smartest person in your team.",
-          "subtopics": ["@Entity and @Table", "One-to-many relationships", "Lazy vs Eager loading", "JPQL queries", "@NamedQuery", "Spring Data repositories", "Custom queries with @Query", "Transaction management"],
+          "subtopics": [
+            "@Entity and @Table",
+            "One-to-many relationships",
+            "Lazy vs Eager loading",
+            "JPQL queries",
+            "@NamedQuery",
+            "Spring Data repositories",
+            "Custom queries with @Query",
+            "Transaction management"
+          ],
           "howToCover": {
             "free": "Telusko's Hibernate playlist on YouTube is excellent and widely used in India. Supplement with Baeldung.com's JPA articles — they're the go-to free reference for JPA internals.",
             "paid": "Chad Darby's Spring & Hibernate for Beginners on Udemy covers both Spring and Hibernate together, which is how you'll use them in the real world. 4.6★, highly rated."
@@ -1290,7 +1434,16 @@
           "duration": "2-3 months",
           "effort": "~25 hours over 2–3 weeks",
           "insight": "Every backend job will ask you to design an API — understanding status codes, error envelopes, and pagination correctly is what separates a junior API from a production-ready one.",
-          "subtopics": ["HTTP status codes", "Request/response lifecycle", "@RestController", "DTO pattern", "Bean Validation (@Valid)", "Global exception handling", "Swagger/OpenAPI docs", "Pagination with Spring Data"],
+          "subtopics": [
+            "HTTP status codes",
+            "Request/response lifecycle",
+            "@RestController",
+            "DTO pattern",
+            "Bean Validation (@Valid)",
+            "Global exception handling",
+            "Swagger/OpenAPI docs",
+            "Pagination with Spring Data"
+          ],
           "howToCover": {
             "free": "Amigoscode's REST API with Spring Boot video on YouTube is the most practical free tutorial. The official Spring.io guides (spring.io/guides) are also excellent reference material.",
             "paid": "in28minutes' Master Microservices with Spring Boot on Udemy covers REST design deeply and progresses into microservices — good investment if you want to grow beyond monoliths."
@@ -1326,7 +1479,15 @@
           "duration": "1-2 months",
           "effort": "~20 hours over 2 weeks",
           "insight": "Knowing how to containerize your Spring Boot app and deploy it is the difference between being a backend developer and being a complete software engineer.",
-          "subtopics": ["Dockerfile for Java", "Multi-stage Docker builds", "docker-compose for local dev", "GitHub Actions CI/CD", "Spring Boot health endpoints", "Prometheus + Grafana basics", "Centralized logging with ELK"],
+          "subtopics": [
+            "Dockerfile for Java",
+            "Multi-stage Docker builds",
+            "docker-compose for local dev",
+            "GitHub Actions CI/CD",
+            "Spring Boot health endpoints",
+            "Prometheus + Grafana basics",
+            "Centralized logging with ELK"
+          ],
           "howToCover": {
             "free": "TechWorld with Nana's Docker Crash Course and Kubernetes Tutorial on YouTube are the best free DevOps resources. Both are concise and use real-world examples.",
             "paid": "Stephen Grider's Docker & Kubernetes: The Complete Guide on Udemy (4.6★, 600k+ students) covers everything from containers to production-grade deployments."
@@ -1406,7 +1567,16 @@
           "duration": "1-2 months",
           "effort": "~25 hours over 2 weeks",
           "insight": "Every cloud server runs Linux. You cannot work in DevOps without understanding the filesystem, process management, and basic shell scripting.",
-          "subtopics": ["File permissions (chmod/chown)", "grep, awk, sed", "cron jobs", "systemd services", "SSH and key-based auth", "Bash scripting basics", "Networking tools (netstat, curl, ping)", "Package management (apt/yum)"],
+          "subtopics": [
+            "File permissions (chmod/chown)",
+            "grep, awk, sed",
+            "cron jobs",
+            "systemd services",
+            "SSH and key-based auth",
+            "Bash scripting basics",
+            "Networking tools (netstat, curl, ping)",
+            "Package management (apt/yum)"
+          ],
           "howToCover": {
             "free": "freeCodeCamp's free Linux Crash Course on YouTube is comprehensive. For hands-on practice, use KillerCoda (free browser-based Linux labs) — no local setup needed.",
             "paid": "Linux Mastery by Ziyad Yehia on Udemy (4.6★) is the most structured Linux course for DevOps aspirants and prepares you for RHCSA certification too."
@@ -1442,7 +1612,16 @@
           "duration": "2-3 months",
           "effort": "~50 hours over 4–5 weeks (+ practice labs)",
           "insight": "AWS certifications are the fastest way to get a 30–40% salary bump in India's cloud market. Even the foundational SAA-C03 cert commands ₹3–5 LPA premium at product companies.",
-          "subtopics": ["EC2 instance types", "S3 storage classes", "IAM policies and roles", "VPC subnets and security groups", "RDS vs DynamoDB", "Lambda basics", "CloudWatch alarms", "Route 53 DNS"],
+          "subtopics": [
+            "EC2 instance types",
+            "S3 storage classes",
+            "IAM policies and roles",
+            "VPC subnets and security groups",
+            "RDS vs DynamoDB",
+            "Lambda basics",
+            "CloudWatch alarms",
+            "Route 53 DNS"
+          ],
           "howToCover": {
             "free": "Abhishek Veeramalla's 'AWS Zero to Hero' playlist on YouTube is the most recommended free AWS resource in Indian DevOps circles. Supplement with AWS's own free skill builder courses at aws.amazon.com/training.",
             "paid": "Stephane Maarek's Ultimate AWS Certified Solutions Architect Associate on Udemy (4.7★, 1M+ students) is the gold standard — it prepares you for the SAA-C03 exam and covers every service in depth."
@@ -1479,7 +1658,16 @@
           "duration": "1-2 months",
           "effort": "~20 hours over 1–2 weeks",
           "insight": "Docker is now a prerequisite, not a nice-to-have. Every modern deployment pipeline starts here — you can't progress to Kubernetes without fully understanding containers first.",
-          "subtopics": ["Dockerfile syntax", "Image layers and caching", "docker-compose.yml", "Volumes and bind mounts", "Networking between containers", "Multi-stage builds", "DockerHub and ECR registries", "Container resource limits"],
+          "subtopics": [
+            "Dockerfile syntax",
+            "Image layers and caching",
+            "docker-compose.yml",
+            "Volumes and bind mounts",
+            "Networking between containers",
+            "Multi-stage builds",
+            "DockerHub and ECR registries",
+            "Container resource limits"
+          ],
           "howToCover": {
             "free": "TechWorld with Nana's Docker Tutorial for Beginners is the single best free Docker resource — practical, well-paced, and covers Docker Compose too. Free on YouTube.",
             "paid": "Stephen Grider's Docker & Kubernetes Complete Guide on Udemy seamlessly bridges Docker into K8s — ideal if you're planning to learn both (which you should)."
@@ -1514,7 +1702,16 @@
           "duration": "2-3 months",
           "effort": "~45 hours over 4 weeks (K8s has a steep learning curve)",
           "insight": "K8s is the hardest skill on this list — but once you can deploy, scale, and troubleshoot a cluster, you become one of the most in-demand engineers in the market.",
-          "subtopics": ["Pods vs Deployments", "Services (ClusterIP, NodePort, LoadBalancer)", "ConfigMaps and Secrets", "Persistent Volumes", "Namespaces", "RBAC", "Helm charts", "Ingress controllers"],
+          "subtopics": [
+            "Pods vs Deployments",
+            "Services (ClusterIP, NodePort, LoadBalancer)",
+            "ConfigMaps and Secrets",
+            "Persistent Volumes",
+            "Namespaces",
+            "RBAC",
+            "Helm charts",
+            "Ingress controllers"
+          ],
           "howToCover": {
             "free": "TechWorld with Nana's 4-hour Kubernetes Tutorial on YouTube is the most-watched K8s resource for beginners. KillerCoda.com offers free browser-based K8s labs to practice without local setup.",
             "paid": "The same Stephen Grider Docker & Kubernetes course covers K8s in detail. For CKA exam prep, Mumshad Mannambeth's Certified Kubernetes Administrator course on Udemy is the top choice."
@@ -1550,7 +1747,16 @@
           "duration": "2-3 months",
           "effort": "~30 hours over 3 weeks",
           "insight": "A solid CI/CD pipeline is what turns a 'works on my machine' codebase into a production system. This skill directly impacts team velocity and is highly visible to senior engineers.",
-          "subtopics": ["GitHub Actions YAML syntax", "Pipeline stages (build/test/deploy)", "Jenkins jobs and pipelines", "Terraform init/plan/apply", "Remote state with S3", "Ansible playbooks", "ArgoCD basics", "Environment secrets management"],
+          "subtopics": [
+            "GitHub Actions YAML syntax",
+            "Pipeline stages (build/test/deploy)",
+            "Jenkins jobs and pipelines",
+            "Terraform init/plan/apply",
+            "Remote state with S3",
+            "Ansible playbooks",
+            "ArgoCD basics",
+            "Environment secrets management"
+          ],
           "howToCover": {
             "free": "TechWorld with Nana's CI/CD playlist on YouTube covers Jenkins, GitHub Actions, and GitLab CI in detail. The Terraform tutorial by FreeCodeCamp is a solid free starting point for IaC.",
             "paid": "Ricardo Gonzalez's Jenkins Zero to Hero on Udemy is the most structured Jenkins course. For Terraform, HashiCorp's own official learn.hashicorp.com tutorials are thorough and free."
@@ -2123,7 +2329,16 @@
           "duration": "2-3 months",
           "effort": "~40 hours over 4 weeks",
           "insight": "90% of data engineering interviews test SQL and Python. If you can write a complex window function and a Pandas pipeline confidently, you'll outperform most candidates.",
-          "subtopics": ["SELECT, JOIN, GROUP BY", "Window functions (ROW_NUMBER, LAG, LEAD)", "CTEs and subqueries", "Python data types and comprehensions", "Pandas DataFrames", "NumPy basics", "File I/O (CSV, JSON, Parquet)", "Virtual environments"],
+          "subtopics": [
+            "SELECT, JOIN, GROUP BY",
+            "Window functions (ROW_NUMBER, LAG, LEAD)",
+            "CTEs and subqueries",
+            "Python data types and comprehensions",
+            "Pandas DataFrames",
+            "NumPy basics",
+            "File I/O (CSV, JSON, Parquet)",
+            "Virtual environments"
+          ],
           "howToCover": {
             "free": "freeCodeCamp's 4-hour SQL course on YouTube is the best free start. For Python, CS50P (Harvard's free Python course) or freeCodeCamp's Python for Data Science are both excellent.",
             "paid": "Angela Yu's 100 Days of Code Python Bootcamp on Udemy (4.7★, 1M+ students) is the most comprehensive Python course — covers everything from basics to data science libraries."
@@ -2170,7 +2385,16 @@
           "duration": "2-3 months",
           "effort": "~50 hours over 5 weeks (each tool takes real practice time)",
           "insight": "Spark jobs running on a 10-node cluster can process billions of rows in minutes — understanding partitioning and lazy evaluation is what makes the difference between a slow job and a fast one.",
-          "subtopics": ["Spark RDD vs DataFrame", "Spark SQL", "PySpark transformations", "Airflow DAGs and operators", "Kafka producers and consumers", "dbt models and tests", "Delta Lake basics", "Data warehouse concepts (star schema)"],
+          "subtopics": [
+            "Spark RDD vs DataFrame",
+            "Spark SQL",
+            "PySpark transformations",
+            "Airflow DAGs and operators",
+            "Kafka producers and consumers",
+            "dbt models and tests",
+            "Delta Lake basics",
+            "Data warehouse concepts (star schema)"
+          ],
           "howToCover": {
             "free": "freeCodeCamp's Data Engineering Course for Beginners on YouTube covers Airflow, Spark, Kafka, and Docker in one 5-hour video. Databricks has free community learning for Spark.",
             "paid": "Kiril Spiridonov's Data Engineering for Beginners with Python and SQL on Udemy provides a structured, project-driven path through all key tools."
@@ -2369,7 +2593,16 @@
           "duration": "2-3 months",
           "effort": "~45 hours over 4–5 weeks",
           "insight": "Most ML roles in India are not research roles — they're applied ML roles where you fine-tune models and serve predictions. Understanding the fundamentals lets you make informed choices about model selection.",
-          "subtopics": ["Linear and logistic regression", "Decision trees and Random Forest", "Train/test split and cross-validation", "Bias-variance tradeoff", "Gradient descent intuition", "scikit-learn pipelines", "Confusion matrix, ROC-AUC", "Feature engineering basics"],
+          "subtopics": [
+            "Linear and logistic regression",
+            "Decision trees and Random Forest",
+            "Train/test split and cross-validation",
+            "Bias-variance tradeoff",
+            "Gradient descent intuition",
+            "scikit-learn pipelines",
+            "Confusion matrix, ROC-AUC",
+            "Feature engineering basics"
+          ],
           "howToCover": {
             "free": "freeCodeCamp's Machine Learning for Everybody on YouTube is the most beginner-friendly free ML introduction. Andrew Ng's Machine Learning Specialization on Coursera has a free audit option.",
             "paid": "Kirill Eremenko's Machine Learning A-Z on Udemy (4.5★, 1M+ students) covers algorithms in both Python and R with hands-on projects — the most popular paid ML course in India."
@@ -2404,7 +2637,16 @@
           "duration": "2-3 months",
           "effort": "~50 hours over 5 weeks (deep learning rewards time investment)",
           "insight": "PyTorch has surpassed TensorFlow in research and is rapidly becoming the standard at Indian product companies. Start with PyTorch if you want to be relevant in 2026+.",
-          "subtopics": ["Perceptron and activation functions", "Backpropagation intuition", "CNNs for image classification", "Transfer learning with pretrained models", "RNNs and LSTMs", "Transformers basics", "Training loop in PyTorch", "Model export (ONNX, TorchScript)"],
+          "subtopics": [
+            "Perceptron and activation functions",
+            "Backpropagation intuition",
+            "CNNs for image classification",
+            "Transfer learning with pretrained models",
+            "RNNs and LSTMs",
+            "Transformers basics",
+            "Training loop in PyTorch",
+            "Model export (ONNX, TorchScript)"
+          ],
           "howToCover": {
             "free": "fast.ai's Practical Deep Learning for Coders (fast.ai/courses) is the best free deep learning course — top-down, practical, and respected worldwide. Also free on YouTube.",
             "paid": "Kirill Eremenko's Deep Learning A-Z on Udemy (4.5★, 600k+ students) is the most structured paid path. The PyTorch track by Daniel Bourke (Udemy) is excellent if you prefer hands-on from day one."
@@ -2479,9 +2721,24 @@
         "Industry data - TypeScript adoption in Node.js codebases jumped from 40% to 70% at product companies between 2022 and 2024. Candidates who know TypeScript + Node.js command 15–20% salary premium over JavaScript-only developers (LinkedIn India salary insights)."
       ],
       "graphData": [
-        { "name": "Core Base", "min": 4, "avg": 7, "max": 12 },
-        { "name": "Intermediate", "min": 8, "avg": 14, "max": 22 },
-        { "name": "Specialized", "min": 14, "avg": 25, "max": 40 }
+        {
+          "name": "Core Base",
+          "min": 4,
+          "avg": 7,
+          "max": 12
+        },
+        {
+          "name": "Intermediate",
+          "min": 8,
+          "avg": 14,
+          "max": 22
+        },
+        {
+          "name": "Specialized",
+          "min": 14,
+          "avg": 25,
+          "max": 40
+        }
       ],
       "essentialSkills": [
         "JavaScript (ES2020+) and TypeScript",
@@ -2499,12 +2756,27 @@
           "duration": "4-6 weeks",
           "effort": "~40 hours over 4 weeks",
           "insight": "Understanding the V8 event loop and the difference between microtask and macrotask queues is what separates Node.js developers who can debug production issues from those who can't.",
-          "subtopics": ["Closures and scope", "Prototype chain", "async/await vs Promises", "Event loop phases", "TypeScript types, interfaces, generics", "tsconfig.json", "Decorators basics", "ES modules vs CommonJS"],
+          "subtopics": [
+            "Closures and scope",
+            "Prototype chain",
+            "async/await vs Promises",
+            "Event loop phases",
+            "TypeScript types, interfaces, generics",
+            "tsconfig.json",
+            "Decorators basics",
+            "ES modules vs CommonJS"
+          ],
           "howToCover": {
             "free": "Jonas Schmedtmann's JavaScript course on YouTube (free excerpts) and the official TypeScript handbook (typescriptlang.org) are the best free resources. Node.js official docs are excellent for event loop deep dives.",
             "paid": "Jonas Schmedtmann's Complete JavaScript Course on Udemy (4.8★, 1.5M+ students) is the definitive paid resource. For TypeScript, Matt Pocock's Total TypeScript on totaltypescript.com is the industry standard."
           },
-          "topics": ["JavaScript ES2020+", "TypeScript", "async/await", "Event Loop", "Modules"],
+          "topics": [
+            "JavaScript ES2020+",
+            "TypeScript",
+            "async/await",
+            "Event Loop",
+            "Modules"
+          ],
           "recommendedMaterials": [
             {
               "name": "JavaScript: Understanding the Weird Parts (Tony Alicea) – PAID",
@@ -2520,6 +2792,29 @@
               "type": "free",
               "whyBest": "Comprehensive 5-hour TypeScript course, widely used as a free introduction"
             }
+          ],
+          "realWorldProjects": [
+            {
+              "title": "TypeScript CLI Todo Manager",
+              "description": "Build a command-line todo app in TypeScript with file-based persistence (JSON). Include strict types, input validation with Zod, and automated tests with Vitest.",
+              "difficulty": "beginner",
+              "type": "feature",
+              "requiredSkills": [
+                "TypeScript strict mode",
+                "Zod",
+                "Node fs module",
+                "Vitest"
+              ],
+              "estimatedTime": "1 week",
+              "deliverable": "Published npm package or GitHub repo with README, tests passing in CI",
+              "resource": [
+                {
+                  "title": "TypeScript Handbook",
+                  "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+                  "type": "docs"
+                }
+              ]
+            }
           ]
         },
         {
@@ -2529,12 +2824,27 @@
           "duration": "4-6 weeks",
           "effort": "~35 hours over 3–4 weeks",
           "insight": "Express middleware is where most beginners get lost. Understanding how request/response flows through a middleware chain is fundamental — every production Node.js codebase is built on this mental model.",
-          "subtopics": ["Express router and middleware", "Request parsing (body, params, query)", "Custom error middleware", "MVC folder structure", "Environment variables with dotenv", "Rate limiting", "Cors configuration", "Helmet.js security headers"],
+          "subtopics": [
+            "Express router and middleware",
+            "Request parsing (body, params, query)",
+            "Custom error middleware",
+            "MVC folder structure",
+            "Environment variables with dotenv",
+            "Rate limiting",
+            "Cors configuration",
+            "Helmet.js security headers"
+          ],
           "howToCover": {
             "free": "Traversy Media's Node.js crash course and Express.js series on YouTube are the best free starting point. The official Express.js docs (expressjs.com) are concise and well-structured for reference.",
             "paid": "Jonas Schmedtmann's Node.js, Express, MongoDB Bootcamp on Udemy (4.7★, 500k+ students) is the gold standard — covers Express deeply before progressing to MongoDB and deployment."
           },
-          "topics": ["Express.js", "Middleware", "REST API", "Error Handling", "MVC Pattern"],
+          "topics": [
+            "Express.js",
+            "Middleware",
+            "REST API",
+            "Error Handling",
+            "MVC Pattern"
+          ],
           "recommendedMaterials": [
             {
               "name": "Node.js Crash Course (Traversy Media) – FREE",
@@ -2550,6 +2860,29 @@
               "type": "paid",
               "whyBest": "4.7★, 500k+ students, the most thorough Node.js backend course available"
             }
+          ],
+          "realWorldProjects": [
+            {
+              "title": "REST API for a Blog",
+              "description": "Build a full CRUD REST API with Express and PostgreSQL (or SQLite). Implement request validation, error handling middleware, and OpenAPI docs via Swagger.",
+              "difficulty": "beginner",
+              "type": "feature",
+              "requiredSkills": [
+                "Express.js",
+                "PostgreSQL/SQLite",
+                "Middleware",
+                "OpenAPI/Swagger"
+              ],
+              "estimatedTime": "1–2 weeks",
+              "deliverable": "Running API with Swagger UI, at least 10 tested endpoints",
+              "resource": [
+                {
+                  "title": "Express.js Guide",
+                  "url": "https://expressjs.com/en/guide/routing.html",
+                  "type": "docs"
+                }
+              ]
+            }
           ]
         },
         {
@@ -2559,12 +2892,27 @@
           "duration": "3-4 weeks",
           "effort": "~25 hours over 3 weeks",
           "insight": "Choosing the wrong database or writing inefficient queries is the #1 source of production performance issues in Node.js apps. Understanding indexing and query planning will save you from 3 AM incidents.",
-          "subtopics": ["PostgreSQL basics and indexing", "Prisma ORM", "Mongoose ODM", "Redis caching patterns", "N+1 problem in ORMs", "Database transactions", "Connection pooling", "Query optimization with EXPLAIN"],
+          "subtopics": [
+            "PostgreSQL basics and indexing",
+            "Prisma ORM",
+            "Mongoose ODM",
+            "Redis caching patterns",
+            "N+1 problem in ORMs",
+            "Database transactions",
+            "Connection pooling",
+            "Query optimization with EXPLAIN"
+          ],
           "howToCover": {
             "free": "Prisma's official docs and tutorials (prisma.io/docs) are the best free resource for modern Node.js database access. Ben Awad's Prisma YouTube series is also highly recommended.",
             "paid": "The Complete SQL Bootcamp by Jose Portilla on Udemy (4.6★) covers PostgreSQL thoroughly. Pair with the Jonas Node.js course which covers Mongoose in depth."
           },
-          "topics": ["PostgreSQL", "Prisma ORM", "MongoDB / Mongoose", "Redis", "Transactions"],
+          "topics": [
+            "PostgreSQL",
+            "Prisma ORM",
+            "MongoDB / Mongoose",
+            "Redis",
+            "Transactions"
+          ],
           "recommendedMaterials": [
             {
               "name": "SQL & PostgreSQL for Beginners (Jon Avis) – PAID",
@@ -2580,6 +2928,29 @@
               "type": "free",
               "whyBest": "45-minute crash course covering caching patterns, pub/sub, and data structures"
             }
+          ],
+          "realWorldProjects": [
+            {
+              "title": "Real-Time Leaderboard with Redis",
+              "description": "Build a game leaderboard using Redis sorted sets. Track scores, fetch top-N players, and add an Express API layer. Include a React mini-frontend.",
+              "difficulty": "intermediate",
+              "type": "feature",
+              "requiredSkills": [
+                "Redis sorted sets",
+                "ioredis",
+                "Express",
+                "Pub/Sub"
+              ],
+              "estimatedTime": "1–2 weeks",
+              "deliverable": "Demo with 3 simulated users updating scores in real time via WebSocket",
+              "resource": [
+                {
+                  "title": "Redis University: Redis for Node.js",
+                  "url": "https://university.redis.com/",
+                  "type": "docs"
+                }
+              ]
+            }
           ]
         },
         {
@@ -2589,12 +2960,27 @@
           "duration": "2-3 weeks",
           "effort": "~20 hours over 2 weeks",
           "insight": "Authentication bugs are the most exploited vulnerabilities in production APIs. Understanding the difference between authentication and authorization — and implementing both correctly — is a senior-level signal in interviews.",
-          "subtopics": ["JWT structure and signing", "Refresh token rotation", "bcrypt password hashing", "OAuth2 flow (Google/GitHub login)", "RBAC (Role-Based Access Control)", "CSRF and XSS prevention", "Rate limiting per IP", "Input sanitization"],
+          "subtopics": [
+            "JWT structure and signing",
+            "Refresh token rotation",
+            "bcrypt password hashing",
+            "OAuth2 flow (Google/GitHub login)",
+            "RBAC (Role-Based Access Control)",
+            "CSRF and XSS prevention",
+            "Rate limiting per IP",
+            "Input sanitization"
+          ],
           "howToCover": {
             "free": "Web Dev Simplified's JWT series on YouTube is the clearest free explanation of token-based auth. OWASP's official cheat sheets (cheatsheetseries.owasp.org) are the authoritative security reference.",
             "paid": "Stephen Grider's Node with React: Fullstack Web Development on Udemy covers auth patterns in depth within real-world project context."
           },
-          "topics": ["JWT", "OAuth2", "bcrypt", "RBAC", "OWASP Top 10"],
+          "topics": [
+            "JWT",
+            "OAuth2",
+            "bcrypt",
+            "RBAC",
+            "OWASP Top 10"
+          ],
           "recommendedMaterials": [
             {
               "name": "JWT Authentication (Web Dev Simplified) – FREE",
@@ -2610,6 +2996,29 @@
               "type": "paid",
               "whyBest": "4.6★, covers security, auth, testing, and deployment comprehensively"
             }
+          ],
+          "realWorldProjects": [
+            {
+              "title": "Auth Microservice with JWT + Refresh Tokens",
+              "description": "Implement a stateless auth system: JWT access tokens (15 min expiry), refresh token rotation stored in httpOnly cookies, and rate-limiting on login endpoints.",
+              "difficulty": "intermediate",
+              "type": "ticket",
+              "requiredSkills": [
+                "JWT",
+                "bcrypt",
+                "httpOnly cookies",
+                "express-rate-limit"
+              ],
+              "estimatedTime": "1–2 weeks",
+              "deliverable": "Postman collection demonstrating token rotation and brute-force protection",
+              "resource": [
+                {
+                  "title": "OWASP Authentication Cheat Sheet",
+                  "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
+                  "type": "docs"
+                }
+              ]
+            }
           ]
         },
         {
@@ -2619,12 +3028,27 @@
           "duration": "3-4 weeks",
           "effort": "~25 hours over 3 weeks",
           "insight": "Companies don't just want developers who can write code — they want engineers who own features from commit to production. Writing tests and deploying with CI/CD shows that ownership mindset.",
-          "subtopics": ["Unit testing with Jest", "Supertest for API testing", "Dockerfile for Node.js", "GitHub Actions CI/CD", "Environment secrets management", "PM2 process manager", "Horizontal scaling concepts", "Logging with Winston/Pino"],
+          "subtopics": [
+            "Unit testing with Jest",
+            "Supertest for API testing",
+            "Dockerfile for Node.js",
+            "GitHub Actions CI/CD",
+            "Environment secrets management",
+            "PM2 process manager",
+            "Horizontal scaling concepts",
+            "Logging with Winston/Pino"
+          ],
           "howToCover": {
             "free": "TechWorld with Nana's Docker crash course covers containerization. The official Jest docs (jestjs.io) are well-written for learning test patterns. GitHub Actions has excellent free starter workflows.",
             "paid": "The Zero to Mastery Node.js course covers testing and deployment end-to-end in a structured way. Pair with any Docker/K8s course if you want deeper infrastructure knowledge."
           },
-          "topics": ["Jest testing", "Docker", "GitHub Actions", "PM2", "Logging"],
+          "topics": [
+            "Jest testing",
+            "Docker",
+            "GitHub Actions",
+            "PM2",
+            "Logging"
+          ],
           "recommendedMaterials": [
             {
               "name": "Jest Crash Course (Traversy Media) – FREE",
@@ -2639,6 +3063,29 @@
               "link": "https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/",
               "type": "paid",
               "whyBest": "4.6★, 600k+ students — best containerization course for backend developers"
+            }
+          ],
+          "realWorldProjects": [
+            {
+              "title": "Containerised Node API on AWS",
+              "description": "Dockerise the blog API, push to ECR, and deploy to ECS Fargate behind an ALB. Add a GitHub Actions CI/CD pipeline that runs tests and redeploys on merge to main.",
+              "difficulty": "advanced",
+              "type": "simulation",
+              "requiredSkills": [
+                "Docker",
+                "AWS ECR/ECS/ALB",
+                "GitHub Actions",
+                "environment secrets"
+              ],
+              "estimatedTime": "2–3 weeks",
+              "deliverable": "Live HTTPS endpoint on AWS with automated deployment pipeline",
+              "resource": [
+                {
+                  "title": "AWS ECS Developer Guide",
+                  "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html",
+                  "type": "docs"
+                }
+              ]
             }
           ]
         }
@@ -2658,9 +3105,24 @@
         "Industry data - Next.js adoption has grown from 30% to 60% of new React projects between 2022 and 2025. Knowing Next.js App Router, Server Components, and SSR/SSG patterns is rapidly becoming a differentiator rather than a bonus."
       ],
       "graphData": [
-        { "name": "Core Base", "min": 3, "avg": 6, "max": 10 },
-        { "name": "Intermediate", "min": 6, "avg": 12, "max": 20 },
-        { "name": "Specialized", "min": 12, "avg": 20, "max": 32 }
+        {
+          "name": "Core Base",
+          "min": 3,
+          "avg": 6,
+          "max": 10
+        },
+        {
+          "name": "Intermediate",
+          "min": 6,
+          "avg": 12,
+          "max": 20
+        },
+        {
+          "name": "Specialized",
+          "min": 12,
+          "avg": 20,
+          "max": 32
+        }
       ],
       "essentialSkills": [
         "JavaScript (ES2020+) and TypeScript",
@@ -2678,12 +3140,27 @@
           "duration": "4-6 weeks",
           "effort": "~50 hours over 4–5 weeks",
           "insight": "React developers who don't understand the DOM or how CSS cascades spend hours debugging issues that a solid fundamentals knowledge would solve in minutes.",
-          "subtopics": ["Semantic HTML5 elements", "CSS Box Model and specificity", "Flexbox and Grid layouts", "Responsive design (media queries)", "DOM manipulation", "Event handling", "Fetch API / XMLHttpRequest", "ES6+: destructuring, spread, optional chaining"],
+          "subtopics": [
+            "Semantic HTML5 elements",
+            "CSS Box Model and specificity",
+            "Flexbox and Grid layouts",
+            "Responsive design (media queries)",
+            "DOM manipulation",
+            "Event handling",
+            "Fetch API / XMLHttpRequest",
+            "ES6+: destructuring, spread, optional chaining"
+          ],
           "howToCover": {
             "free": "The Odin Project (theodinproject.com) is the best structured free full-stack curriculum — their HTML/CSS/JS foundations are world-class. Kevin Powell's CSS YouTube channel is the go-to free CSS resource.",
             "paid": "Jonas Schmedtmann's Complete JavaScript Course (4.8★, 1.5M+ students) covers modern JS comprehensively. Angela Yu's 100 Days of Code Bootcamp is broader but includes HTML/CSS well."
           },
-          "topics": ["Semantic HTML", "CSS Flexbox & Grid", "JavaScript ES2020+", "DOM API", "Responsive Design"],
+          "topics": [
+            "Semantic HTML",
+            "CSS Flexbox & Grid",
+            "JavaScript ES2020+",
+            "DOM API",
+            "Responsive Design"
+          ],
           "recommendedMaterials": [
             {
               "name": "HTML & CSS Full Course (Dave Gray) – FREE",
@@ -2699,6 +3176,28 @@
               "type": "paid",
               "whyBest": "4.8★, 1.5M+ students — the most thorough modern JavaScript course available"
             }
+          ],
+          "realWorldProjects": [
+            {
+              "title": "Personal Portfolio Site",
+              "description": "Build a responsive portfolio using only HTML, CSS, and vanilla JS. Include dark mode toggle, animated hero, and contact form validation.",
+              "difficulty": "beginner",
+              "type": "feature",
+              "requiredSkills": [
+                "HTML5 semantics",
+                "CSS Flexbox/Grid",
+                "DOM manipulation"
+              ],
+              "estimatedTime": "1–2 weeks",
+              "deliverable": "Deployed static site on Netlify/Vercel with Lighthouse score ≥ 90",
+              "resource": [
+                {
+                  "title": "The Odin Project: Foundations",
+                  "url": "https://www.theodinproject.com/paths/foundations",
+                  "type": "docs"
+                }
+              ]
+            }
           ]
         },
         {
@@ -2708,12 +3207,27 @@
           "duration": "4-6 weeks",
           "effort": "~40 hours over 4 weeks",
           "insight": "Understanding React's reconciliation algorithm and when to use useMemo/useCallback (and crucially, when NOT to) is a senior-level signal that sets you apart from developers who just memorize hook APIs.",
-          "subtopics": ["JSX and virtual DOM", "useState and useEffect", "useRef and useCallback", "useMemo for performance", "Custom hooks", "Context API", "React DevTools profiler", "Controlled vs uncontrolled components"],
+          "subtopics": [
+            "JSX and virtual DOM",
+            "useState and useEffect",
+            "useRef and useCallback",
+            "useMemo for performance",
+            "Custom hooks",
+            "Context API",
+            "React DevTools profiler",
+            "Controlled vs uncontrolled components"
+          ],
           "howToCover": {
             "free": "The official React docs (react.dev) are excellent and interactive — they're the best free resource for learning modern React. Scrimba's free React course is also highly rated.",
             "paid": "Jonas Schmedtmann's Ultimate React Course on Udemy (4.8★) is the best comprehensive paid React course — covers hooks, patterns, performance, and Next.js."
           },
-          "topics": ["React Hooks", "Components", "State & Props", "Context API", "Custom Hooks"],
+          "topics": [
+            "React Hooks",
+            "Components",
+            "State & Props",
+            "Context API",
+            "Custom Hooks"
+          ],
           "recommendedMaterials": [
             {
               "name": "React Full Course (freeCodeCamp) – FREE",
@@ -2729,6 +3243,29 @@
               "type": "paid",
               "whyBest": "4.8★ — covers React 18, hooks, patterns, performance, Redux, and Next.js in one course"
             }
+          ],
+          "realWorldProjects": [
+            {
+              "title": "GitHub User Search App",
+              "description": "Fetch and display GitHub user profiles using the public API. Implement debounced search, pagination, and skeleton loading states using React functional components.",
+              "difficulty": "beginner",
+              "type": "feature",
+              "requiredSkills": [
+                "React hooks",
+                "useEffect",
+                "fetch API",
+                "conditional rendering"
+              ],
+              "estimatedTime": "1 week",
+              "deliverable": "Deployed React app showing search results with proper loading/error states",
+              "resource": [
+                {
+                  "title": "GitHub REST API Docs",
+                  "url": "https://docs.github.com/en/rest",
+                  "type": "docs"
+                }
+              ]
+            }
           ]
         },
         {
@@ -2738,12 +3275,27 @@
           "duration": "3-4 weeks",
           "effort": "~25 hours over 3 weeks",
           "insight": "Most React performance problems come from wrong state placement. The rule of thumb: keep state as local as possible — only lift it or globalize it when you genuinely need to.",
-          "subtopics": ["Redux Toolkit (createSlice, createAsyncThunk)", "Zustand store patterns", "React Query (TanStack Query)", "Query caching and invalidation", "Optimistic updates", "useContext vs external store", "Jotai atoms", "SWR for simple cases"],
+          "subtopics": [
+            "Redux Toolkit (createSlice, createAsyncThunk)",
+            "Zustand store patterns",
+            "React Query (TanStack Query)",
+            "Query caching and invalidation",
+            "Optimistic updates",
+            "useContext vs external store",
+            "Jotai atoms",
+            "SWR for simple cases"
+          ],
           "howToCover": {
             "free": "The official TanStack Query docs (tanstack.com/query) are excellent. Redux Toolkit's official tutorial on redux.js.org covers modern Redux without boilerplate. Both are free.",
             "paid": "Jonas Schmedtmann's React course covers both Redux Toolkit and React Query. The Jonas course is the best single paid resource for these topics."
           },
-          "topics": ["Redux Toolkit", "Zustand", "React Query (TanStack)", "SWR", "Global vs Local state"],
+          "topics": [
+            "Redux Toolkit",
+            "Zustand",
+            "React Query (TanStack)",
+            "SWR",
+            "Global vs Local state"
+          ],
           "recommendedMaterials": [
             {
               "name": "Redux Toolkit Tutorial (Dave Gray) – FREE",
@@ -2759,6 +3311,29 @@
               "type": "free",
               "whyBest": "Concise and practical TanStack Query introduction by one of React's best educators"
             }
+          ],
+          "realWorldProjects": [
+            {
+              "title": "Shopping Cart with Zustand",
+              "description": "Build a product listing and cart flow. Implement global cart state with Zustand, optimistic UI updates, and persist cart to localStorage.",
+              "difficulty": "intermediate",
+              "type": "feature",
+              "requiredSkills": [
+                "Zustand",
+                "React Query",
+                "localStorage",
+                "TypeScript generics"
+              ],
+              "estimatedTime": "1–2 weeks",
+              "deliverable": "Fully functional cart with add/remove/quantity, persistent across refreshes",
+              "resource": [
+                {
+                  "title": "Zustand Docs",
+                  "url": "https://docs.pmnd.rs/zustand/getting-started/introduction",
+                  "type": "docs"
+                }
+              ]
+            }
           ]
         },
         {
@@ -2768,12 +3343,27 @@
           "duration": "4-5 weeks",
           "effort": "~35 hours over 4 weeks",
           "insight": "Next.js knowledge directly adds to salary. Companies like Razorpay, CRED, and Zepto have migrated or are migrating to Next.js App Router — being proficient in it puts you ahead of candidates still on Pages Router.",
-          "subtopics": ["App Router vs Pages Router", "Server Components vs Client Components", "Loading and error boundaries", "Server Actions", "Metadata API for SEO", "Image and font optimization", "TypeScript with Next.js", "Middleware"],
+          "subtopics": [
+            "App Router vs Pages Router",
+            "Server Components vs Client Components",
+            "Loading and error boundaries",
+            "Server Actions",
+            "Metadata API for SEO",
+            "Image and font optimization",
+            "TypeScript with Next.js",
+            "Middleware"
+          ],
           "howToCover": {
             "free": "The official Next.js docs (nextjs.org/learn) have an interactive course that's completely free and teaches App Router from scratch. It's the best starting point for Next.js, bar none.",
             "paid": "Jonas Schmedtmann's Ultimate React Course covers Next.js App Router in depth. The Next.js 14 Bootcamp by Laith Harb on Udemy is another focused option."
           },
-          "topics": ["Next.js App Router", "Server Components", "SSR / SSG / ISR", "TypeScript", "SEO with Metadata API"],
+          "topics": [
+            "Next.js App Router",
+            "Server Components",
+            "SSR / SSG / ISR",
+            "TypeScript",
+            "SEO with Metadata API"
+          ],
           "recommendedMaterials": [
             {
               "name": "Next.js 14 Tutorial (Codevolution) – FREE",
@@ -2789,6 +3379,29 @@
               "type": "paid",
               "whyBest": "4.6★, 200k+ students — covers both App Router and Pages Router with real projects"
             }
+          ],
+          "realWorldProjects": [
+            {
+              "title": "Blog Platform with MDX",
+              "description": "Build a blog with Next.js App Router. Support MDX posts, dynamic routing, static generation, and an RSS feed. Style with Tailwind.",
+              "difficulty": "intermediate",
+              "type": "clone",
+              "requiredSkills": [
+                "Next.js App Router",
+                "TypeScript",
+                "MDX",
+                "SSG"
+              ],
+              "estimatedTime": "2–3 weeks",
+              "deliverable": "Live blog deployed on Vercel with ≥3 sample posts and working RSS endpoint",
+              "resource": [
+                {
+                  "title": "Next.js Official Tutorial",
+                  "url": "https://nextjs.org/learn",
+                  "type": "docs"
+                }
+              ]
+            }
           ]
         },
         {
@@ -2798,12 +3411,27 @@
           "duration": "3-4 weeks",
           "effort": "~25 hours over 3 weeks",
           "insight": "Core Web Vitals (LCP, CLS, INP) are now ranking signals in Google Search. A frontend engineer who understands performance optimization adds direct business value — that's why it commands a premium.",
-          "subtopics": ["React DevTools Profiler", "Code splitting with React.lazy", "Bundle analysis (Vite Bundle Analyzer)", "React Testing Library", "Vitest for unit tests", "Core Web Vitals (LCP, CLS, INP)", "Lighthouse audits", "Vercel / Netlify deployment"],
+          "subtopics": [
+            "React DevTools Profiler",
+            "Code splitting with React.lazy",
+            "Bundle analysis (Vite Bundle Analyzer)",
+            "React Testing Library",
+            "Vitest for unit tests",
+            "Core Web Vitals (LCP, CLS, INP)",
+            "Lighthouse audits",
+            "Vercel / Netlify deployment"
+          ],
           "howToCover": {
             "free": "web.dev/learn (Google) is the authoritative free resource for Core Web Vitals and performance. The React Testing Library docs (testing-library.com) are excellent for learning component testing.",
             "paid": "Steve Kinney's Frontend Masters courses on performance and testing are industry-respected. Alternatively, pair your React course with the testing sections in Zero to Mastery's React course."
           },
-          "topics": ["React Profiler", "Code splitting", "React Testing Library", "Core Web Vitals", "Vercel deployment"],
+          "topics": [
+            "React Profiler",
+            "Code splitting",
+            "React Testing Library",
+            "Core Web Vitals",
+            "Vercel deployment"
+          ],
           "recommendedMaterials": [
             {
               "name": "React Testing Library Crash Course (freeCodeCamp) – FREE",
@@ -2818,6 +3446,30 @@
               "link": "https://www.youtube.com/watch?v=shBZd6_l_vc",
               "type": "free",
               "whyBest": "Practical React memoization and performance patterns by a senior React engineer"
+            }
+          ],
+          "realWorldProjects": [
+            {
+              "title": "Bundle-Optimised Dashboard",
+              "description": "Take the Shopping Cart project and optimize it: add Vitest unit tests (≥80% coverage), React.memo/useMemo where justified, lazy-loaded routes, and Lighthouse CI in a GitHub Actions workflow.",
+              "difficulty": "advanced",
+              "type": "simulation",
+              "requiredSkills": [
+                "Vitest",
+                "React.memo",
+                "code splitting",
+                "GitHub Actions",
+                "Lighthouse CI"
+              ],
+              "estimatedTime": "2 weeks",
+              "deliverable": "PR with CI pipeline showing Lighthouse perf score ≥ 85 and test results",
+              "resource": [
+                {
+                  "title": "Vitest Docs",
+                  "url": "https://vitest.dev/guide/",
+                  "type": "docs"
+                }
+              ]
             }
           ]
         }
@@ -3176,6 +3828,655 @@
       "certificateValue": "Udemy Certificate",
       "actualStudentReviews": "Industry standard ML course",
       "alternativeFreeResources": "freeCodeCamp Machine Learning for Everybody"
+    },
+    {
+      "id": "frontend-developer",
+      "category": "Specialized",
+      "company": null,
+      "title": "Frontend Developer — React & Next.js",
+      "description": "Master modern frontend development with React 19 and Next.js 15 App Router. Build production-grade SPAs, full-stack server-rendered apps, and the real-world features used at product companies, FAANG, and freelance projects worldwide.",
+      "salaryFresher": "₹6-12 LPA",
+      "salarySenior": "₹30-70 LPA",
+      "timeline": "6-9 Months to job-ready",
+      "schemaVersion": "2.0",
+      "graphData": [
+        {
+          "year": "0 (Fresher)",
+          "salary": 7
+        },
+        {
+          "year": "1 yr",
+          "salary": 12
+        },
+        {
+          "year": "2 yr",
+          "salary": 18
+        },
+        {
+          "year": "3 yr",
+          "salary": 28
+        },
+        {
+          "year": "5 yr",
+          "salary": 45
+        },
+        {
+          "year": "8 yr",
+          "salary": 65
+        }
+      ],
+      "riskTradeoff": "React/Next.js dominates new projects but the ecosystem evolves rapidly — skipping fundamentals to chase frameworks leads to brittle knowledge. Invest deeply in React core before Next.js.",
+      "communityInsights": [
+        "React powers Flipkart, Swiggy, Razorpay, and most Indian product startups.",
+        "Next.js is the default full-stack choice for new projects at startups and freelance clients.",
+        "FAANG interviews test React patterns (reconciliation, custom hooks, performance) not just syntax."
+      ],
+      "modules": [
+        {
+          "id": "react-basics",
+          "title": "React Fundamentals",
+          "description": "Core React — the mental models, patterns, and APIs that every frontend engineer must own cold before touching any framework.",
+          "duration": "4-6 weeks",
+          "topics": [
+            "JSX & the Virtual DOM",
+            "Props & State",
+            "React Hooks (useState, useEffect, useRef, useMemo, useCallback)",
+            "Component Composition Patterns",
+            "Context API",
+            "React Router v6",
+            "Error Boundaries",
+            "Performance Optimisation"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "React Official Tutorial — Quick Start & Tic-Tac-Toe",
+              "platform": "react.dev",
+              "link": "https://react.dev/learn",
+              "type": "free",
+              "whyBest": "Written by the React core team. The most accurate, up-to-date explanation of modern React with hooks. Start here before any YouTube course."
+            },
+            {
+              "name": "The Odin Project — React Path",
+              "platform": "The Odin Project",
+              "link": "https://www.theodinproject.com/paths/full-stack-javascript/courses/react",
+              "type": "free",
+              "whyBest": "Project-driven curriculum with exercises, community support, and a hiring pathway. The most rigorous free React course available."
+            },
+            {
+              "name": "Learn React — Full Scrimba Course (freeCodeCamp)",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/watch?v=bMknfKXIFA8",
+              "type": "free",
+              "whyBest": "11-hour course by Bob Ziroll and Scrimba. Structured, project-based, widely recommended in the Indian developer community."
+            },
+            {
+              "name": "React — The Complete Guide 2024 (Maximilian Schwarzmüller)",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+              "type": "paid",
+              "whyBest": "68-hour course, 4.6★, 900k+ students. The most comprehensive paid React course. Buy only on sale (₹499)."
+            }
+          ],
+          "effort": "~80 hours over 4-6 weeks",
+          "insight": "Most hiring managers at product companies probe React hook questions — closures, stale state, render batching. The gap between 'knows React' and 'understands React' separates junior from mid-level.",
+          "howToCover": {
+            "free": "React docs → The Odin Project → build the 3 realWorldProjects → deploy each to Vercel",
+            "paid": "Udemy Maximilian course → Odin Project projects → deploy each to Vercel"
+          },
+          "subtopics": [
+            "useState & functional updates",
+            "useEffect cleanup & dependency arrays",
+            "useRef for DOM access & mutable values",
+            "useMemo & useCallback — when to and NOT to use",
+            "Custom Hooks — extracting reusable stateful logic",
+            "React Router v6 — loaders, actions, nested routes",
+            "React.memo, lazy, Suspense",
+            "Concurrent features intro (useTransition)"
+          ],
+          "gamification": {
+            "xpReward": 500,
+            "streakMult": true,
+            "badges": [
+              {
+                "id": "react-explorer",
+                "name": "React Explorer",
+                "imageUrl": "/badges/react-explorer.svg",
+                "criteria": "Complete the React Fundamentals module"
+              },
+              {
+                "id": "hook-master",
+                "name": "Hook Master",
+                "imageUrl": "/badges/hook-master.svg",
+                "criteria": "Pass the React Fundamentals quiz with a perfect score"
+              }
+            ]
+          },
+          "careerModeWeights": {
+            "product": {
+              "weight": 0.95,
+              "required": true
+            },
+            "startup": {
+              "weight": 0.95,
+              "required": true
+            },
+            "service": {
+              "weight": 0.6,
+              "required": false
+            },
+            "faang": {
+              "weight": 0.95,
+              "required": true
+            },
+            "freelance": {
+              "weight": 1,
+              "required": true
+            },
+            "indie": {
+              "weight": 0.9,
+              "required": true
+            },
+            "gamedev": {
+              "weight": 0.25,
+              "required": false
+            }
+          },
+          "realWorldProjects": [
+            {
+              "title": "HackerNews Reader",
+              "description": "Build a fully functional HackerNews client using the official public Firebase-backed API. Implement all five story categories (Top, New, Ask, Show, Jobs), paginated story lists, story detail with nested comment threads, and a responsive UI. This is a classic benchmark project used by major framework comparison sites and demonstrates mastery of async data fetching, routing, and stateful list rendering.",
+              "difficulty": "beginner",
+              "type": "clone",
+              "requiredSkills": [],
+              "estimatedTime": "12-18h",
+              "deliverable": "Deployed Vite + React app on Vercel with all 5 story categories, deep-linked story routes, comment threading, and mobile-responsive layout. Public GitHub repo required.",
+              "resource": [
+                {
+                  "title": "HackerNews Official API — Firebase REST Docs",
+                  "url": "https://github.com/HackerNews/API",
+                  "type": "docs"
+                },
+                {
+                  "title": "Learn React Full Course (freeCodeCamp / Scrimba) — data-driven app patterns",
+                  "url": "https://www.youtube.com/watch?v=bMknfKXIFA8",
+                  "type": "video"
+                }
+              ]
+            },
+            {
+              "title": "GitHub User & Repository Explorer",
+              "description": "Build a search-driven GitHub profile viewer using the GitHub REST API v3 (no auth required for public data). Display profile stats, pinned repos, follower/following counts, and a sortable/filterable repository list. Handle loading, empty, error, and rate-limit states explicitly. This exact project appears as a junior frontend screening exercise at multiple Indian product-stage startups.",
+              "difficulty": "beginner",
+              "type": "feature",
+              "requiredSkills": [],
+              "estimatedTime": "8-14h",
+              "deliverable": "React app with profile search, repo list with language filter and star/fork sort, deployed publicly on Vercel. Must handle all edge cases visually.",
+              "resource": [
+                {
+                  "title": "GitHub REST API v3 — Users & Repos Reference",
+                  "url": "https://docs.github.com/en/rest/users/users",
+                  "type": "docs"
+                },
+                {
+                  "title": "React GitHub Finder tutorials (YouTube search)",
+                  "url": "https://www.youtube.com/results?search_query=react+github+user+finder+project+2024",
+                  "type": "video"
+                }
+              ]
+            },
+            {
+              "title": "Trello-style Drag-and-Drop Kanban Board",
+              "description": "Build a feature-complete Kanban board using React and the native HTML5 Drag and Drop API — no external DnD library. Implement: multiple swimlane columns (Backlog, In Progress, Review, Done), card CRUD with title, description, priority labels, and due dates, drag-and-drop between columns, and full persistence to localStorage. This is a standard live-coding or take-home test for mid-level frontend roles at B2B SaaS companies.",
+              "difficulty": "intermediate",
+              "type": "clone",
+              "requiredSkills": [],
+              "estimatedTime": "25-35h",
+              "deliverable": "Fully working Kanban board with drag-and-drop, CRUD, priority labels, and localStorage sync. Deployed to Vercel with a live demo link.",
+              "resource": [
+                {
+                  "title": "HTML Drag and Drop API — MDN Reference",
+                  "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API",
+                  "type": "docs"
+                },
+                {
+                  "title": "React Kanban with native DnD (YouTube search)",
+                  "url": "https://www.youtube.com/results?search_query=react+kanban+board+drag+drop+no+library+2024",
+                  "type": "video"
+                }
+              ]
+            }
+          ],
+          "revisionContent": {
+            "summary": "React is a declarative UI library — UI = f(state). Every re-render is React calling your component function again with new state/props and reconciling the output against the previous virtual DOM. Hooks let you opt into React features from function components. Master useState, useEffect, useMemo, useCallback, and useRef deeply — not just use them. Performance issues almost always trace to unnecessary re-renders or stale closures in effects.",
+            "spacedRepetitionSchedule": [
+              1,
+              3,
+              7,
+              14,
+              30,
+              90
+            ],
+            "flashcards": [
+              {
+                "question": "What is the Virtual DOM and why does React use it?",
+                "answer": "A lightweight JavaScript object tree mirroring the real DOM. React diffs the new virtual tree against the previous snapshot (reconciliation) and applies only the minimal real DOM mutations — avoiding expensive full-page re-renders on every state change."
+              },
+              {
+                "question": "When does useEffect run with an empty dependency array []?",
+                "answer": "Exactly once after the initial render — equivalent to componentDidMount. The returned cleanup function runs once on unmount — equivalent to componentWillUnmount."
+              },
+              {
+                "question": "What is the difference between controlled and uncontrolled components?",
+                "answer": "Controlled: form value lives in React state, driven by value + onChange props. Uncontrolled: the DOM owns the value, accessed via a ref. Controlled is the React-idiomatic approach; uncontrolled suits file inputs or non-React library integrations."
+              },
+              {
+                "question": "What does React.memo do, and when is it insufficient on its own?",
+                "answer": "Memoizes a component; skips re-render when props haven't changed (shallow comparison). Insufficient when props include new object/array literals on each parent render — combine with useMemo (values) and useCallback (functions) to stabilise those references."
+              },
+              {
+                "question": "Why must list keys be stable and unique — and why is array index a bad key?",
+                "answer": "React uses keys to identify which items changed, moved, or were removed. Index keys break reconciliation when the list is reordered: React maps the same key to a different item, reusing DOM nodes incorrectly and breaking input state, focus, or animations."
+              },
+              {
+                "question": "What are the two Rules of Hooks?",
+                "answer": "1. Call Hooks at the top level only — never in loops, conditionals, or nested functions. 2. Call Hooks from React function components or custom Hooks only. These rules ensure Hook call order is identical across every render, which is how React tracks individual Hook state internally."
+              },
+              {
+                "question": "What is the purpose of useCallback?",
+                "answer": "Returns a memoized function reference that only changes when its declared dependencies change. Used to prevent React.memo-wrapped child components from re-rendering unnecessarily when the parent re-renders but the callback's logic hasn't changed."
+              },
+              {
+                "question": "How does the Context API solve prop drilling, and what is its main performance tradeoff?",
+                "answer": "Any component wrapped in a Provider reads its value without explicit prop passing. Tradeoff: every consumer re-renders whenever the context value reference changes — even if only an unrelated sub-property changed. Split contexts by update frequency or memoize the value object to mitigate."
+              }
+            ],
+            "quiz": [
+              {
+                "question": "You want cleanup code to run when a component unmounts (cancel a timer). Which is correct?",
+                "options": [
+                  "useEffect(() => { setInterval(fn, 1000); }, []);",
+                  "useEffect(() => { const id = setInterval(fn, 1000); return () => clearInterval(id); }, []);",
+                  "useLayoutEffect(() => { clearInterval(timerId); }, []);",
+                  "componentWillUnmount(() => clearInterval(timerId));"
+                ],
+                "correctIndex": 1
+              },
+              {
+                "question": "Which statement about useState is TRUE?",
+                "options": [
+                  "setState immediately updates the variable in the current render",
+                  "setState merges the new value with existing state like class-based this.setState",
+                  "React batches multiple setState calls in the same event handler into a single re-render",
+                  "useState can be called conditionally inside an if block"
+                ],
+                "correctIndex": 2
+              },
+              {
+                "question": "A child re-renders every time the parent renders even though its props haven't changed. The quickest fix is:",
+                "options": [
+                  "Wrap the child in React.memo()",
+                  "Move the child's logic inside a useEffect in the parent",
+                  "Use useRef instead of useState in the parent",
+                  "Add shouldComponentUpdate to the child"
+                ],
+                "correctIndex": 0
+              },
+              {
+                "question": "What happens if you reference a state variable inside useEffect but omit it from the dependency array?",
+                "options": [
+                  "TypeScript throws a compile error",
+                  "React warns in development but corrects it automatically",
+                  "The effect captures a stale closure and always sees the initial value of that variable",
+                  "The effect re-runs on every render regardless"
+                ],
+                "correctIndex": 2
+              },
+              {
+                "question": "You need to share authentication state across deeply-nested components. The best React-idiomatic approach is:",
+                "options": [
+                  "Pass the user object as a prop through every component in the tree",
+                  "Store it in a module-level variable outside React",
+                  "Create an AuthContext and wrap the app tree in AuthContext.Provider",
+                  "Use useRef at the root and pass the ref down"
+                ],
+                "correctIndex": 2
+              }
+            ]
+          },
+          "realityCheck": {
+            "marketRelevance": "React powers the frontends of Flipkart, Swiggy, Zepto, Razorpay, CRED, and the vast majority of Indian product startups in 2024. It is the single most in-demand frontend skill in the Indian job market. Every product engineer role at a web-facing company either requires React or treats it as a strong signal.",
+            "realTimeline": "Most self-taught developers who do structured practice — not passive watching — are interview-ready in 6-8 weeks. The honest barrier is not the API surface; it is building 3+ real projects that required you to think through state design, data fetching patterns, and debug re-render issues yourself.",
+            "prerequisiteHint": "You must have solid vanilla JavaScript — closures, async/await, array methods (map/filter/reduce), destructuring, and DOM manipulation — before starting React. React's 'magic' is just JavaScript. Gaps in JS fundamentals surface as React bugs you cannot diagnose."
+          },
+          "collaborationHooks": {
+            "squadChallenge": {
+              "title": "72-Hour Sprint: Clone the GitHub Explore Page",
+              "description": "Teams of 2-3 build a GitHub Explore clone using React and the GitHub REST API in 72 hours. Requirements: topic browsing, trending repositories with star counts, repo search with language/sort filters, repository detail modal, and responsive layout. Each member owns one feature slice. Peer-review each other's component design before merging."
+            },
+            "pairProgrammingPrompts": [
+              "One person writes a buggy useEffect with a stale closure; the other must diagnose and fix it without being told what is wrong.",
+              "Build a multi-step wizard form together: one person owns the schema and validation (React Hook Form + Zod), the other owns the step navigation and progress indicator components.",
+              "Refactor a class component with lifecycle methods into functional hooks together — explain every decision aloud."
+            ],
+            "accountabilityQuestions": [
+              "Have you deployed at least one React project live this week, not just run it locally?",
+              "Can you explain the React reconciliation algorithm and when it bails out of re-rendering without looking anything up?",
+              "Have you written a custom Hook that is genuinely reused in at least two components?",
+              "Did you build something from scratch today, or did you only watch tutorials and copy code?"
+            ]
+          }
+        },
+        {
+          "id": "nextjs-fundamentals",
+          "title": "Next.js Full-Stack Mastery",
+          "description": "The App Router, Server Components, Server Actions, and the full-stack patterns that make Next.js the standard framework for production web applications.",
+          "duration": "5-7 weeks",
+          "topics": [
+            "App Router Architecture",
+            "Server vs Client Components",
+            "Data Fetching — SSG / SSR / ISR / Streaming",
+            "Server Actions & Mutations",
+            "Middleware & Edge Runtime",
+            "Route Handlers (API Routes)",
+            "Metadata & SEO API",
+            "Image & Font Optimisation",
+            "Deployment on Vercel"
+          ],
+          "recommendedMaterials": [
+            {
+              "name": "Next.js Official Learn Course — Dashboard App",
+              "platform": "nextjs.org",
+              "link": "https://nextjs.org/learn/dashboard-app",
+              "type": "free",
+              "whyBest": "Built and maintained by Vercel. The most accurate, production-relevant Next.js tutorial available. Covers App Router, DB integration, auth, and deployment end-to-end."
+            },
+            {
+              "name": "Next.js Documentation",
+              "platform": "nextjs.org",
+              "link": "https://nextjs.org/docs",
+              "type": "free",
+              "whyBest": "The reference docs are exceptionally well-written with interactive examples for every API. Treat this as your primary resource, not supplementary."
+            },
+            {
+              "name": "Next.js 14 Full Course — freeCodeCamp",
+              "platform": "YouTube",
+              "link": "https://www.youtube.com/results?search_query=nextjs+14+full+course+freecodecamp+app+router",
+              "type": "free",
+              "whyBest": "freeCodeCamp's Next.js content covers App Router with practical projects and is widely watched in the Indian developer community."
+            },
+            {
+              "name": "Next.js & React — The Complete Guide (Maximilian Schwarzmüller)",
+              "platform": "Udemy",
+              "link": "https://www.udemy.com/course/nextjs-react-the-complete-guide/",
+              "type": "paid",
+              "whyBest": "4.6★, 100k+ students. Most comprehensive paid Next.js course covering Pages Router and App Router side-by-side."
+            }
+          ],
+          "effort": "~120 hours over 5-7 weeks",
+          "insight": "The shift to Server Components is the biggest mental model change in frontend since hooks. Companies evaluating senior candidates specifically probe when to use server vs client components and how streaming works. Nail this before interviews.",
+          "howToCover": {
+            "free": "Official nextjs.org/learn dashboard tutorial → MDX Blog project → SaaS Dashboard → deploy all to Vercel",
+            "paid": "Maximilian Udemy course → official learn tutorial for hands-on → deploy all 3 realWorldProjects"
+          },
+          "subtopics": [
+            "File-based routing — layouts, pages, loading, error, not-found",
+            "React Server Components (RSC) — the rendering model",
+            "Data fetching in Server Components with fetch() and cache()",
+            "generateStaticParams() for static dynamic routes",
+            "Server Actions — 'use server', forms, and optimistic updates",
+            "Route Handlers — building REST APIs inside Next.js",
+            "Middleware — edge auth, redirects, header injection",
+            "Parallel and intercepting routes",
+            "next/image and next/font optimisations",
+            "generateMetadata() and the Metadata API for SEO"
+          ],
+          "gamification": {
+            "xpReward": 700,
+            "streakMult": true,
+            "badges": [
+              {
+                "id": "nextjs-architect",
+                "name": "Next.js Architect",
+                "imageUrl": "/badges/nextjs-architect.svg",
+                "criteria": "Complete the Next.js Fundamentals module"
+              },
+              {
+                "id": "fullstack-builder",
+                "name": "Full-Stack Builder",
+                "imageUrl": "/badges/fullstack-builder.svg",
+                "criteria": "Submit a deployed Next.js project with a working database integration"
+              }
+            ]
+          },
+          "careerModeWeights": {
+            "product": {
+              "weight": 1,
+              "required": true
+            },
+            "startup": {
+              "weight": 1,
+              "required": true
+            },
+            "service": {
+              "weight": 0.5,
+              "required": false
+            },
+            "faang": {
+              "weight": 0.8,
+              "required": false
+            },
+            "freelance": {
+              "weight": 1,
+              "required": true
+            },
+            "indie": {
+              "weight": 1,
+              "required": true
+            },
+            "gamedev": {
+              "weight": 0.1,
+              "required": false
+            }
+          },
+          "realWorldProjects": [
+            {
+              "title": "Personal Tech Blog with MDX & Supabase Comments",
+              "description": "Build a production-grade personal blog using Next.js App Router with MDX for content authoring, Supabase for a real comment system with auth, and the Metadata API for full SEO. Required features: static MDX post generation with syntax highlighting, ISR-powered comment counts, Supabase real-time comments with email/Google auth, a middleware-protected /admin route for draft management, sitemap.xml and RSS feed generation, and Vercel deployment. This is the canonical 'prove you can ship' Next.js project and the most common take-home assignment at product startups.",
+              "difficulty": "intermediate",
+              "type": "feature",
+              "requiredSkills": [
+                "react-basics"
+              ],
+              "estimatedTime": "28-40h",
+              "deliverable": "Live Vercel deployment with 3+ MDX posts, working Supabase comment system, /sitemap.xml, /feed.xml, and a Lighthouse performance + SEO score > 90.",
+              "resource": [
+                {
+                  "title": "Next.js MDX Configuration — Official Docs",
+                  "url": "https://nextjs.org/docs/app/building-your-application/configuring/mdx",
+                  "type": "docs"
+                },
+                {
+                  "title": "Next.js Dashboard Tutorial — foundational patterns",
+                  "url": "https://nextjs.org/learn/dashboard-app",
+                  "type": "docs"
+                },
+                {
+                  "title": "Build a Next.js MDX Blog (YouTube search for current tutorial)",
+                  "url": "https://www.youtube.com/results?search_query=nextjs+app+router+mdx+blog+supabase+2024",
+                  "type": "video"
+                }
+              ]
+            },
+            {
+              "title": "Full-Stack E-commerce Store with Stripe Checkout",
+              "description": "Build a production-ready storefront using Next.js Server Components, Supabase for product catalog and orders, and Stripe Checkout for payments. Architecture requirements: ISR product listing via Server Components, cart managed via Server Actions + cookies (no client-side state), Stripe Checkout session in a Route Handler, webhook endpoint for order confirmation, customer order history page with Supabase auth, and a middleware-protected /admin route for product management. This is the Vercel + Stripe reference architecture used at D2C e-commerce startups and one of the most recognised portfolio projects for senior full-stack roles.",
+              "difficulty": "advanced",
+              "type": "clone",
+              "requiredSkills": [
+                "react-basics"
+              ],
+              "estimatedTime": "45-65h",
+              "deliverable": "Working store deployed to Vercel with live Stripe test-mode payments, webhook processing, order persistence in Supabase, and an admin product management page. Full source on GitHub with a README.",
+              "resource": [
+                {
+                  "title": "Stripe + React — Elements & Checkout Integration Docs",
+                  "url": "https://stripe.com/docs/stripe-js/react",
+                  "type": "docs"
+                },
+                {
+                  "title": "Vercel Commerce — Official Next.js E-commerce Reference Implementation",
+                  "url": "https://github.com/vercel/commerce",
+                  "type": "article"
+                },
+                {
+                  "title": "Next.js E-commerce with Stripe (YouTube search)",
+                  "url": "https://www.youtube.com/results?search_query=nextjs+ecommerce+stripe+checkout+supabase+2024",
+                  "type": "video"
+                }
+              ]
+            },
+            {
+              "title": "Multi-tenant SaaS Dashboard",
+              "description": "Simulate building a B2B SaaS product end-to-end: Supabase Auth with organisation onboarding, role-based access control (admin/member/viewer) enforced via middleware, usage analytics charts with Recharts pulling from Supabase, Stripe subscription billing with Basic/Pro tier feature flags, dark/light mode, and a team invitations system with email deep-links. This is the architecture used at B2B SaaS companies and is the most comprehensive single project you can build to demonstrate full-stack Next.js mastery to a hiring team.",
+              "difficulty": "advanced",
+              "type": "simulation",
+              "requiredSkills": [
+                "react-basics"
+              ],
+              "estimatedTime": "55-80h",
+              "deliverable": "Live SaaS app with org creation, role-based route protection, Stripe subscription page with Customer Portal, 3+ analytics charts, dark mode, deployed to Vercel. Full GitHub repo with architecture notes.",
+              "resource": [
+                {
+                  "title": "Next.js Dashboard App Tutorial — Official (the foundational reference)",
+                  "url": "https://nextjs.org/learn/dashboard-app",
+                  "type": "docs"
+                },
+                {
+                  "title": "Stripe Customer Portal Integration Docs",
+                  "url": "https://stripe.com/docs/customer-management",
+                  "type": "docs"
+                },
+                {
+                  "title": "Build a SaaS with Next.js and Supabase (YouTube search)",
+                  "url": "https://www.youtube.com/results?search_query=nextjs+saas+dashboard+supabase+stripe+2024",
+                  "type": "video"
+                }
+              ]
+            }
+          ],
+          "revisionContent": {
+            "summary": "Next.js App Router is a React meta-framework built on file-system routing. The key shift: components are Server Components by default (zero client JS), and only components needing interactivity are marked 'use client'. Data flows server → client. The rendering model is controlled by how you use fetch() and Suspense — not getStaticProps or getServerSideProps. Server Actions are the mutation layer: async functions marked 'use server' that run on the server, callable from Client Component forms or event handlers without building separate API endpoints.",
+            "spacedRepetitionSchedule": [
+              1,
+              3,
+              7,
+              14,
+              30,
+              90
+            ],
+            "flashcards": [
+              {
+                "question": "What is the fundamental difference between Server Components and Client Components in Next.js App Router?",
+                "answer": "Server Components (default) render only on the server — zero client JavaScript, can directly access databases and secrets, cannot use state, effects, or browser APIs. Client Components ('use client') hydrate in the browser and can use all React interactivity features. Server Components can include Client Components as children, but Client Components cannot import Server Components directly."
+              },
+              {
+                "question": "Explain ISR and when to choose it over SSG or SSR.",
+                "answer": "ISR statically generates a page at build time but re-validates in the background after a set interval (export const revalidate = 60) or on-demand via revalidatePath(). Choose ISR when data changes infrequently (product catalog, blog) — SSG-speed responses for almost all requests while still serving fresh data. Use SSR (no caching) when data must be per-request-fresh."
+              },
+              {
+                "question": "What is generateStaticParams() used for?",
+                "answer": "Pre-generates a list of dynamic route param values at build time so Next.js statically renders a page for each (e.g., every /blog/[slug]). At runtime, unlisted params either 404 or fall back to on-demand rendering depending on the dynamicParams export (default: true = SSR fallback)."
+              },
+              {
+                "question": "What are Server Actions and why do they replace most API routes?",
+                "answer": "Async functions marked 'use server' that run exclusively on the server. Callable directly from Client Component event handlers or HTML form actions — Next.js auto-creates the POST endpoint. They eliminate manually written API routes for CRUD, support progressive enhancement, and are the idiomatic mutation layer in App Router."
+              },
+              {
+                "question": "What does the loading.tsx convention do?",
+                "answer": "Automatically wraps the sibling page.tsx in a React Suspense boundary. Next.js streams the loading.tsx fallback to the browser immediately while the page's async data resolves on the server, then replaces it with the resolved HTML — enabling perceived instant navigation and preventing blank screens."
+              },
+              {
+                "question": "How does middleware work in Next.js and what are its key constraints?",
+                "answer": "middleware.ts runs at the CDN edge before any request is processed — ideal for auth redirects, locale detection, and header injection. Key constraints: runs in the Edge Runtime (not Node.js), no fs/ORM/native modules, must respond fast (< 50ms). Scope it with matcher config to avoid running on every static asset."
+              }
+            ],
+            "quiz": [
+              {
+                "question": "A page needs fresh data on every request and reads cookies for auth. Which rendering strategy does Next.js apply?",
+                "options": [
+                  "generateStaticParams() with revalidate: 0",
+                  "The route automatically becomes dynamically rendered when cookies() is called in a Server Component",
+                  "force-static config overrides this to SSG regardless",
+                  "A Client Component with useEffect for data fetching"
+                ],
+                "correctIndex": 1
+              },
+              {
+                "question": "Which of the following CANNOT be done inside a Server Component?",
+                "options": [
+                  "Querying a database directly with an ORM",
+                  "Reading environment variables",
+                  "Using useState and onClick event handlers",
+                  "Calling an async function with await"
+                ],
+                "correctIndex": 2
+              },
+              {
+                "question": "You want to protect all routes under /dashboard so only authenticated users can access them. The best Next.js pattern is:",
+                "options": [
+                  "Check auth inside every individual page.tsx",
+                  "Use a layout.tsx inside the dashboard route group that redirects if no session",
+                  "Use middleware.ts with a matcher for /dashboard/* to redirect unauthorized requests at the edge",
+                  "Wrap all dashboard content in a Client Component that checks cookies on mount"
+                ],
+                "correctIndex": 2
+              },
+              {
+                "question": "What is the correct way to invalidate a specific cached page immediately (on-demand revalidation)?",
+                "options": [
+                  "Call router.refresh() from a Client Component",
+                  "Call revalidatePath('/path') inside a Server Action or Route Handler",
+                  "Set export const revalidate = 1 in the page file",
+                  "Trigger a new deployment to Vercel"
+                ],
+                "correctIndex": 1
+              },
+              {
+                "question": "You render a Server Component as the children prop of a Client Component. What happens?",
+                "options": [
+                  "Build error — Server Components cannot be children of Client Components",
+                  "The Server Component renders on the server; its serialised output is passed to the Client Component — this is the valid 'children composition pattern'",
+                  "Next.js automatically converts the Server Component to a Client Component",
+                  "It renders but loses all server-side data fetching"
+                ],
+                "correctIndex": 1
+              }
+            ]
+          },
+          "realityCheck": {
+            "marketRelevance": "Next.js is the default full-stack framework for new product companies in 2024. Startups from seed to Series C use it for marketing sites, dashboards, and full-stack applications. Indian startups — from Razorpay to multiple YC-backed companies — list Next.js as a hard requirement. Freelancers who know Next.js charge 30-50% more than React-only developers.",
+            "realTimeline": "The official nextjs.org/learn tutorial takes ~10 hours and covers 70% of what you need for a junior role. The remaining 30% — Server Actions at scale, middleware edge cases, streaming patterns — comes from building at least one project with real users. Budget 5-7 weeks for a proper foundation.",
+            "prerequisiteHint": "Do NOT start Next.js without a solid React foundation. The App Router's Server Components model builds directly on React's component and rendering mental models. Jumping to Next.js without React fundamentals is the single most common reason developers build fragile, unmaintainable apps."
+          },
+          "collaborationHooks": {
+            "squadChallenge": {
+              "title": "5-Day Build: Ship a Full-Stack SaaS Landing + Waitlist",
+              "description": "Teams of 2-3 build a complete SaaS landing page with a functional email waitlist in 5 days using Next.js, Supabase, and Resend for transactional email. Requirements: animated hero, feature section, pricing table, working email capture with Supabase storage, confirmation email via Resend, and an /admin route showing submission count. Must be live on Vercel. Teams are judged on design quality, code cleanliness, and whether it actually works end-to-end."
+            },
+            "pairProgrammingPrompts": [
+              "One person implements a Server Action for a form mutation; the other implements the optimistic UI update in the Client Component that calls it — agree on the API contract first.",
+              "Together, convert a Pages Router page with getServerSideProps into an equivalent App Router Server Component — discuss every decision about what stays server-side vs moves to client.",
+              "One person builds a protected layout using middleware; the other builds the login page and Supabase session handling — integrate and debug together."
+            ],
+            "accountabilityQuestions": [
+              "Have you deployed a Next.js app with a real database integration this week?",
+              "Can you explain without notes when to use a Server Component vs a Client Component and why?",
+              "Do you understand how Server Actions differ from Route Handlers and when to use each?",
+              "Have you read the Next.js changelog this month — do you know what changed in the latest version?"
+            ]
+          }
+        }
+      ]
     }
   ]
 }

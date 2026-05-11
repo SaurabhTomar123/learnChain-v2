@@ -131,6 +131,8 @@ export function SearchDropdown({ isOpen, query, onQueryChange, onClose }: Props)
   return (
     <div
       ref={containerRef}
+      role="listbox"
+      aria-label="Search results"
       className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-100 rounded-xl shadow-xl z-50 overflow-hidden"
     >
       {results.length === 0 ? (
@@ -143,6 +145,8 @@ export function SearchDropdown({ isOpen, query, onQueryChange, onClose }: Props)
           {results.map((r, i) => (
             <li key={r.id}>
               <button
+                role="option"
+                aria-selected={i === activeIndex}
                 onClick={() => go(r.id)}
                 onMouseEnter={() => setActiveIndex(i)}
                 className={`w-full flex items-center gap-4 px-5 py-3.5 text-left transition-colors ${

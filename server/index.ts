@@ -111,8 +111,18 @@ function injectMeta(
 
 /* Dynamic sitemap */
 function buildSitemap(): string {
+  const publicRoutes = [
+    { path: "/", priority: "1.0", changefreq: "weekly" },
+    { path: "/compare", priority: "0.8", changefreq: "weekly" },
+    { path: "/trending", priority: "0.7", changefreq: "daily" },
+    { path: "/leaderboard", priority: "0.6", changefreq: "daily" },
+    { path: "/squads", priority: "0.5", changefreq: "weekly" },
+  ];
   const urls = [
-    `  <url><loc>${SITE}/</loc><lastmod>${CONTENT_DATE}</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>`,
+    ...publicRoutes.map(
+      (route) =>
+        `  <url><loc>${SITE}${route.path}</loc><lastmod>${CONTENT_DATE}</lastmod><changefreq>${route.changefreq}</changefreq><priority>${route.priority}</priority></url>`
+    ),
     ...roadmapsData.roadmaps.map(
       (r) =>
         `  <url><loc>${SITE}/roadmap/${r.id}</loc><lastmod>${CONTENT_DATE}</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>`

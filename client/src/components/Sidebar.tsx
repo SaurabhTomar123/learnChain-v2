@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
-import { X, ChevronRight, Home, TrendingUp, Users, Layers } from "lucide-react";
+import { X, ChevronRight, Home, Users, Layers, Flame, Trophy, User, Map, BarChart3 } from "lucide-react";
 import { useLocation } from "wouter";
+import { useAuth } from "@/context/AuthContext";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 
 interface SidebarItem {
   id: string;
@@ -17,9 +19,14 @@ interface SidebarProps {
 }
 
 const NAV_ITEMS = [
-  { label: "Home", icon: Home, href: "/" },
-  { label: "Trending", icon: TrendingUp, href: "/#specialized-tracks" },
-  { label: "Community", icon: Users, href: "/#community" },
+  { label: "Home",        icon: Home,   href: "/",            authRequired: false },
+  { label: "Roadmaps",    icon: Map,    href: "/#specialized-tracks", authRequired: false },
+  { label: "Dashboard",   icon: Layers, href: "/dashboard",   authRequired: true  },
+  { label: "Compare",     icon: BarChart3, href: "/compare", authRequired: false },
+  { label: "Trending",    icon: Flame,  href: "/trending",    authRequired: false },
+  { label: "Squads",      icon: Users,  href: "/squads",      authRequired: true  },
+  { label: "Leaderboard", icon: Trophy, href: "/leaderboard", authRequired: false },
+  { label: "Profile",     icon: User,   href: "/profile",     authRequired: true  },
 ];
 
 function SidebarContent({
@@ -34,6 +41,33 @@ function SidebarContent({
   onClose?: () => void;
 }) {
   const [location, navigate] = useLocation();
+  const { user, openAuthModal } = useAuth();
+
+  function isActive(href: string) {
+    if (href === "/") return location === "/";
+    if (href.startsWith("/#")) return false;
+    return location.startsWith(href);
+  }
+
+  function handleNavClick(href: string, authRequired: boolean) {
+    if (authRequired && !user) {
+      openAuthModal();
+      onClose?.();
+      return;
+    }
+    if (href.startsWith("/#")) {
+      const id = href.split("#")[1];
+      if (location === "/") {
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+      } else {
+        navigate("/");
+        window.setTimeout(() => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" }), 80);
+      }
+    } else {
+      navigate(href);
+    }
+    onClose?.();
+  }
 
   return (
     <>
@@ -65,26 +99,35 @@ function SidebarContent({
         <div>
           <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-4">Navigation</p>
           <ul className="space-y-0.5">
-            {NAV_ITEMS.map(({ label, icon: Icon, href }) => {
-              const isActive = href === "/" ? location === "/" : false;
+            {NAV_ITEMS.map(({ label, icon: Icon, href, authRequired }) => {
+              const active = isActive(href);
+              const locked = authRequired && !user;
+
+              if (locked) {
+                return (
+                  <li key={label}>
+                    <Tooltip>
+                      <TooltipTrigger asChild>
+                        <button
+                          onClick={() => handleNavClick(href, authRequired)}
+                          className="min-h-11 w-full flex items-center gap-3 px-3 py-2 rounded-md text-sm font-medium transition-colors text-gray-300 hover:text-gray-400 focus-visible:ring-2 focus-visible:ring-[#1a7f4b]/30"
+                        >
+                          <Icon className="w-4 h-4" />
+                          {label}
+                        </button>
+                      </TooltipTrigger>
+                      <TooltipContent side="right">Sign in to unlock</TooltipContent>
+                    </Tooltip>
+                  </li>
+                );
+              }
+
               return (
                 <li key={label}>
                   <button
-                    onClick={() => {
-                      if (href.startsWith("/#")) {
-                        const id = href.split("#")[1];
-                        if (location === "/") {
-                          document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-                        } else {
-                          navigate("/");
-                        }
-                      } else {
-                        navigate(href);
-                      }
-                      onClose?.();
-                    }}
-                    className={`w-full flex items-center gap-3 px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                      isActive
+                    onClick={() => handleNavClick(href, authRequired)}
+                    className={`min-h-11 w-full flex items-center gap-3 px-3 py-2 rounded-md text-sm font-medium transition-colors focus-visible:ring-2 focus-visible:ring-[#1a7f4b]/30 ${
+                      active
                         ? "text-[#1a7f4b] bg-green-50"
                         : "text-gray-500 hover:text-[#1a7f4b] hover:bg-green-50"
                     }`}
@@ -98,28 +141,30 @@ function SidebarContent({
           </ul>
         </div>
 
-        <div>
-          <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-4">Popular Paths</p>
-          <ul className="space-y-0.5">
-            {items.map((item) => (
-              <li key={item.id}>
-                <button
-                  onClick={() => { onSelect(item.id); onClose?.(); }}
-                  className={`w-full flex items-center justify-between px-3 py-2 rounded-md text-sm transition-colors group ${
-                    activeId === item.id
-                      ? "text-[#1a7f4b] bg-green-50 font-semibold"
-                      : "text-gray-500 hover:text-[#1a7f4b] hover:bg-green-50"
-                  }`}
-                >
-                  <span className="truncate">{item.title}</span>
-                  <ChevronRight className={`w-3.5 h-3.5 shrink-0 transition-opacity ${
-                    activeId === item.id ? "opacity-100" : "opacity-0 group-hover:opacity-100"
-                  }`} />
-                </button>
-              </li>
-            ))}
-          </ul>
-        </div>
+        {items.length > 0 && (
+          <div>
+            <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-4">Popular Paths</p>
+            <ul className="space-y-0.5">
+              {items.map((item) => (
+                <li key={item.id}>
+                  <button
+                    onClick={() => { onSelect(item.id); onClose?.(); }}
+                    className={`min-h-11 w-full flex items-center justify-between px-3 py-2 rounded-md text-sm transition-colors group focus-visible:ring-2 focus-visible:ring-[#1a7f4b]/30 ${
+                      activeId === item.id
+                        ? "text-[#1a7f4b] bg-green-50 font-semibold"
+                        : "text-gray-500 hover:text-[#1a7f4b] hover:bg-green-50"
+                    }`}
+                  >
+                    <span className="truncate">{item.title}</span>
+                    <ChevronRight className={`w-3.5 h-3.5 shrink-0 transition-opacity ${
+                      activeId === item.id ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+                    }`} />
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </nav>
 
       {/* Weekly digest card */}
@@ -129,8 +174,11 @@ function SidebarContent({
           <p className="text-[11px] text-gray-500 mb-3 leading-relaxed">
             Get latest market salaries & roadmap updates.
           </p>
-          <button className="w-full py-2 bg-white border border-gray-200 text-xs font-bold rounded-lg hover:border-[#1a7f4b] hover:text-[#1a7f4b] transition-colors">
-            Subscribe
+          <button
+            onClick={() => { navigate("/dashboard"); onClose?.(); }}
+            className="w-full py-2 bg-white border border-gray-200 text-xs font-bold rounded-lg hover:border-[#1a7f4b] hover:text-[#1a7f4b] transition-colors"
+          >
+            Enable reminders
           </button>
         </div>
       </div>

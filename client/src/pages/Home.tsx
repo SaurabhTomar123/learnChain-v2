@@ -1,19 +1,121 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { lazy, Suspense, useState, useEffect } from "react";
 import { useLocation } from "wouter";
 import { RoadmapCard } from "@/components/RoadmapCard";
 import { Sidebar } from "@/components/Sidebar";
 import { Header } from "@/components/Header";
-import { MarketInsights } from "@/components/MarketInsights";
 import { SEO } from "@/components/SEO";
 import roadmapsData from "@/data/roadmaps.json";
-import { ArrowRight, ArrowUpRight, BookOpen, Map, Zap, Layers, MessageSquare } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Layers, MessageSquare, Sparkles } from "lucide-react";
+import { useAuth } from "@/context/AuthContext";
+import { supabase } from "@/lib/supabase";
+
+const MarketInsights = lazy(() =>
+  import("@/components/MarketInsights").then((mod) => ({ default: mod.MarketInsights }))
+);
+
+// Roadmap ID → recommended next roadmap IDs
+const NEXT_STEPS: Record<string, string[]> = {
+  "frontend-react":              ["fullstack-mern", "devops-aws", "backend-nodejs"],
+  "backend-nodejs":              ["fullstack-mern", "devops-aws", "specialized-data-engineering"],
+  "backend-java":                ["devops-aws", "specialized-data-engineering", "product-amazon"],
+  "fullstack-mern":              ["devops-aws", "ai-ml", "product-flipkart"],
+  "devops-aws":                  ["backend-java", "specialized-data-engineering", "product-amazon"],
+  "ai-ml":                       ["specialized-data-engineering", "product-google", "backend-java"],
+  "specialized-mobile":          ["product-flipkart", "product-razorpay", "backend-nodejs"],
+  "specialized-data-engineering":["ai-ml", "devops-aws", "backend-java"],
+  "service-tcs":                 ["product-amazon", "frontend-react", "backend-java"],
+  "service-infosys":             ["product-flipkart", "devops-aws", "backend-java"],
+  "service-cognizant":           ["frontend-react", "backend-nodejs", "devops-aws"],
+  "service-wipro":               ["devops-aws", "backend-java", "product-amazon"],
+  "service-hcl":                 ["backend-java", "devops-aws", "specialized-data-engineering"],
+  "service-tech-mahindra":       ["frontend-react", "backend-nodejs", "devops-aws"],
+  "product-amazon":              ["product-google", "ai-ml", "specialized-data-engineering"],
+  "product-microsoft":           ["ai-ml", "devops-aws", "specialized-data-engineering"],
+  "product-google":              ["ai-ml", "specialized-data-engineering", "devops-aws"],
+  "product-flipkart":            ["product-razorpay", "product-phonepe", "ai-ml"],
+  "product-phonepe":             ["product-razorpay", "devops-aws", "backend-java"],
+  "product-razorpay":            ["product-phonepe", "backend-java", "devops-aws"],
+};
+
+// Build reverse map: module id → roadmap id
+const MODULE_TO_ROADMAP: Record<string, string> = {};
+for (const r of roadmapsData.roadmaps) {
+  for (const m of (r.modules as any[])) {
+    MODULE_TO_ROADMAP[m.id] = r.id;
+  }
+}
+
+const ROADMAP_MAP = new Map(roadmapsData.roadmaps.map((r) => [r.id, r]));
+
+const WHY_LABELS: Record<string, string> = {
+  "fullstack-mern":              "Natural next step after React",
+  "devops-aws":                  "High-demand skill at every company",
+  "backend-nodejs":              "Pair with your frontend skills",
+  "backend-java":                "Required for most product interviews",
+  "specialized-data-engineering":"Data roles are booming in India",
+  "ai-ml":                       "AI integration is now a core skill",
+  "product-amazon":              "Top target for FAANG aspirants",
+  "product-google":              "Highest-paying in India",
+  "product-flipkart":            "Best Indian product company to target",
+  "product-razorpay":            "Fintech growth role",
+  "product-phonepe":             "UPI-scale engineering experience",
+  "specialized-mobile":         "Mobile demand is surging",
+  "frontend-react":              "Fastest path to frontend jobs",
+};
 
 export default function Home() {
   const [, navigate] = useLocation();
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const { user } = useAuth();
+  const [recommendations, setRecommendations] = useState<typeof roadmapsData.roadmaps>([]);
+
+  useEffect(() => {
+    if (!user) { setRecommendations([]); return; }
+    supabase
+      .from("roadmap_progress")
+      .select("roadmap_item_id")
+      .eq("user_id", user.id)
+      .then(({ data }) => {
+        if (!data || data.length === 0) { setRecommendations([]); return; }
+        const visitedRoadmapIds = new Set<string>(
+          (data as any[]).map((row) => MODULE_TO_ROADMAP[row.roadmap_item_id]).filter(Boolean)
+        );
+        // Collect recommended IDs from NEXT_STEPS, skip already visited
+        const suggested = new Set<string>();
+        Array.from(visitedRoadmapIds).forEach((rid) => {
+          (NEXT_STEPS[rid] ?? []).forEach((next) => {
+            if (!visitedRoadmapIds.has(next)) suggested.add(next);
+          });
+        });
+        const recs = Array.from(suggested)
+          .slice(0, 4)
+          .map((id) => ROADMAP_MAP.get(id))
+          .filter(Boolean) as typeof roadmapsData.roadmaps;
+        setRecommendations(recs);
+      });
+  }, [user]);
 
   const handleRoadmapSelect = (roadmapId: string) => navigate(`/roadmap/${roadmapId}`);
+
+  // Company logo map — Clearbit CDN (free, no token required for common domains)
+  const COMPANY_LOGOS: Record<string, string> = {
+    "product-amazon":    "https://logo.clearbit.com/amazon.com",
+    "product-microsoft": "https://logo.clearbit.com/microsoft.com",
+    "product-google":    "https://logo.clearbit.com/google.com",
+    "product-flipkart":  "https://logo.clearbit.com/flipkart.com",
+    "product-phonepe":   "https://logo.clearbit.com/phonepe.com",
+    "product-razorpay":  "https://logo.clearbit.com/razorpay.com",
+  };
+  // Branded colors for service companies (no public logo CDN coverage)
+  const SERVICE_COLORS: Record<string, string> = {
+    "service-tcs":           "#1a3a6c",
+    "service-infosys":       "#007cc2",
+    "service-cognizant":     "#0033a0",
+    "service-wipro":         "#a91c8a",
+    "service-hcl":           "#0076c0",
+    "service-tech-mahindra": "#cc0000",
+  };
 
   const serviceRoadmaps  = roadmapsData.roadmaps.filter((r) => r.category === "Service-Based");
   const productRoadmaps  = roadmapsData.roadmaps.filter((r) => r.category === "Product-Based");
@@ -78,6 +180,47 @@ export default function Home() {
             </motion.div>
           </section>
 
+          {/* ── Recommendations (logged-in, has progress) ── */}
+          {recommendations.length > 0 && (
+            <section className="py-14 px-8 md:px-16 border-b border-gray-100 bg-gradient-to-r from-green-50/60 to-white">
+              <div className="max-w-5xl">
+                <div className="flex items-center gap-2 mb-2">
+                  <Sparkles className="w-4 h-4 text-[#1a7f4b]" />
+                  <span className="text-[#1a7f4b] font-bold text-sm tracking-widest uppercase">Recommended For You</span>
+                </div>
+                <h2 className="heading-editorial text-3xl mb-8">What to learn next</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                  {recommendations.map((roadmap, idx) => (
+                    <motion.div
+                      key={roadmap.id}
+                      initial={{ opacity: 0, y: 16 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.3, delay: idx * 0.07 }}
+                    >
+                      <button
+                        onClick={() => handleRoadmapSelect(roadmap.id)}
+                        className="w-full text-left p-5 rounded-2xl border border-gray-100 bg-white hover:border-[#1a7f4b]/40 hover:shadow-md transition-all group"
+                      >
+                        <h3 className="font-bold text-base mb-1 group-hover:text-[#1a7f4b] transition-colors line-clamp-2">
+                          {roadmap.title}
+                        </h3>
+                        <p className="text-xs text-gray-400 mb-3 line-clamp-1">
+                          {WHY_LABELS[roadmap.id] ?? roadmap.description}
+                        </p>
+                        <div className="flex items-center justify-between">
+                          <span className="text-xs font-medium text-gray-500 bg-gray-50 px-2 py-0.5 rounded-full">
+                            {roadmap.timeline}
+                          </span>
+                          <ArrowRight className="w-3.5 h-3.5 text-gray-300 group-hover:text-[#1a7f4b] transition-colors" />
+                        </div>
+                      </button>
+                    </motion.div>
+                  ))}
+                </div>
+              </div>
+            </section>
+          )}
+
           {/* ── Why LearnChain ── */}
           <section id="how-it-works" className="py-24 px-8 md:px-16">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl">
@@ -137,6 +280,7 @@ export default function Home() {
                       timeline={roadmap.timeline}
                       salaryFresher={roadmap.salaryFresher || "₹4–8 LPA"}
                       salarySenior={roadmap.salarySenior || "₹15–30 LPA"}
+                      realityCheck={(roadmap.modules as any[])[0]?.realityCheck}
                       onClick={() => handleRoadmapSelect(roadmap.id)}
                     />
                   </motion.div>
@@ -146,7 +290,15 @@ export default function Home() {
           )}
 
           {/* ── Market & Salary Insights ── */}
-          <MarketInsights />
+          <Suspense
+            fallback={
+              <section id="market-insights" className="py-20 px-8 md:px-16 border-t border-gray-100 bg-white">
+                <div className="h-80 rounded-2xl border border-gray-100 bg-gray-50 animate-pulse" aria-label="Loading market insights" />
+              </section>
+            }
+          >
+            <MarketInsights />
+          </Suspense>
 
           {/* ── Product-Based Companies ── */}
           {productRoadmaps.length > 0 && (
@@ -171,9 +323,24 @@ export default function Home() {
                     onClick={() => handleRoadmapSelect(roadmap.id)}
                     className="flex items-center gap-5 p-6 border border-gray-100 rounded-2xl bg-white hover:bg-gray-50 transition-colors group text-left"
                   >
-                    <div className="w-16 h-16 bg-white border border-gray-100 rounded-xl flex items-center justify-center shadow-sm shrink-0">
-                      <span className="font-bold text-sm text-gray-400 group-hover:text-gray-900 transition-colors truncate px-2">
-                        {(roadmap.company || roadmap.title).slice(0, 8)}
+                    <div className="w-16 h-16 bg-white border border-gray-100 rounded-xl flex items-center justify-center shadow-sm shrink-0 overflow-hidden">
+                      {COMPANY_LOGOS[roadmap.id] ? (
+                        <img
+                          src={COMPANY_LOGOS[roadmap.id]}
+                          alt={roadmap.company || roadmap.title}
+                          className="w-10 h-10 object-contain"
+                          onError={(e) => {
+                            const target = e.currentTarget;
+                            target.style.display = "none";
+                            if (target.nextElementSibling) (target.nextElementSibling as HTMLElement).style.display = "flex";
+                          }}
+                        />
+                      ) : null}
+                      <span
+                        className="font-bold text-sm text-gray-400 group-hover:text-gray-900 transition-colors truncate px-2"
+                        style={{ display: COMPANY_LOGOS[roadmap.id] ? "none" : "flex" }}
+                      >
+                        {(roadmap.company || roadmap.title).slice(0, 6)}
                       </span>
                     </div>
                     <div className="flex-1 min-w-0">
@@ -210,9 +377,17 @@ export default function Home() {
                     onClick={() => handleRoadmapSelect(roadmap.id)}
                     className="p-6 rounded-2xl border border-gray-800 hover:border-[#1a7f4b] transition-colors text-left group"
                   >
-                    <h4 className="font-bold text-base mb-2 group-hover:text-green-400 transition-colors">
-                      {roadmap.company || roadmap.title}
-                    </h4>
+                    <div className="flex items-center gap-2.5 mb-2">
+                      <span
+                        className="w-5 h-5 rounded-full shrink-0 flex items-center justify-center text-[9px] font-black text-white"
+                        style={{ background: SERVICE_COLORS[roadmap.id] ?? "#4b5563" }}
+                      >
+                        {(roadmap.company || roadmap.title).slice(0, 1)}
+                      </span>
+                      <h4 className="font-bold text-base group-hover:text-green-400 transition-colors">
+                        {roadmap.company || roadmap.title}
+                      </h4>
+                    </div>
                     <p className="text-gray-400 text-xs leading-relaxed line-clamp-2">{roadmap.description}</p>
                   </motion.button>
                 ))}
@@ -220,7 +395,7 @@ export default function Home() {
             </section>
           )}
 
-          {/* ── Community Insights — honest placeholder ── */}
+          {/* ── Community Insights ── */}
           <section id="community" className="py-24 px-8 md:px-16 border-t border-gray-100">
             <div className="max-w-4xl mx-auto">
               <div className="flex items-center gap-3 mb-3">
@@ -229,41 +404,30 @@ export default function Home() {
               </div>
               <h2 className="heading-editorial text-4xl mb-3">Real experiences from developers</h2>
               <p className="text-gray-500 mb-10 max-w-xl">
-                Real experiences from developers – coming soon.
-                Share your journey to be featured here.
+                Stories from engineers who've walked the path — honest, unfiltered, and without sponsors.
               </p>
 
-              {/* Example structure — clearly marked */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-                {[
-                  {
-                    quote:
-                      "After 200+ rejections, I finally got my first SDE role. The key was focusing on problem-solving patterns, not just LeetCode counts.",
-                  },
-                  {
-                    quote:
-                      "Getting promoted to senior took 3 years of deliberate practice. The hardest part was learning to unblock others.",
-                  },
-                ].map(({ quote }, i) => (
-                  <div key={i} className="border border-dashed border-gray-200 rounded-2xl p-8 bg-gray-50/50 relative">
-                    <span className="absolute top-3 right-3 text-[10px] font-bold text-gray-400 bg-white border border-gray-200 px-2 py-0.5 rounded-full uppercase tracking-widest">
-                      Example
-                    </span>
-                    <p className="text-base text-gray-700 italic leading-relaxed mb-3">"{quote}"</p>
-                    <p className="text-[11px] text-gray-400">Placeholder — waiting for real submissions</p>
-                  </div>
-                ))}
+              {/* Empty state — no fake content */}
+              <div className="border border-dashed border-gray-200 rounded-2xl p-14 text-center mb-8">
+                <div className="w-14 h-14 rounded-2xl bg-gray-50 flex items-center justify-center mx-auto mb-4">
+                  <MessageSquare className="w-6 h-6 text-gray-300" />
+                </div>
+                <p className="text-base font-semibold text-gray-700 mb-1">Be the first to share a success story</p>
+                <p className="text-sm text-gray-400 max-w-sm mx-auto">
+                  No fabricated testimonials here. When real developers share their journeys, they'll appear in this section.
+                </p>
               </div>
 
               <div className="border border-[#1a7f4b]/20 rounded-xl p-6 bg-green-50/30 text-center">
-                <p className="text-sm font-medium text-gray-700 mb-1">
-                  Have a real story?
-                </p>
+                <p className="text-sm font-medium text-gray-700 mb-1">Have a real story?</p>
                 <p className="text-sm text-gray-500 mb-4 max-w-md mx-auto">
-                  3–4 sentences about your journey as a developer. No promotional content.
+                  3–4 sentences about your journey. No promotional content. No referral links.
                 </p>
-                <button className="bg-[#1a7f4b] text-white px-6 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#15653d] transition-colors">
-                  Submit your story
+                <button
+                  onClick={() => navigate("/trending")}
+                  className="bg-[#1a7f4b] text-white px-6 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#15653d] transition-colors"
+                >
+                  Share on Trending
                 </button>
               </div>
             </div>
@@ -353,8 +517,8 @@ export default function Home() {
                 <ul className="space-y-3 text-sm text-gray-500">
                   <li><a href="/#market-insights" className="hover:text-[#1a7f4b] transition-colors">Salary Data</a></li>
                   <li><a href="/#community" className="hover:text-[#1a7f4b] transition-colors">Community</a></li>
-                  <li><a href="/" className="hover:text-[#1a7f4b] transition-colors">About</a></li>
-                  <li><a href="/" className="hover:text-[#1a7f4b] transition-colors">Contact</a></li>
+                  <li><a href="/#how-it-works" className="hover:text-[#1a7f4b] transition-colors">About</a></li>
+                  <li><a href="https://github.com/anthropics/claude-code/issues" target="_blank" rel="noreferrer" className="hover:text-[#1a7f4b] transition-colors">Contact</a></li>
                 </ul>
               </div>
             </div>

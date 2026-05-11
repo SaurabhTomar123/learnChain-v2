@@ -1,0 +1,17 @@
+{
+  "name": "LearnChain",
+  "short_name": "LearnChain",
+  "description": "Developer career roadmaps and learning plans for India.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a7f4b",
+  "icons": [
+    {
+      "src": "/og-cover.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

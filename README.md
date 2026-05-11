@@ -1,248 +1,221 @@
-# LearnChain.in — Developer Roadmap & Learning Platform
+# LearnChain — Developer Career Platform for India
 
-A comprehensive, peer-reviewed learning platform providing structured career roadmaps and curated courses for software engineers at every level—from entry-level developers to senior architects.
+Structured learning roadmaps, XP gamification, squads, and a personal Learning OS for software engineers in India.
 
-## 🎯 Platform Overview
+## What this is
 
-LearnChain.in combines the visual clarity of roadmap.sh with the course curation of Class Central, powered by community insights from Reddit, Blind, and LinkedIn. The platform features six primary roadmaps covering diverse career paths in software engineering.
+LearnChain is a full-stack learning platform built on **React + Supabase**. It started as a static roadmap site and has grown into a gamified platform with auth, real-time squad chat, a weekly study planner, a leaderboard, and personalised email reminders.
 
-### Available Roadmaps
-
-1. **SDE-1 (Entry-Level)** — 6-12 months, ₹8-20 LPA / $77K-$126K
-2. **SDE-2 (Mid-Level)** — 2-4 years, ₹15-40 LPA / $86K-$141K
-3. **SDE-3 (Senior Engineer)** — 5+ years, ₹30-60+ LPA / $92K-$152K
-4. **Spring Boot Developer** — 3-6 months, ₹12-30 LPA / $80K-$130K
-5. **.NET Developer** — 3-6 months, ₹12-30 LPA / $80K-$130K
-6. **Junior Developer / Career Switcher** — 6-12 months, ₹6-15 LPA / $60K-$100K
-
-## 🏗️ Architecture
-
-### Layout Structure
-
-- **Left Column (70%):** Main educational content — roadmaps, curated courses, community insights, must-master factors
-- **Right Column (30%):** Sticky navigation sidebar with quick-jump links, ad zones, and newsletter signup
-- **Mobile:** Responsive stack with collapsible hamburger menu and inline ad placement
-
-### Tech Stack
-
-- **Frontend:** React 19 + Tailwind CSS 4 + Framer Motion
-- **Routing:** Wouter (lightweight client-side routing)
-- **Components:** shadcn/ui + custom components
-- **Comments:** Giscus (GitHub Discussions-powered)
-- **Analytics:** Plausible + Google Analytics 4
-- **Hosting:** Vercel (or Manus built-in hosting)
-
-## 📁 Project Structure
-
-```
-learnchain/
-├── client/
-│   ├── public/              # Static files (favicon, robots.txt)
-│   ├── src/
-│   │   ├── components/      # Reusable UI components
-│   │   │   ├── Header.tsx
-│   │   │   ├── Sidebar.tsx
-│   │   │   ├── RoadmapCard.tsx
-│   │   │   ├── RoadmapModule.tsx
-│   │   │   ├── CourseCard.tsx
-│   │   │   ├── HeroSection.tsx
-│   │   │   └── CommunityInsights.tsx
-│   │   ├── pages/           # Page components
-│   │   │   ├── Home.tsx
-│   │   │   ├── RoadmapPage.tsx
-│   │   │   └── NotFound.tsx
-│   │   ├── data/            # Content data
-│   │   │   └── roadmaps.json
-│   │   ├── contexts/        # React contexts
-│   │   ├── hooks/           # Custom hooks
-│   │   ├── lib/             # Utilities
-│   │   ├── App.tsx          # Root component with routing
-│   │   ├── main.tsx         # React entry point
-│   │   └── index.css        # Global styles & design tokens
-│   └── index.html           # HTML template
-├── server/                  # Express server (static hosting)
-├── package.json
-├── tsconfig.json
-└── README.md
-```
-
-## 🎨 Design System
-
-### Color Palette
-
-- **Primary:** Teal (#0891b2) — CTAs and highlights
-- **Accent:** Emerald (#10b981) — Success states and positive indicators
-- **Background:** White (#ffffff) — Light theme
-- **Foreground:** Deep Slate (#1a2332) — Text and structure
-- **Secondary:** Neutral Grays (#f1f5f9 - #e2e8f0) — Backgrounds and subtle divisions
-
-### Typography
-
-- **Display:** Geist (geometric sans-serif) — Titles and headers
-- **Body:** Inter — All body text and UI elements
-
-### Components
-
-- **Cards:** Subtle shadows, soft borders, hover lift effect
-- **Buttons:** Teal primary, secondary variants
-- **Badges:** Hexagonal rating badges, difficulty indicators
-- **Roadmap Nodes:** Circular interactive nodes with hover animations
-- **Sidebar:** Sticky navigation with smooth scroll behavior
-
-## 🚀 Getting Started
-
-### Installation
-
-```bash
-# Install dependencies
-pnpm install
-
-# Start development server
-pnpm dev
-
-# Build for production
-pnpm build
-
-# Type checking
-pnpm check
-
-# Format code
-pnpm format
-```
-
-### Development
-
-1. Navigate to `http://localhost:3000`
-2. The dev server watches for changes and hot-reloads
-3. Check `client/src/index.css` for design tokens and global styles
-
-### Content Management
-
-All roadmap and course data is stored in `client/src/data/roadmaps.json`. To add or update content:
-
-1. Edit the JSON file with new roadmaps, modules, or courses
-2. The changes will automatically reflect on the corresponding pages
-3. No code rebuild required for content updates
-
-## 📊 Content Structure
-
-### Roadmap Data Model
-
-Each roadmap includes:
-
-- **Metadata:** ID, title, role, timeline, difficulty, salary ranges (India & US)
-- **Modules:** Learning path with 6-8 structured modules
-- **Topics:** Specific skills and concepts within each module
-- **Community Insights:** Real quotes from Reddit, Blind, LinkedIn
-- **Must-Master Factors:** Non-negotiable skills for the role
-
-### Course Data Model
-
-Each course includes:
-
-- **Platform & Instructor:** Source and creator information
-- **Ratings & Reviews:** Star rating, review count, student count
-- **Duration & Pricing:** Time commitment and cost tier
-- **Community Verdict:** Real feedback from learners
-- **Affiliate Link:** Monetization link (clearly marked)
-
-## 💰 Monetization Strategy
-
-### Tier 1 — Passive Revenue
-
-- **Display Ads:** Google AdSense (300x250, 300x600 sticky zones)
-- **Affiliate Marketing:** Udemy (7-15%), Coursera (10-45%), Amazon Associates
-
-### Tier 2 — Active Revenue (Future)
-
-- **Sponsored Roadmap Sections:** $500-$5,000 per placement
-- **Premium Newsletter:** Weekly job alerts + course discounts ($5-$10/month)
-- **Digital Products:** Interview cheat sheets, system design templates
-
-### Tier 3 — Scale Revenue (10K+ email subs)
-
-- **Job Board:** Curated junior/mid-level dev roles
-- **Mentorship Matching:** Connect learners with SDE-2/3 mentors
-- **White-Label Roadmaps:** License to universities/bootcamps
-
-## 🔍 SEO & Analytics
-
-### URL Structure
-
-- `/` — Home page
-- `/roadmap/:roadmapId` — Individual roadmap pages (e.g., `/roadmap/sde-1`)
-
-### Meta Tags
-
-Each page includes:
-
-- Descriptive title with salary ranges and timeline
-- Meta description optimized for search
-- Open Graph tags for social sharing
-- Schema markup (CourseList, FAQPage, HowTo)
-
-### Analytics
-
-- Plausible for privacy-friendly analytics
-- Google Analytics 4 for detailed insights
-- Track: time on page, roadmap clicks, affiliate click-through rates
-
-## 📱 Responsive Design
-
-- **Mobile:** Stack layout, collapsible sidebar, inline ads
-- **Tablet:** Two-column layout with adjusted spacing
-- **Desktop:** Full three-column layout (content + sidebar + ads)
-
-## 🔐 Security & Privacy
-
-- No user accounts or authentication (MVP version)
-- Giscus comments moderated via GitHub Discussions
-- Affiliate links clearly marked as sponsored content
-- GDPR-compliant analytics (Plausible)
-
-## 🛠️ Customization
-
-### Adding a New Roadmap
-
-1. Add entry to `roadmaps` array in `client/src/data/roadmaps.json`
-2. Define modules, topics, and community insights
-3. Add related courses to `courses` array
-4. The new roadmap automatically appears on home page and sidebar
-
-### Updating Affiliate Links
-
-Replace placeholder affiliate URLs in `client/src/data/roadmaps.json` with your actual affiliate codes. All links are clearly marked as sponsored content.
-
-### Configuring Giscus Comments
-
-1. Create a GitHub repository for discussions
-2. Update `data-repo`, `data-repo-id`, `data-category-id` in `RoadmapPage.tsx`
-3. Giscus will automatically moderate comments based on GitHub settings
-
-## 📈 Success Metrics
-
-- **Engagement:** 4+ minutes average time on page
-- **Monetization:** 8-12% affiliate click-through rate
-- **Community:** High-quality comments, user-generated resources
-- **SEO:** Ranking for "[Role] roadmap 2026", "[Role] salary India"
-
-## 🤝 Contributing
-
-To contribute improvements:
-
-1. Create a feature branch
-2. Make changes to components or content
-3. Test thoroughly on mobile and desktop
-4. Submit a pull request
-
-## 📝 License
-
-This project is proprietary. All rights reserved.
-
-## 📧 Support
-
-For questions or feedback, please reach out through the contact form on the website.
+**Not** ad-supported. **Not** affiliate-driven. Everything is free.
 
 ---
 
-**Built with ❤️ for developers by developers**
+## Product
+
+| Feature | Route | Status |
+|---|---|---|
+| Home — roadmap discovery | `/` | ✅ |
+| Roadmap detail (tabs: Overview, Projects, Revision, Reality Check, Squad) | `/roadmap/:id` | ✅ |
+| Trending discussions + voting | `/trending` | ✅ |
+| Leaderboard (all-time, monthly, weekly) | `/leaderboard` | ✅ |
+| Squads — create, join, real-time chat | `/squads`, `/squads/:id` | ✅ |
+| Personal profile + career mode switcher | `/profile` | ✅ |
+| Public profile | `/u/:username` | ✅ |
+| Learning OS — weekly study plan | `/dashboard` | ✅ |
+| Onboarding wizard | `/onboarding` | ✅ |
+| Compare roadmaps side-by-side | `/compare` | ✅ |
+
+---
+
+## Tech stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | React 19, TypeScript, Vite |
+| Styling | Tailwind CSS 4, shadcn/ui, Framer Motion |
+| Routing | Wouter |
+| Backend / DB | Supabase (PostgreSQL + Auth + Storage + Realtime) |
+| Email | Resend (reminder Edge Function) |
+| Charts | Recharts |
+| Build | pnpm, esbuild |
+
+---
+
+## Getting started
+
+```bash
+pnpm install
+pnpm dev        # http://localhost:3000
+pnpm check      # TypeScript
+pnpm build      # Production build
+```
+
+### Required env vars
+
+Create `.env.local` in the project root:
+
+```
+VITE_SUPABASE_URL=https://<project>.supabase.co
+VITE_SUPABASE_PUBLISHABLE_KEY=<publishable_key>
+```
+
+Both values are found in your Supabase project under **Settings → API**.
+- `VITE_SUPABASE_URL` → "Project URL"
+- `VITE_SUPABASE_PUBLISHABLE_KEY` → "Publishable key" (formerly "anon key")
+
+### Optional (for email reminders)
+
+```
+# Not needed for local dev — only needed when deploying the Edge Function
+RESEND_API_KEY=re_...
+APP_URL=https://learnchain.in
+```
+
+---
+
+## Database setup
+
+Run both migrations in order in your Supabase SQL editor:
+
+1. `supabase/migrations/001_learnchain_schema.sql` — core tables + RLS + triggers
+2. `supabase/migrations/002_learning_os_schema.sql` — Learning OS tables
+3. `supabase/migrations/003_cron_reminders.sql` — pg_cron job for email reminders (optional)
+
+All tables have Row Level Security enabled. See the migration files for full policy details.
+
+---
+
+## Email reminders setup (step-by-step)
+
+The reminder system works as follows:
+1. Users enable a reminder in `/dashboard`
+2. Their `preferred_time` and `timezone` are stored in the `learning_reminders` table
+3. A Supabase Edge Function (`send-reminders`) runs every 30 minutes via pg_cron and sends emails via Resend
+
+### Step 1 — Get a Resend API key
+
+1. Go to [resend.com](https://resend.com) and create a free account
+2. In the Resend dashboard, go to **API Keys → Create API Key**
+3. Name it `learnchain-reminders`, scope it to "Sending access"
+4. Copy the key (starts with `re_`)
+
+### Step 2 — Add a sending domain in Resend
+
+1. In Resend, go to **Domains → Add Domain**
+2. Add your domain (e.g., `learnchain.in`)
+3. Add the DNS records Resend shows you to your DNS provider
+4. Wait for verification (usually under 5 minutes)
+5. Update the `from` address in `supabase/functions/send-reminders/index.ts` from `reminders@learnchain.in` to your verified domain
+
+> For testing without a domain: use `onboarding@resend.dev` as the from address — it works without domain setup but only delivers to your own Resend-verified email.
+
+### Step 3 — Deploy the Edge Function
+
+```bash
+# Install Supabase CLI if you haven't
+npm install -g supabase
+
+# Login
+supabase login
+
+# Link to your project
+supabase link --project-ref <project-ref>
+
+# Set the Resend secret
+supabase secrets set RESEND_API_KEY=re_your_key_here
+supabase secrets set APP_URL=https://learnchain.in
+
+# Deploy
+supabase functions deploy send-reminders --no-verify-jwt
+```
+
+### Step 4 — Enable pg_cron and pg_net in Supabase
+
+1. Go to **Supabase Dashboard → Database → Extensions**
+2. Enable `pg_cron`
+3. Enable `pg_net`
+
+### Step 5 — Configure the cron job
+
+Run this in the Supabase SQL editor (replace values with your actual credentials):
+
+```sql
+-- Store your app settings (server-side only, never exposed to clients)
+alter database postgres set app.supabase_url = 'https://<project>.supabase.co';
+alter database postgres set app.secret_key = '<your_secret_key>';
+
+-- Then run migration 003
+\i supabase/migrations/003_cron_reminders.sql
+```
+
+The `secret_key` is in **Supabase Dashboard → Settings → API → Secret key** (formerly "service_role").
+
+### Step 6 — Test it
+
+Send a test email immediately (doesn't wait for cron):
+
+```bash
+curl -X POST https://<project>.supabase.co/functions/v1/send-reminders \
+  -H "Authorization: Bearer <secret_key>"
+```
+
+---
+
+## Adding a new roadmap
+
+1. Add an entry to `client/src/data/roadmaps.json` following the existing schema
+2. For v2 features (Projects tab, Revision, Reality Check), populate the optional module fields:
+   - `realWorldProjects[]` — 5 projects per roadmap, one per module
+   - `revisionContent` — flashcards + quiz questions
+   - `realityCheck` — market relevance, realistic timeline, prerequisites
+   - `gamification` — XP reward + badges
+
+See `client/src/types/database.ts` for the full TypeScript types.
+
+---
+
+## Public profiles
+
+Every user gets a public profile at `/u/:username` (or `/u/:id` if no username is set).
+
+- Linked from: leaderboard entries, squad member chips, ProfilePage's "Share" banner
+- Shows: level, XP, roadmap progress count, projects count
+- No sensitive data is exposed (RLS only lets the public see what's in the `profiles` table)
+
+---
+
+## Project structure
+
+```
+client/src/
+  components/       shadcn/ui + custom components
+  context/          AuthContext (Supabase Auth)
+  hooks/            useProfile, useLearningOS, useComposition
+  lib/              supabase client, careerMode util
+  pages/            All route components
+  data/             roadmaps.json
+  types/            database.ts — all row types
+
+supabase/
+  functions/
+    handle-progress/   Awards XP + badges on module completion
+    send-reminders/    Sends email nudges via Resend
+  migrations/
+    001_learnchain_schema.sql
+    002_learning_os_schema.sql
+    003_cron_reminders.sql
+```
+
+---
+
+## Contributing
+
+1. Create a feature branch off `main`
+2. Run `pnpm check` before opening a PR
+3. For content-only changes (roadmaps.json), no code review needed
+
+---
+
+## License
+
+Proprietary. All rights reserved.

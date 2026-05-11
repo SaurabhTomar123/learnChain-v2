@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   ExternalLink, PlayCircle, BookOpen, Globe, Award,
-  Info, Clock, Zap,
+  Info, Clock, Zap, Bookmark,
 } from "lucide-react";
 
 interface Material {
@@ -30,6 +30,9 @@ interface RoadmapModuleProps {
   effort?: string;
   insight?: string;
   howToCover?: HowToCover;
+  roadmapId?: string;
+  savedResourceUrls?: Set<string>;
+  onSaveResource?: (material: Material, moduleId: string) => void;
 }
 
 /* Cycle through six distinct palettes — step badge + accents */
@@ -60,6 +63,10 @@ export function RoadmapModule({
   effort,
   insight,
   howToCover,
+  id,
+  roadmapId,
+  savedResourceUrls,
+  onSaveResource,
 }: RoadmapModuleProps) {
   const [infoOpen, setInfoOpen] = useState(false);
 
@@ -276,11 +283,8 @@ export function RoadmapModule({
               {recommendedMaterials.map((material, mIdx) => {
                 const isFree = material.type === "free" || material.type === "doc";
                 return (
-                  <motion.a
+                  <motion.div
                     key={mIdx}
-                    href={material.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
                     whileHover={{ y: -2, scale: 1.01 }}
                     transition={{ type: "spring", stiffness: 400, damping: 20 }}
                     className="group flex items-start gap-3 p-3 bg-gray-50 rounded-xl border border-gray-100 hover:bg-white hover:border-gray-200 hover:shadow-md transition-colors"
@@ -307,11 +311,32 @@ export function RoadmapModule({
                         >
                           {material.platform}
                         </span>
-                        <ExternalLink className="w-3 h-3 text-gray-300 opacity-0 group-hover:opacity-100 transition-opacity" />
+                        <div className="flex items-center gap-1">
+                          {onSaveResource && roadmapId && (
+                            <button
+                              type="button"
+                              onClick={() => onSaveResource(material, id)}
+                              aria-label={`${savedResourceUrls?.has(material.link) ? "Saved" : "Save"} ${material.name}`}
+                              className={`h-8 w-8 inline-flex items-center justify-center rounded-lg transition-colors focus-visible:ring-2 focus-visible:ring-[#1a7f4b]/30 ${
+                                savedResourceUrls?.has(material.link)
+                                  ? "bg-[#1a7f4b]/10 text-[#1a7f4b]"
+                                  : "text-gray-400 hover:bg-white hover:text-[#1a7f4b]"
+                              }`}
+                            >
+                              <Bookmark className="w-3.5 h-3.5" />
+                            </button>
+                          )}
+                          <ExternalLink className="w-3 h-3 text-gray-300 opacity-0 group-hover:opacity-100 transition-opacity" />
+                        </div>
                       </div>
-                      <p className="font-semibold text-xs text-gray-800 leading-snug group-hover:text-gray-900 transition-colors">
+                      <a
+                        href={material.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-xs text-gray-800 leading-snug group-hover:text-gray-900 transition-colors hover:underline focus-visible:ring-2 focus-visible:ring-[#1a7f4b]/30 rounded"
+                      >
                         {material.name}
-                      </p>
+                      </a>
                       <div className="flex items-center gap-1.5 mt-1">
                         <span
                           className="text-[9px] font-black px-1.5 py-0.5 rounded"
@@ -330,7 +355,7 @@ export function RoadmapModule({
                         )}
                       </div>
                     </div>
-                  </motion.a>
+                  </motion.div>
                 );
               })}
             </div>

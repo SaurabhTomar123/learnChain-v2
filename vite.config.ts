@@ -16,6 +16,19 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (!id.includes("node_modules")) return undefined;
+          if (id.includes("@supabase")) return "supabase-vendor";
+          if (id.includes("@radix-ui")) return "radix-vendor";
+          if (id.includes("framer-motion")) return "motion-vendor";
+          if (id.includes("recharts") || id.includes("d3-")) return "charts-vendor";
+          if (id.includes("react") || id.includes("scheduler")) return "react-vendor";
+          return "vendor";
+        },
+      },
+    },
   },
   server: {
     port: 3000,
