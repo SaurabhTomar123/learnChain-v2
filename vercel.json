@@ -1,5 +1,5 @@
 {
-  "rewrites": [{ "source": "/((?!assets|og|sw.js|manifest.webmanifest|robots.txt|sitemap.xml|og-cover.png).*)", "destination": "/index.html" }],
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
   "headers": [
     {
       "source": "/assets/(.*)",
@@ -14,7 +14,5 @@
       ]
     }
   ],
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist/public",
-  "installCommand": "npm install"
+  "outputDirectory": "dist/public"
 }
